@@ -3,7 +3,7 @@ import {ExportStemsConfiguration, ProcessorOptions, RingBuffer} from "@opendaw/s
 import {Project} from "./project/Project"
 import {EngineWorklet} from "./EngineWorklet"
 import {MeterWorklet} from "./MeterWorklet"
-import {RecordingWorklet} from "./RecordingWorklet"
+import {RecordingWorklet, RecordingChunkCallback} from "./RecordingWorklet"
 import {RenderQuantum} from "./RenderQuantum"
 
 export class AudioWorklets {
@@ -44,11 +44,16 @@ export class AudioWorklets {
         return new EngineWorklet(this.#context, project, exportConfiguration, options)
     }
 
-    createRecording(numberOfChannels: int, numChunks: int, outputLatency: number): RecordingWorklet {
+    createRecording(
+        numberOfChannels: int,
+        numChunks: int,
+        outputLatency: number,
+        onChunk?: RecordingChunkCallback
+    ): RecordingWorklet {
         const audioBytes = numberOfChannels * numChunks * RenderQuantum * Float32Array.BYTES_PER_ELEMENT
         const pointerBytes = Int32Array.BYTES_PER_ELEMENT * 2
         const sab = new SharedArrayBuffer(audioBytes + pointerBytes)
         const buffer: RingBuffer.Config = {sab, numChunks, numberOfChannels, bufferSize: RenderQuantum}
-        return new RecordingWorklet(this.#context, buffer, outputLatency)
+        return new RecordingWorklet(this.#context, buffer, outputLatency, onChunk)
     }
 }

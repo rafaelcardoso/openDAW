@@ -10,6 +10,7 @@ import {
 import {AudioUnitBox} from "@opendaw/studio-boxes"
 import {CaptureBox} from "@opendaw/studio-adapters"
 import {CaptureDevices} from "./CaptureDevices"
+import {RecordingChunkCallback} from "../RecordingWorklet"
 
 export abstract class Capture<BOX extends CaptureBox = CaptureBox> implements Terminable {
     readonly #terminator = new Terminator()
@@ -43,7 +44,7 @@ export abstract class Capture<BOX extends CaptureBox = CaptureBox> implements Te
     abstract get label(): string
     abstract get deviceLabel(): Option<string>
     abstract prepareRecording(): Promise<void>
-    abstract startRecording(): Terminable
+    abstract startRecording(onChunk?: RecordingChunkCallback): Terminable
 
     get uuid(): UUID.Bytes {return this.#audioUnitBox.address.uuid}
     get manager(): CaptureDevices {return this.#manager}

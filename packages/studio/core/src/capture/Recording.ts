@@ -4,11 +4,12 @@ import {AudioUnitType} from "@opendaw/studio-enums"
 import {AudioUnitBox} from "@opendaw/studio-boxes"
 import {InstrumentFactories} from "@opendaw/studio-adapters"
 import {Project} from "../project"
+import {RecordingChunkCallback} from "../RecordingWorklet"
 
 export class Recording {
     static get isRecording(): boolean {return this.#isRecording}
 
-    static async start(project: Project, countIn: boolean): Promise<Terminable> {
+    static async start(project: Project, countIn: boolean, onChunk?: RecordingChunkCallback): Promise<Terminable> {
         if (this.#isRecording) {
             return Promise.resolve(Terminable.Empty)
         }
@@ -28,7 +29,7 @@ export class Recording {
             this.#isRecording = false
             return Errors.warn(String(error))
         }
-        terminator.ownAll(...captures.map(capture => capture.startRecording()))
+        terminator.ownAll(...captures.map(capture => capture.startRecording(onChunk)))
         engine.prepareRecordingState(countIn)
         const {isRecording, isCountingIn} = engine
         const stop = (): void => {
