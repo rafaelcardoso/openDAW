@@ -8,6 +8,12 @@ import {Capture} from "./Capture"
 import {RecordTrack} from "./RecordTrack"
 
 export namespace RecordAudio {
+    /** Currently active recording worklets (cleared when recording stops) */
+    const activeWorklets: Set<RecordingWorklet> = new Set()
+
+    /** Get all currently active recording worklets */
+    export const getActiveWorklets = (): ReadonlyArray<RecordingWorklet> => Array.from(activeWorklets)
+
     type RecordAudioContext = {
         recordingWorklet: RecordingWorklet
         mediaStream: MediaStream
@@ -21,6 +27,8 @@ export namespace RecordAudio {
     export const start = (
         {recordingWorklet, mediaStream, sampleManager, audioContext, project, capture, gainDb}: RecordAudioContext)
         : Terminable => {
+        // Track this worklet as active
+        activeWorklets.add(recordingWorklet)
         const terminator = new Terminator()
         const beats = PPQN.fromSignature(1, project.timelineBox.signature.denominator.getValue())
         const {editing, engine, boxGraph} = project
@@ -59,6 +67,9 @@ export namespace RecordAudio {
         const {tempoMap, env: {audioContext: {sampleRate}}} = project
         terminator.ownAll(
             Terminable.create(() => {
+                // Remove from active worklets when recording terminates
+                activeWorklets.delete(recordingWorklet)
+
                 if (recordingWorklet.numberOfFrames === 0 || recordingData.isEmpty()) {
                     console.debug("Abort recording audio.")
                     sampleManager.remove(uuid)

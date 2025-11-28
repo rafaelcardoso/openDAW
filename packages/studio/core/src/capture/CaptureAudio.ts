@@ -95,7 +95,7 @@ export class CaptureAudio extends Capture<CaptureAudioBox> {
         const mediaStream = streamOption.unwrap()
         const channelCount = mediaStream.getAudioTracks().at(0)?.getSettings().channelCount ?? 1
         const numChunks = 128
-        const recordingWorklet = audioWorklets.createRecording(channelCount, numChunks, audioContext.outputLatency)
+        const recordingWorklet = audioWorklets.createRecording(channelCount, numChunks, audioContext.outputLatency, this.uuid)
         return RecordAudio.start({
             recordingWorklet,
             mediaStream,
