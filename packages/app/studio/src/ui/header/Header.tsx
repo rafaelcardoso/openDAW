@@ -113,16 +113,40 @@ export const Header = ({lifecycle, service}: Construct) => {
             <hr/>
             <Checkbox lifecycle={lifecycle}
                       onInit={element => lifecycle.own(ContextMenu.subscribe(element, collector =>
-                          collector.addItems(MenuItem.default({label: "Set Count-In (Bars)"})
-                              .setRuntimeChildrenProcedure(parent => parent.addMenuItem(...[1, 2, 3, 4, 5, 6, 7, 8]
-                                  .map(count => MenuItem.default({
-                                      label: String(count),
-                                      checked: count === service.engine.countInBarsTotal.getValue()
-                                  }).setTriggerProcedure(() => service.engine.countInBarsTotal.setValue(count))))))))}
+                          collector.addItems(
+                              MenuItem.default({label: "Set Count-In (Bars)"})
+                                  .setRuntimeChildrenProcedure(parent => parent.addMenuItem(...[1, 2, 3, 4, 5, 6, 7, 8]
+                                      .map(count => MenuItem.default({
+                                          label: String(count),
+                                          checked: count === service.engine.countInBarsTotal.getValue()
+                                      }).setTriggerProcedure(() => service.engine.countInBarsTotal.setValue(count))))),
+                          )
+                      ))}
                       model={service.engine.metronomeEnabled}
                       appearance={{activeColor: Colors.orange, tooltip: "Metronome"}}>
                 <Icon symbol={IconSymbol.Metronome}/>
             </Checkbox>
+            <button onclick={() => {
+                console.log('Setting metronome volume to 0.1');
+                // @ts-ignore - metronomeVolume property exists but TypeScript hasn't recompiled yet
+                service.engine.metronomeVolume.setValue(0.1);
+                // @ts-ignore
+                console.log('Current volume:', service.engine.metronomeVolume.getValue());
+            }}>vol 10%</button>
+            <button onclick={() => {
+                console.log('Setting metronome volume to 0.5');
+                // @ts-ignore - metronomeVolume property exists but TypeScript hasn't recompiled yet
+                service.engine.metronomeVolume.setValue(0.5);
+                // @ts-ignore
+                console.log('Current volume:', service.engine.metronomeVolume.getValue());
+            }}>vol 50%</button>
+            <button onclick={() => {
+                console.log('Setting metronome volume to 1.0');
+                // @ts-ignore - metronomeVolume property exists but TypeScript hasn't recompiled yet  
+                service.engine.metronomeVolume.setValue(1.0);
+                // @ts-ignore
+                console.log('Current volume:', service.engine.metronomeVolume.getValue());
+            }}>vol 100%</button>
             <hr/>
             <div style={{flex: "1 0 0"}}/>
             <a className="support"
