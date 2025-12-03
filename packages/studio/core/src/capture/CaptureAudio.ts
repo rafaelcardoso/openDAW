@@ -14,7 +14,6 @@ import {Capture} from "./Capture"
 import {CaptureDevices} from "./CaptureDevices"
 import {RecordAudio} from "./RecordAudio"
 import {AudioDevices} from "../AudioDevices"
-import {RecordingChunkCallback} from "../RecordingWorklet"
 
 export class CaptureAudio extends Capture<CaptureAudioBox> {
     readonly #stream: MutableObservableOption<MediaStream>
@@ -85,7 +84,7 @@ export class CaptureAudio extends Capture<CaptureAudioBox> {
         return this.#streamGenerator()
     }
 
-    startRecording(onChunk?: RecordingChunkCallback): Terminable {
+    startRecording(): Terminable {
         const {project} = this.manager
         const {env: {audioContext, audioWorklets, sampleManager}} = project
         const streamOption = this.#stream
@@ -96,7 +95,7 @@ export class CaptureAudio extends Capture<CaptureAudioBox> {
         const mediaStream = streamOption.unwrap()
         const channelCount = mediaStream.getAudioTracks().at(0)?.getSettings().channelCount ?? 1
         const numChunks = 128
-        const recordingWorklet = audioWorklets.createRecording(channelCount, numChunks, audioContext.outputLatency, onChunk)
+        const recordingWorklet = audioWorklets.createRecording(channelCount, numChunks, audioContext.outputLatency)
         return RecordAudio.start({
             recordingWorklet,
             mediaStream,

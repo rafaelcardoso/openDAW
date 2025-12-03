@@ -46,7 +46,6 @@ import {ProjectMigration} from "./ProjectMigration"
 import {CaptureDevices, Recording} from "../capture"
 import {EngineFacade} from "../EngineFacade"
 import {EngineWorklet} from "../EngineWorklet"
-import {RecordingChunkCallback} from "../RecordingWorklet"
 import {MidiDevices, MIDILearning} from "../midi"
 import {ProjectValidation} from "./ProjectValidation"
 import {Preferences} from "../Preferences"
@@ -164,10 +163,10 @@ export class Project implements BoxAdaptersContext, Terminable, TerminableOwner 
         return engine
     }
 
-    startRecording(countIn: boolean = true, onChunk?: RecordingChunkCallback) {
+    startRecording(countIn: boolean = true) {
         this.engine.assertWorklet()
         if (Recording.isRecording) {return}
-        Recording.start(this, countIn, onChunk).finally()
+        Recording.start(this, countIn).finally()
     }
 
     follow(box: UserInterfaceBox): void {

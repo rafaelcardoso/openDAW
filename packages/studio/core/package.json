@@ -1,5 +1,5 @@
 {
-    "name": "test-opendaw-studio-core-chunk-callback",
+    "name": "@opendaw/studio-core",
     "version": "0.0.59",
     "license": "LGPL-3.0-or-later",
     "publishConfig": {

@@ -19,7 +19,6 @@ import {MidiDevices} from "../midi"
 import {Capture} from "./Capture"
 import {CaptureDevices} from "./CaptureDevices"
 import {RecordMidi} from "./RecordMidi"
-import {RecordingChunkCallback} from "../RecordingWorklet"
 import warn = Errors.warn
 
 export class CaptureMidi extends Capture<CaptureMidiBox> {
@@ -107,7 +106,7 @@ export class CaptureMidi extends Capture<CaptureMidiBox> {
         }
     }
 
-    startRecording(_onChunk?: RecordingChunkCallback): Terminable {
+    startRecording(): Terminable {
         return RecordMidi.start({notifier: this.#notifier, project: this.manager.project, capture: this})
     }
 

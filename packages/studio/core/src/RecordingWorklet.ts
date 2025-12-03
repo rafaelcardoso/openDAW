@@ -26,25 +26,6 @@ import {RenderQuantum} from "./RenderQuantum"
 import {Workers} from "./Workers"
 import {PeaksWriter} from "./PeaksWriter"
 
-/**
- * Callback function type for receiving recording chunks in real-time
- */
-export type RecordingChunkCallback = (chunk: RecordingChunkData) => void
-
-/**
- * Data structure passed to the recording chunk callback
- */
-export interface RecordingChunkData {
-    /** Raw audio samples (one array per channel) */
-    readonly chunk: ReadonlyArray<Float32Array>
-    /** Number of audio frames in this chunk */
-    readonly numberOfFrames: int
-    /** Sample rate of the audio */
-    readonly sampleRate: number
-    /** Number of audio channels (1 for mono, 2 for stereo) */
-    readonly numberOfChannels: int
-}
-
 export class RecordingWorklet extends AudioWorkletNode implements Terminable, SampleLoader {
     readonly #terminator: Terminator = new Terminator()
 
@@ -54,7 +35,6 @@ export class RecordingWorklet extends AudioWorkletNode implements Terminable, Sa
     readonly #notifier: Notifier<SampleLoaderState>
     readonly #reader: RingBuffer.Reader
     readonly #peakWriter: PeaksWriter
-    #chunkCallback: RecordingChunkCallback | null
 
     #data: Option<AudioData> = Option.None
     #peaks: Option<Peaks> = Option.None
@@ -62,12 +42,7 @@ export class RecordingWorklet extends AudioWorkletNode implements Terminable, Sa
     #limitSamples: int = Number.POSITIVE_INFINITY
     #state: SampleLoaderState = {type: "record"}
 
-    constructor(
-        context: BaseAudioContext,
-        config: RingBuffer.Config,
-        outputLatency: number,
-        onChunk?: RecordingChunkCallback
-    ) {
+    constructor(context: BaseAudioContext, config: RingBuffer.Config, outputLatency: number) {
         super(context, "recording-processor", {
             numberOfInputs: 1,
             channelCount: config.numberOfChannels,
@@ -79,25 +54,9 @@ export class RecordingWorklet extends AudioWorkletNode implements Terminable, Sa
         this.#peaks = Option.wrap(this.#peakWriter)
         this.#output = []
         this.#notifier = new Notifier<SampleLoaderState>()
-        this.#chunkCallback = onChunk ?? null
         this.#reader = RingBuffer.reader(config, array => {
             if (this.#isRecording) {
                 this.#output.push(array)
-                
-                // Invoke chunk callback if provided
-                if (this.#chunkCallback) {
-                    try {
-                        this.#chunkCallback({
-                            chunk: array,
-                            numberOfFrames: array[0].length,
-                            sampleRate: this.context.sampleRate,
-                            numberOfChannels: config.numberOfChannels,
-                        })
-                    } catch (error) {
-                        console.warn("[RecordingWorklet] Chunk callback error:", error)
-                    }
-                }
-                
                 const latencyInSamples = (outputLatency * this.context.sampleRate) | 0
                 if (this.numberOfFrames >= latencyInSamples) {
                     this.#peakWriter.append(array)
@@ -115,21 +74,6 @@ export class RecordingWorklet extends AudioWorkletNode implements Terminable, Sa
     limit(count: int): void {this.#limitSamples = count}
 
     setFillLength(value: int): void {this.#peakWriter.numFrames = value}
-
-    /**
-     * Set or update the chunk callback during recording
-     * @param callback Function to call for each audio chunk
-     */
-    setChunkCallback(callback: RecordingChunkCallback | null): void {
-        this.#chunkCallback = callback
-    }
-
-    /**
-     * Clear the chunk callback
-     */
-    clearChunkCallback(): void {
-        this.#chunkCallback = null
-    }
 
     get numberOfFrames(): int {return this.#output.length * RenderQuantum}
     get data(): Option<AudioData> {return this.#data}
