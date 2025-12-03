@@ -13,13 +13,11 @@ import {
     Terminator
 } from "@opendaw/lib-std"
 import {Surface} from "@/ui/surface/Surface.tsx"
-import {IconSymbol} from "@opendaw/studio-enums"
+import {Colors, IconSymbol} from "@opendaw/studio-enums"
 import {Box, BoxGraph} from "@opendaw/lib-box"
 import {BoxDebugView} from "./BoxDebugView"
 import {BoxesDebugView} from "@/ui/components/BoxesDebugView.tsx"
 import {ProgressBar} from "@/ui/components/ProgressBar.tsx"
-import {Colors} from "@opendaw/studio-adapters"
-import EmailBody from "@/ErrorMail.txt?raw"
 import {Browser} from "@opendaw/lib-dom"
 
 export namespace Dialogs {
@@ -70,7 +68,7 @@ export namespace Dialogs {
                     cancelable={cancelable !== false}
                     buttons={actualButtons}
                     growWidth={growWidth}>
-                <div style={{padding: "1em 0", color: Colors.dark}}>{content}</div>
+                <div style={{padding: "1em 0", color: Colors.dark.toString()}}>{content}</div>
             </Dialog>
         )
         Surface.get(origin).body.appendChild(dialog)
@@ -267,8 +265,8 @@ export namespace Dialogs {
     }): void => {
         console.debug(`Recovery enabled: ${backupCommand}`)
         const dialog: HTMLDialogElement = (
-            <Dialog headline="An error occurred :("
-                    icon={IconSymbol.Robot}
+            <Dialog headline="You Found A Bug ❤️"
+                    icon={IconSymbol.Bug}
                     buttons={backupCommand.nonEmpty() ? [{
                         text: "Recover",
                         onClick: () => {
@@ -285,11 +283,9 @@ export namespace Dialogs {
                             }
                         }
                     }, {
-                        text: "EMail",
+                        text: "Report",
                         primary: true,
-                        onClick: () => window.location.href =
-                            `mailto:support@opendaw.org?subject=${
-                                encodeURI("Bug Report - openDAW")}&body=${encodeURI(EmailBody)}`
+                        onClick: () => window.open("https://github.com/andremichelle/openDAW/issues/new", "github")
                     }] : Arrays.empty()}
                     cancelable={false}
                     error>
@@ -297,11 +293,15 @@ export namespace Dialogs {
                     <h3>{name}</h3>
                     <p>{message}</p>
                     {probablyHasExtension && (
-                        <p style={{color: Colors.red}}>
+                        <p style={{color: Colors.red.toString()}}>
                             Something extra is running! A browser extension might be causing issues. Disable
                             extensions for this site.
                         </p>
                     )}
+                    <p style={{
+                        color: Colors.shadow.toString(),
+                        fontWeight: "bolder"
+                    }}>Please report (opens in new tab) and then recover. Thanks!</p>
                 </div>
             </Dialog>
         )
@@ -322,7 +322,8 @@ export namespace Dialogs {
                 <div style={{padding: "1em 0", maxWidth: "50vw"}}>
                     <p>Please reload. If this message reappears clear your browsers cache.</p>
                     {document.scripts.length > 1 &&
-                        <p style={{color: Colors.red, fontWeight: "bolder"}}>Browser extensions detected! Please disable
+                        <p style={{color: Colors.red.toString(), fontWeight: "bolder"}}>Browser extensions detected!
+                            Please disable
                             before reload!</p>}
                 </div>
             </Dialog>

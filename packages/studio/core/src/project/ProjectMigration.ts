@@ -1,4 +1,5 @@
 import {
+    AudioClipBox,
     AudioFileBox,
     AudioRegionBox,
     AudioUnitBox,
@@ -43,8 +44,9 @@ export class ProjectMigration {
             globalShuffle.setValue("Groove Shuffle")
             boxGraph.endTransaction()
         }
-        // We need to run on a copy, because we might add more boxes during the migration
-        boxGraph.boxes().slice().forEach(box => box.accept<BoxVisitor>({
+
+        // 1st pass (2nd pass might rely on those changes)
+        boxGraph.boxes().forEach(box => box.accept<BoxVisitor>({
             visitAudioFileBox: (box: AudioFileBox): void => {
                 const {startInSeconds, endInSeconds} = box
                 if (isIntEncodedAsFloat(startInSeconds.getValue()) || isIntEncodedAsFloat(endInSeconds.getValue())) {
@@ -54,7 +56,11 @@ export class ProjectMigration {
                     endInSeconds.setValue(Float.floatToIntBits(endInSeconds.getValue()))
                     boxGraph.endTransaction()
                 }
-            },
+            }
+        }))
+
+        // 2nd pass. We need to run on a copy, because we might add more boxes during the migration
+        boxGraph.boxes().slice().forEach(box => box.accept<BoxVisitor>({
             visitAudioRegionBox: (box: AudioRegionBox): void => {
                 const {duration, loopOffset, loopDuration, playback} = box
                 if (isIntEncodedAsFloat(duration.getValue())
@@ -85,6 +91,14 @@ export class ProjectMigration {
                 }
                 if (box.events.isEmpty()) {
                     console.debug("Migrate 'AudioRegionBox' to have a ValueEventCollectionBox")
+                    boxGraph.beginTransaction()
+                    box.events.refer(ValueEventCollectionBox.create(boxGraph, UUID.generate()).owners)
+                    boxGraph.endTransaction()
+                }
+            },
+            visitAudioClipBox: (box: AudioClipBox): void => {
+                if (box.events.isEmpty()) {
+                    console.debug("Migrate 'AudioClipBox' to have a ValueEventCollectionBox")
                     boxGraph.beginTransaction()
                     box.events.refer(ValueEventCollectionBox.create(boxGraph, UUID.generate()).owners)
                     boxGraph.endTransaction()

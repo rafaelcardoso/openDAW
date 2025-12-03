@@ -5,7 +5,7 @@ import {StudioService} from "@/service/StudioService.ts"
 import {ThreeDots} from "@/ui/spinner/ThreeDots"
 import {Button} from "@/ui/components/Button"
 import {Icon} from "@/ui/components/Icon"
-import {IconSymbol} from "@opendaw/studio-enums"
+import {Colors, IconSymbol} from "@opendaw/studio-enums"
 import {Option, panic, RuntimeNotifier} from "@opendaw/lib-std"
 import {ScriptHost} from "@opendaw/studio-scripting"
 import {MenuButton} from "@/ui/components/MenuButton"
@@ -17,7 +17,7 @@ import ScriptAudioRegion from "./code-editor/examples/create-sample.ts?raw"
 import ScriptNanoWavetable from "./code-editor/examples/nano-wavetable.ts?raw"
 import ScriptStressTest from "./code-editor/examples/stress-test.ts?raw"
 import {Promises} from "@opendaw/lib-runtime"
-import {AudioData, Colors, ProjectSkeleton, Sample} from "@opendaw/studio-adapters"
+import {AudioData, ProjectSkeleton, Sample} from "@opendaw/studio-adapters"
 import {BoxGraph} from "@opendaw/lib-box"
 import {BoxIO} from "@opendaw/studio-boxes"
 import {Project, WavFile} from "@opendaw/studio-core"
@@ -78,11 +78,19 @@ export const CodeEditorPage: PageFactory<StudioService> = ({lifecycle, service}:
                         model = monaco.editor.createModel(Examples.Simple, "typescript", modelUri)
                     }
                     const editor = monaco.editor.create(container, {
+                        language: "typescript",
+                        quickSuggestions: {
+                            other: true,
+                            comments: false,
+                            strings: false
+                        },
+                        suggestOnTriggerCharacters: true,
+                        acceptSuggestionOnCommitCharacter: true,
+                        acceptSuggestionOnEnter: "on",
+                        wordBasedSuggestions: "off", // Important! Use only TS suggestions
                         model: model,
                         theme: "vs-dark",
-                        automaticLayout: true,
-                        suggestOnTriggerCharacters: true,
-                        quickSuggestions: true
+                        automaticLayout: true
                     })
                     const allowed = ["c", "v", "x", "a", "z", "y"]
                     lifecycle.ownAll(

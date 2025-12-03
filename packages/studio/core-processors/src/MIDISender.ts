@@ -20,9 +20,13 @@ export class MIDISender {
         let deviceNum = this.#deviceIdToNum.get(deviceId)
         if (isUndefined(deviceNum)) {
             deviceNum = this.#numToDeviceId.length
+            if (deviceNum >= 64) {
+                console.error(`Too many MIDI devices: ${deviceNum}, max is 64`)
+                return false
+            }
             this.#deviceIdToNum.set(deviceId, deviceNum)
             this.#numToDeviceId.push(deviceId)
-            this.#port.postMessage({registerDevice: deviceId, id: deviceNum})
+            this.#port.postMessage({registerDevice: deviceId, id: deviceNum}) // registers the device with a simple integer ID
         }
         const writeIdx = Atomics.load(this.#indices, 0)
         const nextIdx = (writeIdx + 1) & this.#ringMask
@@ -39,7 +43,7 @@ export class MIDISender {
         this.#ring[offset] = packed1
         this.#ring[offset + 1] = packed2
         Atomics.store(this.#indices, 0, nextIdx)
-        this.#port.postMessage(null)
+        this.#port.postMessage(null) // signals the MIDIReceiver to read messages from the ring buffer
         return true
     }
 }

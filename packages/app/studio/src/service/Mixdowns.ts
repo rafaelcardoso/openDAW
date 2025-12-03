@@ -1,6 +1,14 @@
 import {DefaultObservableValue, Errors, Option, panic, RuntimeNotifier} from "@opendaw/lib-std"
-import type {FFmpegConverter, FFmpegWorker} from "@opendaw/studio-core"
-import {AudioOfflineRenderer, ExternalLib, ProjectMeta, ProjectProfile, WavFile} from "@opendaw/studio-core"
+import {
+    AudioOfflineRenderer,
+    AudioUtils,
+    ExternalLib,
+    FFmpegConverter,
+    FFmpegWorker,
+    ProjectMeta,
+    ProjectProfile,
+    WavFile
+} from "@opendaw/studio-core"
 import {Files} from "@opendaw/lib-dom"
 import {Promises} from "@opendaw/lib-runtime"
 import {ExportStemsConfiguration} from "@opendaw/studio-adapters"
@@ -8,14 +16,23 @@ import {Dialogs} from "@/ui/components/dialogs"
 
 export namespace Mixdowns {
     export const exportMixdown = async ({project, meta}: ProjectProfile): Promise<void> => {
-        const result = await Promises.tryCatch(AudioOfflineRenderer.start(project, Option.None))
+        const abortController = new AbortController()
+        const progress = new DefaultObservableValue(0.0)
+        const dialog = RuntimeNotifier.progress({
+            headline: "Rendering mixdown...",
+            progress,
+            cancel: () => abortController.abort()
+        })
+        const result = await Promises.tryCatch(AudioOfflineRenderer
+            .start(project, Option.None, x => progress.setValue(x), abortController.signal))
+        dialog.terminate()
         if (result.status === "rejected") {
             if (!Errors.isAbort(result.error)) {
                 throw result.error
             }
             return
         }
-        const buffer = result.value
+        const buffer: AudioBuffer = result.value
         const {resolve, reject, promise} = Promise.withResolvers<void>()
         const {status, error} = await Promises.tryCatch(Dialogs.show({
             headline: "Encode Mixdown",
@@ -49,17 +66,28 @@ export namespace Mixdowns {
 
     export const exportStems = async ({project, meta}: ProjectProfile,
                                       config: ExportStemsConfiguration): Promise<void> => {
-        const {status, value} = await Promises.tryCatch(AudioOfflineRenderer.start(project, Option.wrap(config)))
+        const abortController = new AbortController()
+        const progress = new DefaultObservableValue(0.0)
+        const dialog = RuntimeNotifier.progress({
+            headline: "Rendering mixdown...",
+            progress,
+            cancel: () => abortController.abort()
+        })
+        const {status, value} = await Promises.tryCatch(AudioOfflineRenderer
+            .start(project, Option.wrap(config), x => progress.setValue(x), abortController.signal))
+        dialog.terminate()
         if (status === "rejected") {return}
         await saveZipFile(value, meta, Object.values(config).map(({fileName}) => fileName))
     }
 
-    const saveWavFile = async (buffer: AudioBuffer, meta: ProjectMeta) =>
-        saveFileAfterAsync({
-            buffer: WavFile.encodeFloats(buffer),
+    const saveWavFile = async (buffer: AudioBuffer, meta: ProjectMeta) => {
+        const silentSample = AudioUtils.findLastNonSilentSample(buffer)
+        return saveFileAfterAsync({
+            buffer: WavFile.encodeFloats(buffer, silentSample),
             headline: "Save Wav",
             suggestedName: `${meta.name}.wav`
         })
+    }
 
     const saveMp3File = async (buffer: AudioBuffer, meta: ProjectMeta) => {
         const ffmpeg = await loadFFmepg()
@@ -92,7 +120,8 @@ export namespace Mixdowns {
     }) => {
         const progress = new DefaultObservableValue(0.0)
         const progressDialog = RuntimeNotifier.progress({headline: `Encoding ${fileType}...`, progress})
-        const flac = await converter.convert(new Blob([WavFile.encodeFloats(buffer)]),
+        const silentSample = AudioUtils.findLastNonSilentSample(buffer)
+        const flac = await converter.convert(new Blob([WavFile.encodeFloats(buffer, silentSample)]),
             value => progress.setValue(value))
         progressDialog.terminate()
         return saveFileAfterAsync({
