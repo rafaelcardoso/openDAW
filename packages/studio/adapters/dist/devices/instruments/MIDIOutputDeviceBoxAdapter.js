@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _MIDIOutputDeviceBoxAdapter_terminator, _MIDIOutputDeviceBoxAdapter_context, _MIDIOutputDeviceBoxAdapter_box, _MIDIOutputDeviceBoxAdapter_midiDevice, _MIDIOutputDeviceBoxAdapter_parametric;
-import { asInstanceOf, MutableObservableOption, StringMapping, Terminator, ValueMapping } from "@opendaw/lib-std";
-import { MIDIOutputBox, MIDIOutputParameterBox } from "@opendaw/studio-boxes";
+import { asInstanceOf, MutableObservableOption, StringMapping, Terminator, ValueMapping } from "@naomiarotest/lib-std";
+import { MIDIOutputBox, MIDIOutputParameterBox } from "@naomiarotest/studio-boxes";
 import { Devices } from "../../DeviceAdapter";
 import { ParameterAdapterSet } from "../../ParameterAdapterSet";
 import { TrackType } from "../../timeline/TrackType";

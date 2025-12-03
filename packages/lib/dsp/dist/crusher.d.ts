@@ -1,4 +1,4 @@
-import { int } from "@opendaw/lib-std";
+import { int } from "@naomiarotest/lib-std";
 import { StereoMatrix } from "./stereo";
 export declare class Crusher {
     #private;

@@ -1,5 +1,5 @@
-import { SamplePeakWorker } from "@opendaw/lib-fusion";
-import { Arrays, assert } from "@opendaw/lib-std";
+import { SamplePeakWorker } from "@naomiarotest/lib-fusion";
+import { Arrays, assert } from "@naomiarotest/lib-std";
 import { RenderQuantum } from "./RenderQuantum";
 export class PeaksWriter {
     numChannels;

@@ -1,6 +1,6 @@
-import { Option, safeExecute, tryCatch, UUID } from "@opendaw/lib-std";
-import { ProjectSkeleton } from "@opendaw/studio-adapters";
-import { Promises } from "@opendaw/lib-runtime";
+import { Option, safeExecute, tryCatch, UUID } from "@naomiarotest/lib-std";
+import { ProjectSkeleton } from "@naomiarotest/studio-adapters";
+import { Promises } from "@naomiarotest/lib-runtime";
 import { Workers } from "../Workers";
 import { ProjectPaths } from "./ProjectPaths";
 export var ProjectStorage;

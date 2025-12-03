@@ -1,8 +1,8 @@
-import { NoteEvent, ppqn } from "@opendaw/lib-dsp";
-import { int, Maybe, Observer, Option, Subscription, UUID } from "@opendaw/lib-std";
-import { Address, Field } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
-import { NoteRegionBox } from "@opendaw/studio-boxes";
+import { NoteEvent, ppqn } from "@naomiarotest/lib-dsp";
+import { int, Maybe, Observer, Option, Subscription, UUID } from "@naomiarotest/lib-std";
+import { Address, Field } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { NoteRegionBox } from "@naomiarotest/studio-boxes";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { LoopableRegionBoxAdapter, RegionBoxAdapter, RegionBoxAdapterVisitor } from "../RegionBoxAdapter";
 import { NoteEventCollectionBoxAdapter } from "../collection/NoteEventCollectionBoxAdapter";

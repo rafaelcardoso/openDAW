@@ -1,7 +1,7 @@
-import { safeExecute } from "@opendaw/lib-std";
-import { Box, NoPointers, PointerField, StringField, BooleanField, Int32Field, Field, } from "@opendaw/lib-box";
+import { safeExecute } from "@naomiarotest/lib-std";
+import { Box, NoPointers, PointerField, StringField, BooleanField, Int32Field, Field, } from "@naomiarotest/lib-box";
 import { Device } from "./Device";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export class MIDIOutputDeviceBox extends Box {
     static create(graph, uuid, constructor) {
         return graph.stageBox(new MIDIOutputDeviceBox({

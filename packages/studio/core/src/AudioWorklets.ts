@@ -1,5 +1,5 @@
-import {asDefined, int, Option, UUID} from "@opendaw/lib-std"
-import {ExportStemsConfiguration, ProcessorOptions, RingBuffer} from "@opendaw/studio-adapters"
+import {asDefined, int, Option, UUID} from "@naomiarotest/lib-std"
+import {ExportStemsConfiguration, ProcessorOptions, RingBuffer} from "@naomiarotest/studio-adapters"
 import {Project} from "./project/Project"
 import {EngineWorklet} from "./EngineWorklet"
 import {MeterWorklet} from "./MeterWorklet"

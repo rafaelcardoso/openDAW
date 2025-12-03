@@ -1,5 +1,5 @@
-import { Peaks } from "@opendaw/lib-fusion";
-import { int, Nullable } from "@opendaw/lib-std";
+import { Peaks } from "@naomiarotest/lib-fusion";
+import { int, Nullable } from "@naomiarotest/lib-std";
 export declare class PeaksWriter implements Peaks, Peaks.Stage {
     #private;
     readonly numChannels: int;

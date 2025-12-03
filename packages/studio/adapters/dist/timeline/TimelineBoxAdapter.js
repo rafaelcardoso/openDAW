@@ -11,7 +11,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
 };
 var _TimelineBoxAdapter_box, _TimelineBoxAdapter_markerTrack;
 import { MarkerTrackAdapter } from "./MarkerTrackAdapter";
-import { PPQN } from "@opendaw/lib-dsp";
+import { PPQN } from "@naomiarotest/lib-dsp";
 export class TimelineBoxAdapter {
     constructor(context, box) {
         _TimelineBoxAdapter_box.set(this, void 0);

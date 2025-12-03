@@ -1,5 +1,5 @@
-import { Option } from "@opendaw/lib-std";
-import { ProjectSkeleton } from "@opendaw/studio-adapters";
+import { Option } from "@naomiarotest/lib-std";
+import { ProjectSkeleton } from "@naomiarotest/studio-adapters";
 import { ProjectProfile } from "../project";
 import { SampleService } from "../samples";
 export declare class DawProjectService {

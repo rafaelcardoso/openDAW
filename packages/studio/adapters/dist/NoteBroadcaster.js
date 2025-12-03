@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _NoteBroadcaster_terminator, _NoteBroadcaster_broadcaster, _NoteBroadcaster_address, _NoteBroadcaster_bits;
-import { Bits, EmptyExec, Terminator } from "@opendaw/lib-std";
+import { Bits, EmptyExec, Terminator } from "@naomiarotest/lib-std";
 export class NoteBroadcaster {
     constructor(broadcaster, address) {
         _NoteBroadcaster_terminator.set(this, new Terminator());

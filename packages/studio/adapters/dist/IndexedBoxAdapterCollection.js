@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _IndexedBoxAdapterCollection_field, _IndexedBoxAdapterCollection_entries, _IndexedBoxAdapterCollection_listeners, _IndexedBoxAdapterCollection_subscription, _IndexedBoxAdapterCollection_sorted;
-import { assert, BinarySearch, clamp, Listeners, Option, UUID } from "@opendaw/lib-std";
+import { assert, BinarySearch, clamp, Listeners, Option, UUID } from "@naomiarotest/lib-std";
 import { IndexComparator } from "./IndexComparator";
 export class IndexedBoxAdapterCollection {
     static create(field, provider, pointers) {

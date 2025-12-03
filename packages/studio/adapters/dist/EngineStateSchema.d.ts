@@ -1,4 +1,4 @@
-import { Schema } from "@opendaw/lib-std";
+import { Schema } from "@naomiarotest/lib-std";
 export declare const EngineStateSchema: () => Schema.IO<{
     position: number;
     playbackTimestamp: number;

@@ -1,6 +1,6 @@
-import "@opendaw/lib-std";
-import { ObjectField, BooleanField, Float32Field, Int32Field, } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import "@naomiarotest/lib-std";
+import { ObjectField, BooleanField, Float32Field, Int32Field, } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export class RevampPass extends ObjectField {
     static create(construct) {
         return new RevampPass(construct);

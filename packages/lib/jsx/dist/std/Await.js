@@ -1,4 +1,4 @@
-import { safeExecute } from "@opendaw/lib-std";
+import { safeExecute } from "@naomiarotest/lib-std";
 import { createElement, replaceChildren } from "../create-element";
 export const Await = ({ factory, loading, success, failure, repeat }) => {
     const contents = createElement("div", { style: { display: "contents" } });

@@ -1,6 +1,6 @@
-import { byte, Nullable } from "@opendaw/lib-std";
+import { byte, Nullable } from "@naomiarotest/lib-std";
 import { MidiEventVisitor } from "./MidiEventVisitor";
-import { ppqn } from "@opendaw/lib-dsp";
+import { ppqn } from "@naomiarotest/lib-dsp";
 export declare namespace MidiData {
     enum Command {
         NoteOn = 144,

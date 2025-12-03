@@ -1,5 +1,5 @@
-import { AudioFileBox } from "@opendaw/studio-boxes";
-import { BoxGraph } from "@opendaw/lib-box";
+import { AudioFileBox } from "@naomiarotest/studio-boxes";
+import { BoxGraph } from "@naomiarotest/lib-box";
 export declare namespace AudioFileBoxfactory {
     const create: (boxGraph: BoxGraph, sample: Sample) => AudioFileBox;
 }

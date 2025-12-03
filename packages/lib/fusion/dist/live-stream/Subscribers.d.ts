@@ -1,5 +1,5 @@
-import { Maybe, Subscription, Terminable } from "@opendaw/lib-std";
-import { Address } from "@opendaw/lib-box";
+import { Maybe, Subscription, Terminable } from "@naomiarotest/lib-std";
+import { Address } from "@naomiarotest/lib-box";
 export declare class Subscribers<T> implements Terminable {
     #private;
     constructor();

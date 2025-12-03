@@ -1,7 +1,7 @@
-import { Pointers } from "@opendaw/studio-enums";
-import { Interpolation } from "@opendaw/lib-dsp";
-import { ValueEventCurveBox } from "@opendaw/studio-boxes";
-import { assertInstanceOf, isDefined, panic, UUID } from "@opendaw/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { Interpolation } from "@naomiarotest/lib-dsp";
+import { ValueEventCurveBox } from "@naomiarotest/studio-boxes";
+import { assertInstanceOf, isDefined, panic, UUID } from "@naomiarotest/lib-std";
 export var InterpolationFieldAdapter;
 (function (InterpolationFieldAdapter) {
     InterpolationFieldAdapter.write = (field, value) => {

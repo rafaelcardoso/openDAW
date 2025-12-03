@@ -1,4 +1,4 @@
-import { byte, unitValue, UUID } from "@opendaw/lib-std";
+import { byte, unitValue, UUID } from "@naomiarotest/lib-std";
 export type NoteSignalOn = {
     type: "note-on";
     uuid: UUID.Bytes;

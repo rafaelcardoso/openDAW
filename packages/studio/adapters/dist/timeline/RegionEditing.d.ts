@@ -1,4 +1,4 @@
-import { ppqn } from "@opendaw/lib-dsp";
+import { ppqn } from "@naomiarotest/lib-dsp";
 import { AnyRegionBoxAdapter } from "../UnionAdapterTypes";
 export declare namespace RegionEditing {
     const cut: (region: AnyRegionBoxAdapter, cut: ppqn, consolidate: boolean) => void;

@@ -1,4 +1,4 @@
-import { AudioUnitType, Colors } from "@opendaw/studio-enums";
+import { AudioUnitType, Colors } from "@naomiarotest/studio-enums";
 import { TrackType } from "../timeline/TrackType";
 export var ColorCodes;
 (function (ColorCodes) {

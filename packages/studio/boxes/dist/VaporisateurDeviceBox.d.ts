@@ -1,10 +1,10 @@
-import { Maybe, UUID, Procedure } from "@opendaw/lib-std";
-import { Box, BoxGraph, PointerField, StringField, BooleanField, Float32Field, Int32Field, ArrayField } from "@opendaw/lib-box";
+import { Maybe, UUID, Procedure } from "@naomiarotest/lib-std";
+import { Box, BoxGraph, PointerField, StringField, BooleanField, Float32Field, Int32Field, ArrayField } from "@naomiarotest/lib-box";
 import { VaporisateurOsc } from "./VaporisateurOsc";
 import { VaporisateurLFO } from "./VaporisateurLFO";
 import { VaporisateurNoise } from "./VaporisateurNoise";
 import { BoxVisitor } from ".";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type VaporisateurDeviceBoxFields = {
     1: PointerField<Pointers.InstrumentHost>;
     2: StringField;

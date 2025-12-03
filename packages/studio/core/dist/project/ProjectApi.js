@@ -1,9 +1,9 @@
-import { assert, clamp, Option, Strings, UUID } from "@opendaw/lib-std";
-import { PPQN } from "@opendaw/lib-dsp";
-import { IndexedBox } from "@opendaw/lib-box";
-import { AudioUnitType } from "@opendaw/studio-enums";
-import { CaptureAudioBox, CaptureMidiBox, NoteClipBox, NoteEventBox, NoteEventCollectionBox, NoteRegionBox, TrackBox, ValueClipBox, ValueEventCollectionBox, ValueRegionBox } from "@opendaw/studio-boxes";
-import { AudioUnitFactory, ColorCodes, ProjectQueries, TrackType } from "@opendaw/studio-adapters";
+import { assert, clamp, Option, Strings, UUID } from "@naomiarotest/lib-std";
+import { PPQN } from "@naomiarotest/lib-dsp";
+import { IndexedBox } from "@naomiarotest/lib-box";
+import { AudioUnitType } from "@naomiarotest/studio-enums";
+import { CaptureAudioBox, CaptureMidiBox, NoteClipBox, NoteEventBox, NoteEventCollectionBox, NoteRegionBox, TrackBox, ValueClipBox, ValueEventCollectionBox, ValueRegionBox } from "@naomiarotest/studio-boxes";
+import { AudioUnitFactory, ColorCodes, ProjectQueries, TrackType } from "@naomiarotest/studio-adapters";
 // noinspection JSUnusedGlobalSymbols
 export class ProjectApi {
     #project;

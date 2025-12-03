@@ -1,5 +1,5 @@
 import { BoxGraph } from "./graph";
-import { Editing, Maybe, Option, Provider } from "@opendaw/lib-std";
+import { Editing, Maybe, Option, Provider } from "@naomiarotest/lib-std";
 export interface ModificationProcess {
     approve(): void;
     revert(): void;

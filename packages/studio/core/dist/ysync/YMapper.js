@@ -1,6 +1,6 @@
-import { Address } from "@opendaw/lib-box";
+import { Address } from "@naomiarotest/lib-box";
 import * as Y from "yjs";
-import { asDefined, asInstanceOf, assert, isDefined, UUID } from "@opendaw/lib-std";
+import { asDefined, asInstanceOf, assert, isDefined, UUID } from "@naomiarotest/lib-std";
 export var YMapper;
 (function (YMapper) {
     YMapper.createBoxMap = (box) => {

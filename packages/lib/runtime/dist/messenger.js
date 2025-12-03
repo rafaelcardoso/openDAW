@@ -1,4 +1,4 @@
-import { isDefined, Notifier } from "@opendaw/lib-std";
+import { isDefined, Notifier } from "@naomiarotest/lib-std";
 export const Messenger = { for: (port) => new NativeMessenger(port) };
 const EmptyTransferables = [];
 class NativeMessenger {

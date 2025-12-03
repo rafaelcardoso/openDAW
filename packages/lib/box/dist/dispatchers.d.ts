@@ -1,4 +1,4 @@
-import { int, Procedure, Subscription } from "@opendaw/lib-std";
+import { int, Procedure, Subscription } from "@naomiarotest/lib-std";
 import { Address, Addressable } from "./address";
 export declare enum Propagation {
     This = 0,

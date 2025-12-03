@@ -1,5 +1,5 @@
-import {int, Nullable, Terminable, UUID} from "@opendaw/lib-std"
-import {ppqn} from "@opendaw/lib-dsp"
+import {int, Nullable, Terminable, UUID} from "@naomiarotest/lib-std"
+import {ppqn} from "@naomiarotest/lib-dsp"
 import {AudioData} from "./audio/AudioData"
 import {ClipSequencingUpdates} from "./ClipNotifications"
 import {NoteSignal} from "./NoteSignal"

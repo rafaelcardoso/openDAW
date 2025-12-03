@@ -1,4 +1,4 @@
-import { panic } from "@opendaw/lib-std";
+import { panic } from "@naomiarotest/lib-std";
 export const IndexComparator = (a, b) => {
     if (a === b) {
         return 0;

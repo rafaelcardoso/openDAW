@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { isDefined, Notifier, tryCatch } from "@opendaw/lib-std";
+import { isDefined, Notifier, tryCatch } from "@naomiarotest/lib-std";
 const PreferencesSchema = z.object({
     "auto-open-clips": z.boolean().default(false),
     "auto-create-output-compressor": z.boolean().default(true),

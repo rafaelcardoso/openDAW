@@ -16,9 +16,9 @@ import {
     Terminable,
     Terminator,
     UUID
-} from "@opendaw/lib-std"
-import {Address, BoxGraph, createSyncTarget} from "@opendaw/lib-box"
-import {AudioFileBox, BoxIO, BoxVisitor} from "@opendaw/studio-boxes"
+} from "@naomiarotest/lib-std"
+import {Address, BoxGraph, createSyncTarget} from "@naomiarotest/lib-box"
+import {AudioFileBox, BoxIO, BoxVisitor} from "@naomiarotest/studio-boxes"
 import {EngineContext} from "./EngineContext"
 import {TimeInfo} from "./TimeInfo"
 import {
@@ -41,23 +41,23 @@ import {
     SoundfontLoaderManager,
     TimelineBoxAdapter,
     TrackBoxAdapter
-} from "@opendaw/studio-adapters"
+} from "@naomiarotest/studio-adapters"
 import {AudioUnit} from "./AudioUnit"
 import {Processor, ProcessPhase} from "./processing"
 import {Mixer} from "./Mixer"
-import {LiveStreamBroadcaster} from "@opendaw/lib-fusion"
+import {LiveStreamBroadcaster} from "@naomiarotest/lib-fusion"
 import {UpdateClock} from "./UpdateClock"
 import {PeakBroadcaster} from "./PeakBroadcaster"
 import {Metronome} from "./Metronome"
 import {BlockRenderer} from "./BlockRenderer"
-import {ConstantTempoMap, Graph, ppqn, PPQN, TempoMap, TopologicalSort} from "@opendaw/lib-dsp"
+import {ConstantTempoMap, Graph, ppqn, PPQN, TempoMap, TopologicalSort} from "@naomiarotest/lib-dsp"
 import {SampleManagerWorklet} from "./SampleManagerWorklet"
 import {ClipSequencingAudioContext} from "./ClipSequencingAudioContext"
-import {Communicator, Messenger} from "@opendaw/lib-runtime"
+import {Communicator, Messenger} from "@naomiarotest/lib-runtime"
 import {AudioUnitOptions} from "./AudioUnitOptions"
 import type {SoundFont2} from "soundfont2"
 import {SoundfontManagerWorklet} from "./SoundfontManagerWorklet"
-import {MidiData} from "@opendaw/lib-midi"
+import {MidiData} from "@naomiarotest/lib-midi"
 import {MIDITransportClock} from "./MIDITransportClock"
 import {MIDISender} from "./MIDISender"
 

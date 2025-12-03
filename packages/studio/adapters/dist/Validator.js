@@ -1,7 +1,7 @@
-import { AudioRegionBox } from "@opendaw/studio-boxes";
-import { Arrays, Attempts, clamp } from "@opendaw/lib-std";
+import { AudioRegionBox } from "@naomiarotest/studio-boxes";
+import { Arrays, Attempts, clamp } from "@naomiarotest/lib-std";
 import { UnionBoxTypes } from "./unions";
-import { TimeBase } from "@opendaw/lib-dsp";
+import { TimeBase } from "@naomiarotest/lib-dsp";
 export var Validator;
 (function (Validator) {
     Validator.isTimeSignatureValid = (numerator, denominator) => {

@@ -1,6 +1,6 @@
-import "@opendaw/lib-std";
-import { ObjectField, FieldConstruct, Field, UnreferenceableType } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import "@naomiarotest/lib-std";
+import { ObjectField, FieldConstruct, Field, UnreferenceableType } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type DeviceUserInterfaceFields = {
     1: Field<Pointers.DeviceUserInterface>;
 };

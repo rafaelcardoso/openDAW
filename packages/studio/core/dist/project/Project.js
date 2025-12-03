@@ -1,8 +1,8 @@
-import { Arrays, panic, safeExecute, Terminator } from "@opendaw/lib-std";
-import { BoxEditing } from "@opendaw/lib-box";
-import { AudioRegionBox } from "@opendaw/studio-boxes";
-import { BoxAdapters, ParameterFieldAdapters, ProjectSkeleton, RootBoxAdapter, TimelineBoxAdapter, UnionBoxTypes, UserEditingManager, VertexSelection } from "@opendaw/studio-adapters";
-import { LiveStreamReceiver } from "@opendaw/lib-fusion";
+import { Arrays, panic, safeExecute, Terminator } from "@naomiarotest/lib-std";
+import { BoxEditing } from "@naomiarotest/lib-box";
+import { AudioRegionBox } from "@naomiarotest/studio-boxes";
+import { BoxAdapters, ParameterFieldAdapters, ProjectSkeleton, RootBoxAdapter, TimelineBoxAdapter, UnionBoxTypes, UserEditingManager, VertexSelection } from "@naomiarotest/studio-adapters";
+import { LiveStreamReceiver } from "@naomiarotest/lib-fusion";
 import { Mixer } from "../Mixer";
 import { ProjectApi } from "./ProjectApi";
 import { ProjectMigration } from "./ProjectMigration";
@@ -11,8 +11,8 @@ import { EngineFacade } from "../EngineFacade";
 import { MidiDevices, MIDILearning } from "../midi";
 import { ProjectValidation } from "./ProjectValidation";
 import { Preferences } from "../Preferences";
-import { ConstantTempoMap, PPQN, TimeBase } from "@opendaw/lib-dsp";
-import { MidiData } from "@opendaw/lib-midi";
+import { ConstantTempoMap, PPQN, TimeBase } from "@naomiarotest/lib-dsp";
+import { MidiData } from "@naomiarotest/lib-midi";
 // Main Entry Point for a Project
 export class Project {
     static new(env, options) {

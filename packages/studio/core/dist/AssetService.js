@@ -1,6 +1,6 @@
-import { DefaultObservableValue, Errors, isInstanceOf, isNotUndefined, panic, Progress, RuntimeNotifier, UUID } from "@opendaw/lib-std";
-import { Files } from "@opendaw/lib-dom";
-import { Promises } from "@opendaw/lib-runtime";
+import { DefaultObservableValue, Errors, isInstanceOf, isNotUndefined, panic, Progress, RuntimeNotifier, UUID } from "@naomiarotest/lib-std";
+import { Files } from "@naomiarotest/lib-dom";
+import { Promises } from "@naomiarotest/lib-runtime";
 export class AssetService {
     onUpdate;
     constructor(onUpdate) {

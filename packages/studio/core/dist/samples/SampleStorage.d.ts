@@ -1,6 +1,6 @@
-import { UUID } from "@opendaw/lib-std";
-import { Peaks } from "@opendaw/lib-fusion";
-import { AudioData, Sample, SampleMetaData } from "@opendaw/studio-adapters";
+import { UUID } from "@naomiarotest/lib-std";
+import { Peaks } from "@naomiarotest/lib-fusion";
+import { AudioData, Sample, SampleMetaData } from "@naomiarotest/studio-adapters";
 import { Storage } from "../Storage";
 export declare namespace SampleStorage {
     type NewSample = {

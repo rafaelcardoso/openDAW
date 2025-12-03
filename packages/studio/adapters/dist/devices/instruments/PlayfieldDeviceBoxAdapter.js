@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _PlayfieldDeviceBoxAdapter_context, _PlayfieldDeviceBoxAdapter_box, _PlayfieldDeviceBoxAdapter_samples, _PlayfieldDeviceBoxAdapter_parametric;
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { Devices } from "../../DeviceAdapter";
 import { IndexedBoxAdapterCollection } from "../../IndexedBoxAdapterCollection";
 import { PlayfieldSampleBoxAdapter } from "./Playfield/PlayfieldSampleBoxAdapter";

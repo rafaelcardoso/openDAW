@@ -1,4 +1,4 @@
-import { unitValue } from "@opendaw/lib-std";
+import { unitValue } from "@naomiarotest/lib-std";
 export declare class BiquadCoeff {
     a1: number;
     a2: number;

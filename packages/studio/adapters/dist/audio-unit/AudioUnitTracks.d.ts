@@ -1,6 +1,6 @@
-import { int, Observer, Option, Subscription, Terminable } from "@opendaw/lib-std";
-import { Pointers } from "@opendaw/studio-enums";
-import { Vertex } from "@opendaw/lib-box";
+import { int, Observer, Option, Subscription, Terminable } from "@naomiarotest/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { Vertex } from "@naomiarotest/lib-box";
 import { AudioUnitBoxAdapter } from "./AudioUnitBoxAdapter";
 import { IndexedAdapterCollectionListener, IndexedBoxAdapterCollection } from "../IndexedBoxAdapterCollection";
 import { TrackBoxAdapter } from "../timeline/TrackBoxAdapter";

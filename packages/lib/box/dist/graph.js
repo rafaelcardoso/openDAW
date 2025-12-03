@@ -1,4 +1,4 @@
-import { asDefined, assert, ByteArrayInput, ByteArrayOutput, Checksum, isDefined, Listeners, Option, panic, Predicates, UUID } from "@opendaw/lib-std";
+import { asDefined, assert, ByteArrayInput, ByteArrayOutput, Checksum, isDefined, Listeners, Option, panic, Predicates, UUID } from "@naomiarotest/lib-std";
 import { Address } from "./address";
 import { DeleteUpdate, NewUpdate, PointerUpdate, PrimitiveUpdate } from "./updates";
 import { Dispatchers } from "./dispatchers";

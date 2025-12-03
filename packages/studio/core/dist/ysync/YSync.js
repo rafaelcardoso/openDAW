@@ -1,4 +1,4 @@
-import { asDefined, asInstanceOf, assert, EmptyExec, isUndefined, Option, panic, Terminable, Terminator, UUID } from "@opendaw/lib-std";
+import { asDefined, asInstanceOf, assert, EmptyExec, isUndefined, Option, panic, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
 import { YMapper } from "./YMapper";
 import * as Y from "yjs";
 export class YSync {

@@ -1,4 +1,4 @@
-import { Terminator, Unhandled } from "@opendaw/lib-std";
+import { Terminator, Unhandled } from "@naomiarotest/lib-std";
 import { Addressable } from "./address";
 export var Propagation;
 (function (Propagation) {

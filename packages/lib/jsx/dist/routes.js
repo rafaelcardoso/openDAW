@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { isDefined, Lazy, Notifier, Option } from "@opendaw/lib-std";
+import { isDefined, Lazy, Notifier, Option } from "@naomiarotest/lib-std";
 export class RouteLocation {
     static get() { return new RouteLocation(); }
     #notifier = new Notifier();

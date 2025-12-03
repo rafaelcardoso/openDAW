@@ -1,5 +1,5 @@
-import { Bijective, int, Predicate, Selection, SelectionListener, Subscription, Terminable } from "@opendaw/lib-std";
-import { Addressable } from "@opendaw/lib-box";
+import { Bijective, int, Predicate, Selection, SelectionListener, Subscription, Terminable } from "@naomiarotest/lib-std";
+import { Addressable } from "@naomiarotest/lib-box";
 import { VertexSelection } from "./VertexSelection";
 import { SelectableVertex } from "./SelectableVertex";
 export declare class FilteredSelection<T extends Addressable> implements Selection<T>, Terminable {

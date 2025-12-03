@@ -1,5 +1,5 @@
-import { DeviceInterfaceKnobBox } from "@opendaw/studio-boxes";
-import { Address, Box, PointerTypes } from "@opendaw/lib-box";
+import { DeviceInterfaceKnobBox } from "@naomiarotest/studio-boxes";
+import { Address, Box, PointerTypes } from "@naomiarotest/lib-box";
 import { ModuleAdapter } from "./module";
 import { BoxAdapter } from "../BoxAdapter";
 import { AutomatableParameterFieldAdapter } from "../AutomatableParameterFieldAdapter";

@@ -1,5 +1,5 @@
 import { Field } from "./field";
-import { assert, Float, Integer, panic, safeExecute } from "@opendaw/lib-std";
+import { assert, Float, Integer, panic, safeExecute } from "@naomiarotest/lib-std";
 import { Propagation } from "./dispatchers";
 import { Constraints } from "./constraints";
 export var PrimitiveType;

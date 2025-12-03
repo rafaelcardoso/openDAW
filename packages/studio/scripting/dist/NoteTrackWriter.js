@@ -1,6 +1,6 @@
-import { asDefined, isDefined, UUID } from "@opendaw/lib-std";
-import { NoteEventBox, NoteEventCollectionBox, NoteRegionBox, TrackBox } from "@opendaw/studio-boxes";
-import { TrackType } from "@opendaw/studio-adapters";
+import { asDefined, isDefined, UUID } from "@naomiarotest/lib-std";
+import { NoteEventBox, NoteEventCollectionBox, NoteRegionBox, TrackBox } from "@naomiarotest/studio-boxes";
+import { TrackType } from "@naomiarotest/studio-adapters";
 export class NoteTrackWriter {
     #map = new Map();
     write(boxGraph, audioUnitBox, noteTracks, indexRef) {

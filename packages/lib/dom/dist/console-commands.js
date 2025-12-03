@@ -1,4 +1,4 @@
-import { DefaultObservableValue, EmptyProcedure } from "@opendaw/lib-std";
+import { DefaultObservableValue, EmptyProcedure } from "@naomiarotest/lib-std";
 export var ConsoleCommands;
 (function (ConsoleCommands) {
     ConsoleCommands.exportMethod = (path, callback) => store(path, { value: callback });

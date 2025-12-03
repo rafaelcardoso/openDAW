@@ -1,5 +1,5 @@
-import { Notifier, Terminable } from "@opendaw/lib-std";
-import { NoteSignal } from "@opendaw/studio-adapters";
+import { Notifier, Terminable } from "@naomiarotest/lib-std";
+import { NoteSignal } from "@naomiarotest/studio-adapters";
 import { Project } from "../project";
 import { Capture } from "./Capture";
 export declare namespace RecordMidi {

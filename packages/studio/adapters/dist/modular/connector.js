@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ModuleConnectorAdapter_boxAdapters, _ModuleConnectorAdapter_field, _ModuleConnectorAdapter_direction, _ModuleConnectorAdapter_name;
-import { Pointers } from "@opendaw/studio-enums";
-import { Arrays } from "@opendaw/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { Arrays } from "@naomiarotest/lib-std";
 import { ModuleConnectionAdapter } from "./connection";
 export var Direction;
 (function (Direction) {

@@ -1,4 +1,4 @@
-import { asDefined, assert, Color, isDefined, panic, Rect } from "@opendaw/lib-std";
+import { asDefined, assert, Color, isDefined, panic, Rect } from "@naomiarotest/lib-std";
 export var Html;
 (function (Html) {
     Html.parse = (source) => {

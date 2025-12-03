@@ -10,11 +10,11 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _VaporisateurDeviceBoxAdapter_instances, _VaporisateurDeviceBoxAdapter_context, _VaporisateurDeviceBoxAdapter_box, _VaporisateurDeviceBoxAdapter_parametric, _VaporisateurDeviceBoxAdapter_wrapParameters;
-import { StringMapping, ValueMapping } from "@opendaw/lib-std";
+import { StringMapping, ValueMapping } from "@naomiarotest/lib-std";
 import { Devices } from "../../DeviceAdapter";
 import { ParameterAdapterSet } from "../../ParameterAdapterSet";
 import { TrackType } from "../../timeline/TrackType";
-import { VoicingMode } from "@opendaw/studio-enums";
+import { VoicingMode } from "@naomiarotest/studio-enums";
 import { VaporisateurSettings } from "./VaporisateurSettings";
 export class VaporisateurDeviceBoxAdapter {
     constructor(context, box) {

@@ -1,5 +1,5 @@
 import { PitchEffect } from "../Api";
-import { float, int } from "@opendaw/lib-std";
+import { float, int } from "@naomiarotest/lib-std";
 export declare class PitchEffectImpl implements PitchEffect {
     readonly key: "pitch";
     label: string;

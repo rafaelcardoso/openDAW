@@ -1,4 +1,4 @@
-import { Procedure } from "@opendaw/lib-std";
+import { Procedure } from "@naomiarotest/lib-std";
 import { Inject } from "./inject";
 export type DomElement = HTMLElement | SVGElement;
 export type JsxValue = null | undefined | boolean | string | number | DomElement | Array<JsxValue>;

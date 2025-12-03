@@ -1,6 +1,6 @@
-import { Observer, Option, Subscription, Terminable } from "@opendaw/lib-std";
-import { BoxEditing, PointerField, Vertex } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { Observer, Option, Subscription, Terminable } from "@naomiarotest/lib-std";
+import { BoxEditing, PointerField, Vertex } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export declare class UserEditing implements Terminable {
     #private;
     constructor(editing: BoxEditing);

@@ -1,4 +1,4 @@
-import { Arrays } from "@opendaw/lib-std";
+import { Arrays } from "@naomiarotest/lib-std";
 import { RenderQuantum } from "./constants";
 /**
  * Vibe-coded resampler (Claude 4.5 Sonnet)

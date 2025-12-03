@@ -1,4 +1,4 @@
-import { byte, Comparator, int } from "@opendaw/lib-std";
+import { byte, Comparator, int } from "@naomiarotest/lib-std";
 import { Event } from "./Event";
 import { ControlType } from "./ControlType";
 import { MidiEventVisitor } from "./MidiEventVisitor";

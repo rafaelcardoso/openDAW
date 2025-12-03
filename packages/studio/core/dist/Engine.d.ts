@@ -1,6 +1,6 @@
-import { int, MutableObservableValue, Nullable, ObservableValue, Observer, Subscription, Terminable, UUID } from "@opendaw/lib-std";
-import { ppqn } from "@opendaw/lib-dsp";
-import { ClipNotification, NoteSignal } from "@opendaw/studio-adapters";
+import { int, MutableObservableValue, Nullable, ObservableValue, Observer, Subscription, Terminable, UUID } from "@naomiarotest/lib-std";
+import { ppqn } from "@naomiarotest/lib-dsp";
+import { ClipNotification, NoteSignal } from "@naomiarotest/studio-adapters";
 import { Project } from "./project";
 export interface Engine extends Terminable {
     play(): void;

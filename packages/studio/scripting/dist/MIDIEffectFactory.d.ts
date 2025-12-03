@@ -1,6 +1,6 @@
 import { MIDIEffects } from "./Api";
-import { Box, BoxGraph } from "@opendaw/lib-box";
-import { AudioUnitBox } from "@opendaw/studio-boxes";
+import { Box, BoxGraph } from "@naomiarotest/lib-box";
+import { AudioUnitBox } from "@naomiarotest/studio-boxes";
 export declare class MIDIEffectFactory {
     static write(boxGraph: BoxGraph, audioUnitBox: AudioUnitBox, effect: Required<MIDIEffects[keyof MIDIEffects]>): Box;
 }

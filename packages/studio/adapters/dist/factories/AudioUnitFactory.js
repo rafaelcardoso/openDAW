@@ -1,6 +1,6 @@
-import { Option, UUID } from "@opendaw/lib-std";
-import { IndexedBox } from "@opendaw/lib-box";
-import { AudioUnitBox, CaptureAudioBox, CaptureMidiBox } from "@opendaw/studio-boxes";
+import { Option, UUID } from "@naomiarotest/lib-std";
+import { IndexedBox } from "@naomiarotest/lib-box";
+import { AudioUnitBox, CaptureAudioBox, CaptureMidiBox } from "@naomiarotest/studio-boxes";
 import { AudioUnitOrdering } from "./AudioUnitOrdering";
 import { TrackType } from "../timeline/TrackType";
 export var AudioUnitFactory;

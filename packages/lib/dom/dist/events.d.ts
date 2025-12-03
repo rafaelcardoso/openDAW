@@ -1,4 +1,4 @@
-import { Nullable, Procedure, Subscription } from "@opendaw/lib-std";
+import { Nullable, Procedure, Subscription } from "@naomiarotest/lib-std";
 type KnownEventMap = WindowEventMap & MIDIInputEventMap & MIDIPortEventMap;
 export declare class Events {
     static subscribe<K extends keyof KnownEventMap>(eventTarget: EventTarget, type: K, listener: (ev: KnownEventMap[K]) => void, options?: boolean | AddEventListenerOptions): Subscription;

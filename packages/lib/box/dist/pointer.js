@@ -1,4 +1,4 @@
-import { assert, isNull, Option, panic, safeExecute, tryCatch } from "@opendaw/lib-std";
+import { assert, isNull, Option, panic, safeExecute, tryCatch } from "@naomiarotest/lib-std";
 import { Address } from "./address";
 import { PointerHub } from "./pointer-hub";
 import { Field } from "./field";

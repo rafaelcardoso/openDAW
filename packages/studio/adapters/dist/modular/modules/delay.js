@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ModuleDelayAdapter_parameterTime, _ModuleDelayAdapter_voltageInput, _ModuleDelayAdapter_voltageOutput;
-import { StringMapping, ValueMapping } from "@opendaw/lib-std";
+import { StringMapping, ValueMapping } from "@naomiarotest/lib-std";
 import { AbstractModuleAdapter } from "../abstract";
 import { Direction, ModuleConnectorAdapter } from "../connector";
 export class ModuleDelayAdapter extends AbstractModuleAdapter {

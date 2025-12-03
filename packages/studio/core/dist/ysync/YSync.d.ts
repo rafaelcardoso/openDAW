@@ -1,5 +1,5 @@
-import { Provider, Terminable } from "@opendaw/lib-std";
-import { BoxGraph } from "@opendaw/lib-box";
+import { Provider, Terminable } from "@naomiarotest/lib-std";
+import { BoxGraph } from "@naomiarotest/lib-box";
 import * as Y from "yjs";
 export type Construct<T> = {
     boxGraph: BoxGraph<T>;

@@ -1,5 +1,5 @@
-import { Progress, UUID } from "@opendaw/lib-std";
-import { SoundfontLoader, SoundfontLoaderManager, SoundfontMetaData } from "@opendaw/studio-adapters";
+import { Progress, UUID } from "@naomiarotest/lib-std";
+import { SoundfontLoader, SoundfontLoaderManager, SoundfontMetaData } from "@naomiarotest/studio-adapters";
 import { SoundfontProvider } from "./SoundfontProvider";
 export declare class DefaultSoundfontLoaderManager implements SoundfontLoaderManager, SoundfontProvider {
     #private;

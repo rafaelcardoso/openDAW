@@ -1,6 +1,6 @@
-import { Bijective, int, Predicate, Selection, SelectionListener, Subscription } from "@opendaw/lib-std";
-import { Addressable, BoxGraph, BoxEditing, Field } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { Bijective, int, Predicate, Selection, SelectionListener, Subscription } from "@naomiarotest/lib-std";
+import { Addressable, BoxGraph, BoxEditing, Field } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { SelectableVertex } from "./SelectableVertex";
 import { FilteredSelection } from "./FilteredSelection";
 /**

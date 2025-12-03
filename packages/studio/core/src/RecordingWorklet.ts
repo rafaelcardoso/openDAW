@@ -10,9 +10,9 @@ import {
     Terminable,
     Terminator,
     UUID
-} from "@opendaw/lib-std"
-import {BPMTools} from "@opendaw/lib-dsp"
-import {Peaks, SamplePeaks} from "@opendaw/lib-fusion"
+} from "@naomiarotest/lib-std"
+import {BPMTools} from "@naomiarotest/lib-dsp"
+import {Peaks, SamplePeaks} from "@naomiarotest/lib-fusion"
 import {
     AudioData,
     mergeChunkPlanes,
@@ -20,7 +20,7 @@ import {
     SampleLoader,
     SampleLoaderState,
     SampleMetaData
-} from "@opendaw/studio-adapters"
+} from "@naomiarotest/studio-adapters"
 import {SampleStorage} from "./samples"
 import {RenderQuantum} from "./RenderQuantum"
 import {Workers} from "./Workers"

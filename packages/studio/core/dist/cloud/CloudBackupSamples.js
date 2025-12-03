@@ -1,6 +1,6 @@
-import { Arrays, Errors, panic, Progress, RuntimeNotifier, UUID } from "@opendaw/lib-std";
-import { network, Promises } from "@opendaw/lib-runtime";
-import { SamplePeaks } from "@opendaw/lib-fusion";
+import { Arrays, Errors, panic, Progress, RuntimeNotifier, UUID } from "@naomiarotest/lib-std";
+import { network, Promises } from "@naomiarotest/lib-runtime";
+import { SamplePeaks } from "@naomiarotest/lib-fusion";
 import { OpenSampleAPI, SampleStorage } from "../samples";
 import { Workers } from "../Workers";
 import { WavFile } from "../WavFile";

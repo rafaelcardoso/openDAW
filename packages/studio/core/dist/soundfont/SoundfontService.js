@@ -1,6 +1,6 @@
-import { Arrays, Option, panic, RuntimeNotifier, UUID } from "@opendaw/lib-std";
-import { Promises, Wait } from "@opendaw/lib-runtime";
-import { SoundfontFileBox } from "@opendaw/studio-boxes";
+import { Arrays, Option, panic, RuntimeNotifier, UUID } from "@naomiarotest/lib-std";
+import { Promises, Wait } from "@naomiarotest/lib-runtime";
+import { SoundfontFileBox } from "@naomiarotest/studio-boxes";
 import { SoundfontStorage } from "./SoundfontStorage";
 import { FilePickerAcceptTypes } from "../FilePickerAcceptTypes";
 import { OpenSoundfontAPI } from "./OpenSoundfontAPI";

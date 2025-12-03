@@ -1,5 +1,5 @@
-import { RegionCollection } from "@opendaw/lib-dsp";
-import { Observer, SortedSet, Subscription } from "@opendaw/lib-std";
+import { RegionCollection } from "@naomiarotest/lib-dsp";
+import { Observer, SortedSet, Subscription } from "@naomiarotest/lib-std";
 import { TrackBoxAdapter } from "./TrackBoxAdapter";
 import { AnyRegionBoxAdapter } from "../UnionAdapterTypes";
 import { BoxAdapters } from "../BoxAdapters";

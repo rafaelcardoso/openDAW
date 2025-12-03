@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AudioUnitInput_terminator, _AudioUnitInput_labelNotifier, _AudioUnitInput_iconValue, _AudioUnitInput_observable, _AudioUnitInput_subscription;
-import { assert, DefaultObservableValue, Notifier, Option, Terminable, Terminator } from "@opendaw/lib-std";
-import { AudioBusBox } from "@opendaw/studio-boxes";
-import { Pointers } from "@opendaw/studio-enums";
-import { IconSymbol } from "@opendaw/studio-enums";
+import { assert, DefaultObservableValue, Notifier, Option, Terminable, Terminator } from "@naomiarotest/lib-std";
+import { AudioBusBox } from "@naomiarotest/studio-boxes";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { IconSymbol } from "@naomiarotest/studio-enums";
 import { AudioBusBoxAdapter } from "./AudioBusBoxAdapter";
 import { Devices } from "../DeviceAdapter";
 export class AudioUnitInput {

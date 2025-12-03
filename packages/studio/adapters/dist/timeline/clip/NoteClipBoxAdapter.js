@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _NoteClipBoxAdapter_instances, _NoteClipBoxAdapter_terminator, _NoteClipBoxAdapter_context, _NoteClipBoxAdapter_box, _NoteClipBoxAdapter_selectedValue, _NoteClipBoxAdapter_changeNotifier, _NoteClipBoxAdapter_isConstructing, _NoteClipBoxAdapter_eventCollectionSubscription, _NoteClipBoxAdapter_dispatchChange;
-import { DefaultObservableValue, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@opendaw/lib-std";
-import { PPQN } from "@opendaw/lib-dsp";
-import { Propagation } from "@opendaw/lib-box";
-import { NoteClipBox } from "@opendaw/studio-boxes";
+import { DefaultObservableValue, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
+import { PPQN } from "@naomiarotest/lib-dsp";
+import { Propagation } from "@naomiarotest/lib-box";
+import { NoteClipBox } from "@naomiarotest/studio-boxes";
 import { NoteEventCollectionBoxAdapter } from "../collection/NoteEventCollectionBoxAdapter";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 export class NoteClipBoxAdapter {

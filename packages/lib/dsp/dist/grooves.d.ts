@@ -1,5 +1,5 @@
 import { ppqn } from "./ppqn";
-import { Bijective, FloatArray, unitValue } from "@opendaw/lib-std";
+import { Bijective, FloatArray, unitValue } from "@naomiarotest/lib-std";
 export interface GrooveFunction extends Bijective<unitValue, unitValue> {
 }
 export interface GroovePatternFunction extends GrooveFunction {

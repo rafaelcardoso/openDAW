@@ -7,9 +7,9 @@ import {
     Option,
     RuntimeNotifier,
     Terminable
-} from "@opendaw/lib-std"
-import {Promises} from "@opendaw/lib-runtime"
-import {AudioUnitBox, CaptureAudioBox} from "@opendaw/studio-boxes"
+} from "@naomiarotest/lib-std"
+import {Promises} from "@naomiarotest/lib-runtime"
+import {AudioUnitBox, CaptureAudioBox} from "@naomiarotest/studio-boxes"
 import {Capture} from "./Capture"
 import {CaptureDevices} from "./CaptureDevices"
 import {RecordAudio} from "./RecordAudio"

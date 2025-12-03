@@ -1,4 +1,4 @@
-import { int, Observer, Subscription, Terminable } from "@opendaw/lib-std";
+import { int, Observer, Subscription, Terminable } from "@naomiarotest/lib-std";
 export type PeakSchema = {
     peak: Float32Array;
     rms: Float32Array;

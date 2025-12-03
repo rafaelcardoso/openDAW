@@ -1,4 +1,4 @@
-import { isDefined } from "@opendaw/lib-std";
+import { isDefined } from "@naomiarotest/lib-std";
 export class Events {
     static subscribe(eventTarget, type, listener, options) {
         eventTarget.addEventListener(type, listener, options);

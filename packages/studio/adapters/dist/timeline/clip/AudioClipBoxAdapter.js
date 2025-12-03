@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AudioClipBoxAdapter_instances, _AudioClipBoxAdapter_terminator, _AudioClipBoxAdapter_context, _AudioClipBoxAdapter_box, _AudioClipBoxAdapter_selectedValue, _AudioClipBoxAdapter_changeNotifier, _AudioClipBoxAdapter_isConstructing, _AudioClipBoxAdapter_fileAdapter, _AudioClipBoxAdapter_fileSubscription, _AudioClipBoxAdapter_dispatchChange;
-import { PPQN } from "@opendaw/lib-dsp";
-import { DefaultObservableValue, Notifier, Option, safeExecute, Terminator, UUID } from "@opendaw/lib-std";
-import { AudioClipBox } from "@opendaw/studio-boxes";
-import { Propagation } from "@opendaw/lib-box";
+import { PPQN } from "@naomiarotest/lib-dsp";
+import { DefaultObservableValue, Notifier, Option, safeExecute, Terminator, UUID } from "@naomiarotest/lib-std";
+import { AudioClipBox } from "@naomiarotest/studio-boxes";
+import { Propagation } from "@naomiarotest/lib-box";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { AudioFileBoxAdapter } from "../../audio/AudioFileBoxAdapter";
 export class AudioClipBoxAdapter {

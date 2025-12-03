@@ -1,7 +1,7 @@
-import { Maybe, UUID, Procedure } from "@opendaw/lib-std";
-import { Box, BoxGraph, PointerField, Field, Int32Field, BooleanField } from "@opendaw/lib-box";
+import { Maybe, UUID, Procedure } from "@naomiarotest/lib-std";
+import { Box, BoxGraph, PointerField, Field, Int32Field, BooleanField } from "@naomiarotest/lib-box";
 import { BoxVisitor } from ".";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type TrackBoxFields = {
     1: PointerField<Pointers.TrackCollection>;
     2: PointerField<Pointers.Automation>;

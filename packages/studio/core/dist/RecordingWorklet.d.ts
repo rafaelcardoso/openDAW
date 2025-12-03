@@ -1,6 +1,6 @@
-import { int, Observer, Option, Subscription, Terminable, UUID } from "@opendaw/lib-std";
-import { Peaks } from "@opendaw/lib-fusion";
-import { AudioData, RingBuffer, SampleLoader, SampleLoaderState } from "@opendaw/studio-adapters";
+import { int, Observer, Option, Subscription, Terminable, UUID } from "@naomiarotest/lib-std";
+import { Peaks } from "@naomiarotest/lib-fusion";
+import { AudioData, RingBuffer, SampleLoader, SampleLoaderState } from "@naomiarotest/studio-adapters";
 /**
  * Data emitted for each audio chunk during recording.
  * Allows external consumers to process audio in real-time.

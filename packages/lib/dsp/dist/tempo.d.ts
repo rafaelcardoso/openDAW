@@ -1,5 +1,5 @@
 import { bpm, ppqn, seconds } from "./ppqn";
-import { Observable, ObservableValue, Observer, Subscription, Terminable } from "@opendaw/lib-std";
+import { Observable, ObservableValue, Observer, Subscription, Terminable } from "@naomiarotest/lib-std";
 /**
  * Interface for tempo map conversions between musical time (PPQN) and absolute time (seconds/samples).
  * Handles both point conversions and interval conversions (which require integration over a tempo curve).

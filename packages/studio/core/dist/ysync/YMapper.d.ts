@@ -1,4 +1,4 @@
-import { Address, Box } from "@opendaw/lib-box";
+import { Address, Box } from "@naomiarotest/lib-box";
 import * as Y from "yjs";
 export declare namespace YMapper {
     const createBoxMap: (box: Box) => Y.Map<unknown>;

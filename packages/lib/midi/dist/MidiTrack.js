@@ -1,4 +1,4 @@
-import { ArrayMultimap, ByteArrayOutput, isDefined } from "@opendaw/lib-std";
+import { ArrayMultimap, ByteArrayOutput, isDefined } from "@naomiarotest/lib-std";
 import { ControlEvent } from "./ControlEvent";
 import { MetaEvent, MetaType } from "./MetaType";
 import { ControlType } from "./ControlType";

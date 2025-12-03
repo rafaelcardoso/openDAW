@@ -1,7 +1,7 @@
-import { ArrayMultimap, asInstanceOf, isDefined, isInstanceOf, Option } from "@opendaw/lib-std";
-import { AudioUnitType } from "@opendaw/studio-enums";
-import { AudioBusBox, AudioUnitBox } from "@opendaw/studio-boxes";
-import { DeviceBoxUtils } from "@opendaw/studio-adapters";
+import { ArrayMultimap, asInstanceOf, isDefined, isInstanceOf, Option } from "@naomiarotest/lib-std";
+import { AudioUnitType } from "@naomiarotest/studio-enums";
+import { AudioBusBox, AudioUnitBox } from "@naomiarotest/studio-boxes";
+import { DeviceBoxUtils } from "@naomiarotest/studio-adapters";
 export var AudioUnitExportLayout;
 (function (AudioUnitExportLayout) {
     AudioUnitExportLayout.layout = (audioUnits) => {

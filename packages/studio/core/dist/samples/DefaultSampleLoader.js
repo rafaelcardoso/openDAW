@@ -1,6 +1,6 @@
-import { ByteArrayInput, Notifier, Option, Progress, Terminable, UUID } from "@opendaw/lib-std";
-import { Promises } from "@opendaw/lib-runtime";
-import { SamplePeaks } from "@opendaw/lib-fusion";
+import { ByteArrayInput, Notifier, Option, Progress, Terminable, UUID } from "@naomiarotest/lib-std";
+import { Promises } from "@naomiarotest/lib-runtime";
+import { SamplePeaks } from "@naomiarotest/lib-fusion";
 import { Workers } from "../Workers";
 import { SampleStorage } from "./SampleStorage";
 export class DefaultSampleLoader {

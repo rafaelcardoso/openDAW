@@ -1,4 +1,4 @@
-import { BinarySearch, Curve, Iterables, panic } from "@opendaw/lib-std";
+import { BinarySearch, Curve, Iterables, panic } from "@naomiarotest/lib-std";
 export const Interpolation = {
     None: { type: "none" },
     Linear: { type: "linear" },

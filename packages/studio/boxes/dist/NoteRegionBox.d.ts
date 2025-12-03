@@ -1,7 +1,7 @@
-import { Maybe, UUID, Procedure } from "@opendaw/lib-std";
-import { Box, BoxGraph, PointerField, Int32Field, BooleanField, StringField } from "@opendaw/lib-box";
+import { Maybe, UUID, Procedure } from "@naomiarotest/lib-std";
+import { Box, BoxGraph, PointerField, Int32Field, BooleanField, StringField } from "@naomiarotest/lib-box";
 import { BoxVisitor } from ".";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type NoteRegionBoxFields = {
     1: PointerField<Pointers.RegionCollection>;
     2: PointerField<Pointers.NoteEventCollection>;

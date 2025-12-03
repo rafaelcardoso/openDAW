@@ -1,4 +1,4 @@
-import { Arrays, isDefined, isInstanceOf, panic } from "@opendaw/lib-std";
+import { Arrays, isDefined, isInstanceOf, panic } from "@naomiarotest/lib-std";
 import { Address } from "./address";
 import { PointerField } from "./pointer";
 export class GraphEdges {

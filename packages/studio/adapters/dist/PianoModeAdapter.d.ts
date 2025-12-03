@@ -1,5 +1,5 @@
-import { PianoMode } from "@opendaw/studio-boxes";
-import { float, int, Observer, Subscription } from "@opendaw/lib-std";
+import { PianoMode } from "@naomiarotest/studio-boxes";
+import { float, int, Observer, Subscription } from "@naomiarotest/lib-std";
 import { FieldAdapter } from "./FieldAdapter";
 export declare class PianoModeAdapter {
     #private;

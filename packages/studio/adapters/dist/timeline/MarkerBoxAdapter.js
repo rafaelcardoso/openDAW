@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _MarkerBoxAdapter_terminator, _MarkerBoxAdapter_context, _MarkerBoxAdapter_box;
-import { Terminator, UUID } from "@opendaw/lib-std";
-import { Propagation } from "@opendaw/lib-box";
+import { Terminator, UUID } from "@naomiarotest/lib-std";
+import { Propagation } from "@naomiarotest/lib-box";
 import { TimelineBoxAdapter } from "./TimelineBoxAdapter";
 export class MarkerBoxAdapter {
     constructor(context, box) {

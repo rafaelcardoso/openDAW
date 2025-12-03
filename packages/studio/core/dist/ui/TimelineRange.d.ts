@@ -1,4 +1,4 @@
-import { Observer, RangeOptions, Subscription, Terminable, unitValue, ValueAxis } from "@opendaw/lib-std";
+import { Observer, RangeOptions, Subscription, Terminable, unitValue, ValueAxis } from "@naomiarotest/lib-std";
 export declare class TimelineRange implements Terminable {
     #private;
     constructor(options?: RangeOptions);

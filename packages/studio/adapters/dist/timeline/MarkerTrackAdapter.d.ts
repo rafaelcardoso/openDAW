@@ -1,8 +1,8 @@
-import { Notifier, Observer, Subscription, Terminable } from "@opendaw/lib-std";
+import { Notifier, Observer, Subscription, Terminable } from "@naomiarotest/lib-std";
 import { BoxAdaptersContext } from "../BoxAdaptersContext";
-import { EventCollection } from "@opendaw/lib-dsp";
+import { EventCollection } from "@naomiarotest/lib-dsp";
 import { MarkerBoxAdapter } from "./MarkerBoxAdapter";
-import { MarkerTrack } from "@opendaw/studio-boxes";
+import { MarkerTrack } from "@naomiarotest/studio-boxes";
 export declare class MarkerTrackAdapter implements Terminable {
     #private;
     readonly changeNotifier: Notifier<void>;

@@ -1,5 +1,5 @@
 import { BiquadCoeff } from "./biquad-coeff";
-import { int } from "@opendaw/lib-std";
+import { int } from "@naomiarotest/lib-std";
 export interface BiquadProcessor {
     reset(): void;
     process(coeff: BiquadCoeff, source: Float32Array, target: Float32Array, fromIndex: int, toIndex: int): void;

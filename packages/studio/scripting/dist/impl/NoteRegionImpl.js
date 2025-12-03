@@ -1,6 +1,6 @@
-import { PPQN } from "@opendaw/lib-dsp";
+import { PPQN } from "@naomiarotest/lib-dsp";
 import { NoteEventImpl } from "./NoteEventImpl";
-import { ColorCodes, TrackType } from "@opendaw/studio-adapters";
+import { ColorCodes, TrackType } from "@naomiarotest/studio-adapters";
 export class NoteRegionImpl {
     track;
     #events;

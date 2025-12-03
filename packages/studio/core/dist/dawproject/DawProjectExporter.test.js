@@ -2,10 +2,10 @@ import { describe, it } from "vitest";
 import { fileURLToPath } from "url";
 import * as path from "node:path";
 import * as fs from "node:fs";
-import { ProjectSkeleton } from "@opendaw/studio-adapters";
-import { Option, panic, Terminable } from "@opendaw/lib-std";
-import { Xml } from "@opendaw/lib-xml";
-import { FileReferenceSchema } from "@opendaw/lib-dawproject";
+import { ProjectSkeleton } from "@naomiarotest/studio-adapters";
+import { Option, panic, Terminable } from "@naomiarotest/lib-std";
+import { Xml } from "@naomiarotest/lib-xml";
+import { FileReferenceSchema } from "@naomiarotest/lib-dawproject";
 import { DawProjectExporter } from "./DawProjectExporter";
 describe("DawProjectExport", () => {
     it("export", async () => {

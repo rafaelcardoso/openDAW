@@ -1,5 +1,5 @@
 import { Instrument, InstrumentAudioUnit, Instruments } from "../Api";
-import { InstrumentFactories } from "@opendaw/studio-adapters";
+import { InstrumentFactories } from "@naomiarotest/studio-adapters";
 export declare class InstrumentImpl implements Instrument {
     readonly audioUnit: InstrumentAudioUnit;
     readonly name: InstrumentFactories.Keys;

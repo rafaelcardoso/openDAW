@@ -1,5 +1,5 @@
-import { AudioFileBox } from "@opendaw/studio-boxes";
-import { UUID } from "@opendaw/lib-std";
+import { AudioFileBox } from "@naomiarotest/studio-boxes";
+import { UUID } from "@naomiarotest/lib-std";
 export var AudioFileBoxfactory;
 (function (AudioFileBoxfactory) {
     AudioFileBoxfactory.create = (boxGraph, sample) => AudioFileBox.create(boxGraph, UUID.parse(sample.uuid), box => {

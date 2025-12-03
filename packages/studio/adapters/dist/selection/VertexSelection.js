@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _VertexSelection_instances, _VertexSelection_lifeTime, _VertexSelection_entityMap, _VertexSelection_selectableMap, _VertexSelection_listeners, _VertexSelection_target, _VertexSelection_watch;
-import { asInstanceOf, assert, Listeners, Option, Terminator, UUID } from "@opendaw/lib-std";
-import { Address } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
-import { SelectionBox } from "@opendaw/studio-boxes";
+import { asInstanceOf, assert, Listeners, Option, Terminator, UUID } from "@naomiarotest/lib-std";
+import { Address } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { SelectionBox } from "@naomiarotest/studio-boxes";
 import { FilteredSelection } from "./FilteredSelection";
 /**
  * Represents the main selection management within a document.

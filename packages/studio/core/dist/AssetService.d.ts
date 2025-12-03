@@ -1,7 +1,7 @@
-import { Class, Procedure, Progress, UUID } from "@opendaw/lib-std";
-import { BoxGraph } from "@opendaw/lib-box";
-import { Sample, Soundfont } from "@opendaw/studio-adapters";
-import { AudioFileBox, SoundfontFileBox } from "@opendaw/studio-boxes";
+import { Class, Procedure, Progress, UUID } from "@naomiarotest/lib-std";
+import { BoxGraph } from "@naomiarotest/lib-box";
+import { Sample, Soundfont } from "@naomiarotest/studio-adapters";
+import { AudioFileBox, SoundfontFileBox } from "@naomiarotest/studio-boxes";
 export declare namespace AssetService {
     type ImportArgs = {
         uuid?: UUID.Bytes;

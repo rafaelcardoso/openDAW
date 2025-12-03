@@ -1,4 +1,4 @@
-import { AudioUnitBox } from "@opendaw/studio-boxes";
+import { AudioUnitBox } from "@naomiarotest/studio-boxes";
 export declare namespace AudioUnitExportLayout {
     interface Track {
         audioUnit: AudioUnitBox;

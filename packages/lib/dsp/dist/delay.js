@@ -1,4 +1,4 @@
-import { assert, nextPowOf2 } from "@opendaw/lib-std";
+import { assert, nextPowOf2 } from "@naomiarotest/lib-std";
 export class Delay {
     #delaySize;
     #delayBuffer;

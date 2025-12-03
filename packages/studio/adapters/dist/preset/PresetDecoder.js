@@ -1,7 +1,7 @@
-import { asDefined, asInstanceOf, Attempts, ByteArrayInput, isDefined, isInstanceOf, Option, RuntimeNotifier, UUID } from "@opendaw/lib-std";
-import { BoxGraph, PointerField } from "@opendaw/lib-box";
-import { AudioUnitType } from "@opendaw/studio-enums";
-import { AudioFileBox, AudioUnitBox, BoxIO, CaptureAudioBox, CaptureMidiBox, SoundfontFileBox, TrackBox } from "@opendaw/studio-boxes";
+import { asDefined, asInstanceOf, Attempts, ByteArrayInput, isDefined, isInstanceOf, Option, RuntimeNotifier, UUID } from "@naomiarotest/lib-std";
+import { BoxGraph, PointerField } from "@naomiarotest/lib-box";
+import { AudioUnitType } from "@naomiarotest/studio-enums";
+import { AudioFileBox, AudioUnitBox, BoxIO, CaptureAudioBox, CaptureMidiBox, SoundfontFileBox, TrackBox } from "@naomiarotest/studio-boxes";
 import { ProjectSkeleton } from "../project/ProjectSkeleton";
 import { ProjectUtils } from "../project/ProjectUtils";
 import { TrackType } from "../timeline/TrackType";

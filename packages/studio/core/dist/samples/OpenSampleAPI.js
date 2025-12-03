@@ -7,9 +7,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Arrays, asDefined, DefaultObservableValue, Lazy, panic, RuntimeNotifier, tryCatch, UUID } from "@opendaw/lib-std";
-import { network, Promises } from "@opendaw/lib-runtime";
-import { Sample } from "@opendaw/studio-adapters";
+import { Arrays, asDefined, DefaultObservableValue, Lazy, panic, RuntimeNotifier, tryCatch, UUID } from "@naomiarotest/lib-std";
+import { network, Promises } from "@naomiarotest/lib-runtime";
+import { Sample } from "@naomiarotest/studio-adapters";
 import { base64Credentials, OpenDAWHeaders } from "../OpenDAWHeaders";
 import { z } from "zod";
 // Standard openDAW samples (considered to be non-removable)

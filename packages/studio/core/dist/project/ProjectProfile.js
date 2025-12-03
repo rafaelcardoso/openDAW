@@ -1,4 +1,4 @@
-import { EmptyExec, Notifier, Option, UUID } from "@opendaw/lib-std";
+import { EmptyExec, Notifier, Option, UUID } from "@naomiarotest/lib-std";
 import { ProjectMeta } from "./ProjectMeta";
 import { Workers } from "../Workers";
 import { ProjectPaths } from "./ProjectPaths";

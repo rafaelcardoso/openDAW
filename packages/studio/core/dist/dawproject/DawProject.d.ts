@@ -1,6 +1,6 @@
-import { UUID } from "@opendaw/lib-std";
-import { MetaDataSchema, ProjectSchema } from "@opendaw/lib-dawproject";
-import { ProjectSkeleton, SampleLoaderManager } from "@opendaw/studio-adapters";
+import { UUID } from "@naomiarotest/lib-std";
+import { MetaDataSchema, ProjectSchema } from "@naomiarotest/lib-dawproject";
+import { ProjectSkeleton, SampleLoaderManager } from "@naomiarotest/studio-adapters";
 export declare namespace DawProject {
     type Resource = {
         uuid: UUID.Bytes;

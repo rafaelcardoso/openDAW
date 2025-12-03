@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _NanoDeviceBoxAdapter_instances, _NanoDeviceBoxAdapter_context, _NanoDeviceBoxAdapter_box, _NanoDeviceBoxAdapter_parametric, _NanoDeviceBoxAdapter_wrapParameters;
-import { StringMapping, ValueMapping } from "@opendaw/lib-std";
+import { StringMapping, ValueMapping } from "@naomiarotest/lib-std";
 import { Devices } from "../../DeviceAdapter";
 import { ParameterAdapterSet } from "../../ParameterAdapterSet";
 import { TrackType } from "../../timeline/TrackType";

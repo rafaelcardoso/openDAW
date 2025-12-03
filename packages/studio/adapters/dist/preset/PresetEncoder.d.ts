@@ -1,4 +1,4 @@
-import { AudioUnitBox } from "@opendaw/studio-boxes";
+import { AudioUnitBox } from "@naomiarotest/studio-boxes";
 export declare namespace PresetEncoder {
     const encode: (audioUnitBox: AudioUnitBox) => ArrayBufferLike;
 }

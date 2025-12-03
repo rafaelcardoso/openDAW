@@ -1,4 +1,4 @@
-import { Exec, Provider } from "@opendaw/lib-std";
+import { Exec, Provider } from "@naomiarotest/lib-std";
 import { DomElement, JsxValue } from "../types";
 import { Inject } from "../inject";
 export type HotspotUpdater = {

@@ -1,8 +1,8 @@
-import { Errors, isDefined, isNotNull, RuntimeNotifier, Terminator } from "@opendaw/lib-std";
-import { Address } from "@opendaw/lib-box";
-import { MidiData } from "@opendaw/lib-midi";
+import { Errors, isDefined, isNotNull, RuntimeNotifier, Terminator } from "@naomiarotest/lib-std";
+import { Address } from "@naomiarotest/lib-box";
+import { MidiData } from "@naomiarotest/lib-midi";
 import { MidiDevices } from "./MidiDevices";
-import { AnimationFrame } from "@opendaw/lib-dom";
+import { AnimationFrame } from "@naomiarotest/lib-dom";
 export class MIDILearning {
     #terminator = new Terminator();
     #project;

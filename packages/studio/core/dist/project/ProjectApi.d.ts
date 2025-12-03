@@ -1,9 +1,9 @@
-import { float, int, Observer, Option, Subscription } from "@opendaw/lib-std";
-import { ppqn } from "@opendaw/lib-dsp";
-import { Field, PointerField } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
-import { AudioUnitBox, NoteEventBox, NoteEventCollectionBox, NoteRegionBox, TrackBox, ValueRegionBox } from "@opendaw/studio-boxes";
-import { AnyClipBox, AudioUnitBoxAdapter, EffectPointerType, IndexedAdapterCollectionListener, InstrumentBox, InstrumentFactory, InstrumentOptions, InstrumentProduct } from "@opendaw/studio-adapters";
+import { float, int, Observer, Option, Subscription } from "@naomiarotest/lib-std";
+import { ppqn } from "@naomiarotest/lib-dsp";
+import { Field, PointerField } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { AudioUnitBox, NoteEventBox, NoteEventCollectionBox, NoteRegionBox, TrackBox, ValueRegionBox } from "@naomiarotest/studio-boxes";
+import { AnyClipBox, AudioUnitBoxAdapter, EffectPointerType, IndexedAdapterCollectionListener, InstrumentBox, InstrumentFactory, InstrumentOptions, InstrumentProduct } from "@naomiarotest/studio-adapters";
 import { Project } from "./Project";
 import { EffectFactory } from "../EffectFactory";
 import { EffectBox } from "../EffectBox";

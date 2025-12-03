@@ -1,4 +1,4 @@
-import { assert, InaccessibleProperty, isDefined, isNull, Option, RuntimeNotifier, safeExecute, Terminable, TimeSpan } from "@opendaw/lib-std";
+import { assert, InaccessibleProperty, isDefined, isNull, Option, RuntimeNotifier, safeExecute, Terminable, TimeSpan } from "@naomiarotest/lib-std";
 import { Wait } from "./wait";
 export class IntervalRetryOption {
     maxRetry;

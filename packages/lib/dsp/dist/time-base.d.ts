@@ -1,4 +1,4 @@
-import { MutableValueOwner, ValueOwner } from "@opendaw/lib-std";
+import { MutableValueOwner, ValueOwner } from "@naomiarotest/lib-std";
 import { ppqn, samples, seconds } from "./ppqn";
 import { TempoMap } from "./tempo";
 export declare enum TimeBase {

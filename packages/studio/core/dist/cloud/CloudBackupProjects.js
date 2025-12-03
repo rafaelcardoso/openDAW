@@ -1,5 +1,5 @@
-import { Arrays, Errors, isAbsent, Objects, panic, Progress, RuntimeNotifier, TimeSpan, UUID } from "@opendaw/lib-std";
-import { network, Promises } from "@opendaw/lib-runtime";
+import { Arrays, Errors, isAbsent, Objects, panic, Progress, RuntimeNotifier, TimeSpan, UUID } from "@naomiarotest/lib-std";
+import { network, Promises } from "@naomiarotest/lib-runtime";
 import { ProjectStorage } from "../project/ProjectStorage";
 import { Workers } from "../Workers";
 import { ProjectPaths } from "../project/ProjectPaths";

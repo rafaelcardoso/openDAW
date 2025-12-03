@@ -1,6 +1,6 @@
-import { UUID } from "@opendaw/lib-std";
+import { UUID } from "@naomiarotest/lib-std";
 import { Workers } from "./Workers";
-import { Promises } from "@opendaw/lib-runtime";
+import { Promises } from "@naomiarotest/lib-runtime";
 export class Storage {
     folder;
     constructor(folder) {

@@ -1,5 +1,5 @@
-import "@opendaw/lib-std";
-import { ObjectField, FieldConstruct, Int32Field, UnreferenceableType } from "@opendaw/lib-box";
+import "@naomiarotest/lib-std";
+import { ObjectField, FieldConstruct, Int32Field, UnreferenceableType } from "@naomiarotest/lib-box";
 export type SignatureFields = {
     1: Int32Field;
     2: Int32Field;

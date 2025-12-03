@@ -1,6 +1,6 @@
-import { Class, Procedure } from "@opendaw/lib-std";
-import { Box } from "@opendaw/lib-box";
-import { Sample } from "@opendaw/studio-adapters";
+import { Class, Procedure } from "@naomiarotest/lib-std";
+import { Box } from "@naomiarotest/lib-box";
+import { Sample } from "@naomiarotest/studio-adapters";
 import { AssetService } from "../AssetService";
 export declare class SampleService extends AssetService<Sample> {
     readonly audioContext: AudioContext;

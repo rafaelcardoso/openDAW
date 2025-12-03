@@ -1,4 +1,4 @@
-import { DataInput, DataOutput, JSONValue, Maybe, Option, Optional, short } from "@opendaw/lib-std";
+import { DataInput, DataOutput, JSONValue, Maybe, Option, Optional, short } from "@naomiarotest/lib-std";
 import { Address } from "./address";
 import { Box } from "./box";
 import { PointerRules, Vertex, VertexVisitor } from "./vertex";

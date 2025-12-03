@@ -7,8 +7,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { ByteArrayInput, EmptyExec, Lazy, UUID } from "@opendaw/lib-std";
-import { SamplePeaks } from "@opendaw/lib-fusion";
+import { ByteArrayInput, EmptyExec, Lazy, UUID } from "@naomiarotest/lib-std";
+import { SamplePeaks } from "@naomiarotest/lib-fusion";
 import { Workers } from "../Workers";
 import { WavFile } from "../WavFile";
 import { Storage } from "../Storage";

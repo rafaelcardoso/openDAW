@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ParameterFieldAdapters_set;
-import { Address } from "@opendaw/lib-box";
+import { Address } from "@naomiarotest/lib-box";
 export class ParameterFieldAdapters {
     constructor() {
         _ParameterFieldAdapters_set.set(this, void 0);

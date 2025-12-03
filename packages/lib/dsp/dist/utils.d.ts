@@ -1,4 +1,4 @@
-import { unitValue } from "@opendaw/lib-std";
+import { unitValue } from "@naomiarotest/lib-std";
 export declare const midiToHz: (note?: number, baseFrequency?: number) => number;
 export declare const hzToMidi: (hz: number, baseFrequency?: number) => number;
 export declare const dbToGain: (db: number) => number;

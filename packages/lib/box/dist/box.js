@@ -8,7 +8,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Address } from "./address";
-import { Arrays, asDefined, asInstanceOf, ByteArrayOutput, ByteCounter, isDefined, isRecord, Lazy, Option, panic } from "@opendaw/lib-std";
+import { Arrays, asDefined, asInstanceOf, ByteArrayOutput, ByteCounter, isDefined, isRecord, Lazy, Option, panic } from "@naomiarotest/lib-std";
 import { PointerHub } from "./pointer-hub";
 import { Serializer } from "./serializer";
 export class Box {

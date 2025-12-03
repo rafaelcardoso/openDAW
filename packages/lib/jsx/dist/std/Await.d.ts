@@ -1,4 +1,4 @@
-import { Exec, Func, Procedure, Provider } from "@opendaw/lib-std";
+import { Exec, Func, Procedure, Provider } from "@naomiarotest/lib-std";
 import { DomElement, JsxValue } from "../types";
 export type AwaitProps<T> = {
     factory: Provider<Promise<T>>;

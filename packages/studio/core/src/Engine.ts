@@ -7,9 +7,9 @@ import {
     Subscription,
     Terminable,
     UUID
-} from "@opendaw/lib-std"
-import {ppqn} from "@opendaw/lib-dsp"
-import {ClipNotification, NoteSignal} from "@opendaw/studio-adapters"
+} from "@naomiarotest/lib-std"
+import {ppqn} from "@naomiarotest/lib-dsp"
+import {ClipNotification, NoteSignal} from "@naomiarotest/studio-adapters"
 import {Project} from "./project"
 
 export interface Engine extends Terminable {

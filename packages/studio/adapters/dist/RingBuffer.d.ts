@@ -1,4 +1,4 @@
-import { int, Procedure } from "@opendaw/lib-std";
+import { int, Procedure } from "@naomiarotest/lib-std";
 export declare namespace RingBuffer {
     interface Config {
         sab: SharedArrayBuffer;

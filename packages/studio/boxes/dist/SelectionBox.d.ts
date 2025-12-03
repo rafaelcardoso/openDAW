@@ -1,7 +1,7 @@
-import { Maybe, UUID, Procedure } from "@opendaw/lib-std";
-import { Box, BoxGraph, PointerField, UnreferenceableType } from "@opendaw/lib-box";
+import { Maybe, UUID, Procedure } from "@naomiarotest/lib-std";
+import { Box, BoxGraph, PointerField, UnreferenceableType } from "@naomiarotest/lib-box";
 import { BoxVisitor } from ".";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type SelectionBoxFields = {
     1: PointerField<Pointers.Selection>;
     2: PointerField<Pointers.Selection>;

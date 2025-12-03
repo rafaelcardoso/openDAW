@@ -1,6 +1,6 @@
-import { byte, JSONValue, Provider, Terminable } from "@opendaw/lib-std";
-import { Address, AddressJSON, PrimitiveField, PrimitiveValues } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { byte, JSONValue, Provider, Terminable } from "@naomiarotest/lib-std";
+import { Address, AddressJSON, PrimitiveField, PrimitiveValues } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { Project } from "../project";
 export type MIDIConnectionJSON = ({
     type: "control";

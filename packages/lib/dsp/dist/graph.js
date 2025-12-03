@@ -1,4 +1,4 @@
-import { Arrays, asDefined, assert } from "@opendaw/lib-std";
+import { Arrays, asDefined, assert } from "@naomiarotest/lib-std";
 export class Graph {
     #vertices;
     #predecessors;

@@ -1,6 +1,6 @@
-import { UUID } from "@opendaw/lib-std";
-import { VaporisateurDeviceBox } from "@opendaw/studio-boxes";
-import { Address, BooleanField, StringField } from "@opendaw/lib-box";
+import { UUID } from "@naomiarotest/lib-std";
+import { VaporisateurDeviceBox } from "@naomiarotest/studio-boxes";
+import { Address, BooleanField, StringField } from "@naomiarotest/lib-box";
 import { DeviceHost, InstrumentDeviceBoxAdapter } from "../../DeviceAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";
 import { TrackType } from "../../timeline/TrackType";

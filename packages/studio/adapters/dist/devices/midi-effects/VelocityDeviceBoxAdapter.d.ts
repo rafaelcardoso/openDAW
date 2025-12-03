@@ -1,11 +1,11 @@
-import { Pointers } from "@opendaw/studio-enums";
-import { unitValue, UUID } from "@opendaw/lib-std";
-import { Address, BooleanField, Int32Field, PointerField, StringField } from "@opendaw/lib-box";
-import { VelocityDeviceBox } from "@opendaw/studio-boxes";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { unitValue, UUID } from "@naomiarotest/lib-std";
+import { Address, BooleanField, Int32Field, PointerField, StringField } from "@naomiarotest/lib-box";
+import { VelocityDeviceBox } from "@naomiarotest/studio-boxes";
 import { DeviceHost, MidiEffectDeviceAdapter } from "../../DeviceAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";
 import { AudioUnitBoxAdapter } from "../../audio-unit/AudioUnitBoxAdapter";
-import { ppqn } from "@opendaw/lib-dsp";
+import { ppqn } from "@naomiarotest/lib-dsp";
 export declare class VelocityDeviceBoxAdapter implements MidiEffectDeviceAdapter {
     #private;
     readonly type = "midi-effect";

@@ -1,7 +1,7 @@
-import { safeExecute } from "@opendaw/lib-std";
-import { Box, NoPointers, PointerField, Int32Field, BooleanField, StringField, } from "@opendaw/lib-box";
+import { safeExecute } from "@naomiarotest/lib-std";
+import { Box, NoPointers, PointerField, Int32Field, BooleanField, StringField, } from "@naomiarotest/lib-box";
 import { ClipPlaybackFields } from "./ClipPlaybackFields";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export class ValueClipBox extends Box {
     static create(graph, uuid, constructor) {
         return graph.stageBox(new ValueClipBox({

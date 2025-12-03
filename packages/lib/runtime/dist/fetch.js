@@ -1,4 +1,4 @@
-import { asDefined, ByteArrayOutput } from "@opendaw/lib-std";
+import { asDefined, ByteArrayOutput } from "@naomiarotest/lib-std";
 export var Fetch;
 (function (Fetch) {
     Fetch.ProgressArrayBuffer = (progress) => async (response) => {

@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _VelocityDeviceBoxAdapter_instances, _VelocityDeviceBoxAdapter_context, _VelocityDeviceBoxAdapter_box, _VelocityDeviceBoxAdapter_parametric, _VelocityDeviceBoxAdapter_random, _VelocityDeviceBoxAdapter_wrapParameters;
-import { clampUnit, Random, StringMapping, ValueMapping } from "@opendaw/lib-std";
+import { clampUnit, Random, StringMapping, ValueMapping } from "@naomiarotest/lib-std";
 import { Devices } from "../../DeviceAdapter";
 import { ParameterAdapterSet } from "../../ParameterAdapterSet";
 export class VelocityDeviceBoxAdapter {

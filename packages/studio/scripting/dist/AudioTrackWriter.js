@@ -1,8 +1,8 @@
-import { UUID } from "@opendaw/lib-std";
-import { AudioRegionBox, TrackBox, ValueEventCollectionBox } from "@opendaw/studio-boxes";
-import { TrackType } from "@opendaw/studio-adapters";
-import { AudioPlayback } from "@opendaw/studio-enums";
-import { TimeBase } from "@opendaw/lib-dsp";
+import { UUID } from "@naomiarotest/lib-std";
+import { AudioRegionBox, TrackBox, ValueEventCollectionBox } from "@naomiarotest/studio-boxes";
+import { TrackType } from "@naomiarotest/studio-adapters";
+import { AudioPlayback } from "@naomiarotest/studio-enums";
+import { TimeBase } from "@naomiarotest/lib-dsp";
 import { AudioFileBoxfactory } from "./AudioFileBoxfactory";
 export var AudioTrackWriter;
 (function (AudioTrackWriter) {

@@ -1,5 +1,5 @@
-import "@opendaw/lib-std";
-import { ObjectField, NoPointers, BooleanField, Int32Field, } from "@opendaw/lib-box";
+import "@naomiarotest/lib-std";
+import { ObjectField, NoPointers, BooleanField, Int32Field, } from "@naomiarotest/lib-box";
 export class LoopArea extends ObjectField {
     static create(construct) {
         return new LoopArea(construct);

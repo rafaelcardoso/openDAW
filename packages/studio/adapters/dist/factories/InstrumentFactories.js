@@ -1,7 +1,7 @@
-import { AudioFileBox, MIDIOutputDeviceBox, NanoDeviceBox, PlayfieldDeviceBox, PlayfieldSampleBox, SoundfontDeviceBox, SoundfontFileBox, TapeDeviceBox, VaporisateurDeviceBox } from "@opendaw/studio-boxes";
-import { isDefined, UUID } from "@opendaw/lib-std";
-import { ClassicWaveform } from "@opendaw/lib-dsp";
-import { IconSymbol, VoicingMode } from "@opendaw/studio-enums";
+import { AudioFileBox, MIDIOutputDeviceBox, NanoDeviceBox, PlayfieldDeviceBox, PlayfieldSampleBox, SoundfontDeviceBox, SoundfontFileBox, TapeDeviceBox, VaporisateurDeviceBox } from "@naomiarotest/studio-boxes";
+import { isDefined, UUID } from "@naomiarotest/lib-std";
+import { ClassicWaveform } from "@naomiarotest/lib-dsp";
+import { IconSymbol, VoicingMode } from "@naomiarotest/studio-enums";
 import { TrackType } from "../timeline/TrackType";
 export var InstrumentFactories;
 (function (InstrumentFactories) {

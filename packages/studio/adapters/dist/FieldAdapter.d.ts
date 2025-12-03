@@ -1,5 +1,5 @@
-import { MutableObservableValue, Observer, Option, StringMapping, StringResult, Subscription, Terminable, unitValue, ValueMapping } from "@opendaw/lib-std";
-import { Address, PrimitiveField, PrimitiveType, PrimitiveValues } from "@opendaw/lib-box";
+import { MutableObservableValue, Observer, Option, StringMapping, StringResult, Subscription, Terminable, unitValue, ValueMapping } from "@naomiarotest/lib-std";
+import { Address, PrimitiveField, PrimitiveType, PrimitiveValues } from "@naomiarotest/lib-box";
 import { TrackBoxAdapter } from "./timeline/TrackBoxAdapter";
 export declare class FieldAdapter<T extends PrimitiveValues = any> implements MutableObservableValue<T>, Terminable {
     #private;

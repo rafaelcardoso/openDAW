@@ -1,5 +1,5 @@
-import { Option, UUID } from "@opendaw/lib-std";
-import { Promises } from "@opendaw/lib-runtime";
+import { Option, UUID } from "@naomiarotest/lib-std";
+import { Promises } from "@naomiarotest/lib-runtime";
 import { Project, ProjectProfile, Workers } from "../";
 export class Recovery {
     static #RESTORE_FILE_PATH = ".backup";

@@ -1,4 +1,4 @@
-import { INVERSE_SQRT_2 } from "@opendaw/lib-std";
+import { INVERSE_SQRT_2 } from "@naomiarotest/lib-std";
 export var EffectParameterDefaults;
 (function (EffectParameterDefaults) {
     EffectParameterDefaults.defaultRevampDeviceBox = (box) => {

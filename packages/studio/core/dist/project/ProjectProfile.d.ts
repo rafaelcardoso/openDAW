@@ -1,4 +1,4 @@
-import { Observer, Option, Subscription, UUID } from "@opendaw/lib-std";
+import { Observer, Option, Subscription, UUID } from "@naomiarotest/lib-std";
 import { ProjectMeta } from "./ProjectMeta";
 import { Project } from "./Project";
 export declare class ProjectProfile {

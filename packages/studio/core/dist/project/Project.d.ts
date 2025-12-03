@@ -1,8 +1,8 @@
-import { Func, Procedure, Terminable, TerminableOwner, Terminator, UUID } from "@opendaw/lib-std";
-import { BoxEditing, BoxGraph } from "@opendaw/lib-box";
-import { AudioBusBox, AudioUnitBox, BoxIO, RootBox, TimelineBox, UserInterfaceBox } from "@opendaw/studio-boxes";
-import { BoxAdapters, BoxAdaptersContext, ClipSequencing, ParameterFieldAdapters, ProcessorOptions, ProjectSkeleton, RootBoxAdapter, SampleLoaderManager, SoundfontLoaderManager, TimelineBoxAdapter, UserEditingManager, VertexSelection } from "@opendaw/studio-adapters";
-import { LiveStreamBroadcaster, LiveStreamReceiver } from "@opendaw/lib-fusion";
+import { Func, Procedure, Terminable, TerminableOwner, Terminator, UUID } from "@naomiarotest/lib-std";
+import { BoxEditing, BoxGraph } from "@naomiarotest/lib-box";
+import { AudioBusBox, AudioUnitBox, BoxIO, RootBox, TimelineBox, UserInterfaceBox } from "@naomiarotest/studio-boxes";
+import { BoxAdapters, BoxAdaptersContext, ClipSequencing, ParameterFieldAdapters, ProcessorOptions, ProjectSkeleton, RootBoxAdapter, SampleLoaderManager, SoundfontLoaderManager, TimelineBoxAdapter, UserEditingManager, VertexSelection } from "@naomiarotest/studio-adapters";
+import { LiveStreamBroadcaster, LiveStreamReceiver } from "@naomiarotest/lib-fusion";
 import { ProjectEnv } from "./ProjectEnv";
 import { Mixer } from "../Mixer";
 import { ProjectApi } from "./ProjectApi";
@@ -10,7 +10,7 @@ import { CaptureDevices } from "../capture";
 import { EngineFacade } from "../EngineFacade";
 import { EngineWorklet } from "../EngineWorklet";
 import { MIDILearning } from "../midi";
-import { ppqn, TempoMap } from "@opendaw/lib-dsp";
+import { ppqn, TempoMap } from "@naomiarotest/lib-dsp";
 export type RestartWorklet = {
     unload: Func<unknown, Promise<unknown>>;
     load: Procedure<EngineWorklet>;

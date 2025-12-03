@@ -12,11 +12,11 @@ import {
     SyncStream,
     Terminator,
     UUID
-} from "@opendaw/lib-std"
-import {ppqn} from "@opendaw/lib-dsp"
-import {SyncSource} from "@opendaw/lib-box"
-import {AnimationFrame} from "@opendaw/lib-dom"
-import {Communicator, Messenger} from "@opendaw/lib-runtime"
+} from "@naomiarotest/lib-std"
+import {ppqn} from "@naomiarotest/lib-dsp"
+import {SyncSource} from "@naomiarotest/lib-box"
+import {AnimationFrame} from "@naomiarotest/lib-dom"
+import {Communicator, Messenger} from "@naomiarotest/lib-runtime"
 import {
     AudioData,
     ClipNotification,
@@ -29,8 +29,8 @@ import {
     ExportStemsConfiguration,
     NoteSignal,
     ProcessorOptions
-} from "@opendaw/studio-adapters"
-import {BoxIO} from "@opendaw/studio-boxes"
+} from "@naomiarotest/studio-adapters"
+import {BoxIO} from "@naomiarotest/studio-boxes"
 import {Engine} from "./Engine"
 import {Project} from "./project"
 import {MIDIReceiver} from "./midi/MIDIReceiver"

@@ -1,4 +1,4 @@
-import { Progress } from "@opendaw/lib-std";
+import { Progress } from "@naomiarotest/lib-std";
 import type { AcceptedSource, FFmpegWorker } from "./FFmpegWorker";
 import type { FFmpegConverter } from "./FFmpegConverter";
 export type Mp3Options = {

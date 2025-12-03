@@ -1,4 +1,4 @@
-import { ProjectSkeleton } from "@opendaw/studio-adapters";
+import { ProjectSkeleton } from "@naomiarotest/studio-adapters";
 export declare class ProjectMigration {
     static migrate({ boxGraph, mandatoryBoxes }: ProjectSkeleton): void;
 }

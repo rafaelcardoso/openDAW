@@ -1,8 +1,8 @@
-import { ModularBox } from "@opendaw/studio-boxes";
-import { Address, Field, StringField } from "@opendaw/lib-box";
-import { Subscription, UUID } from "@opendaw/lib-std";
+import { ModularBox } from "@naomiarotest/studio-boxes";
+import { Address, Field, StringField } from "@naomiarotest/lib-box";
+import { Subscription, UUID } from "@naomiarotest/lib-std";
 import { ModuleConnectionAdapter } from "./connection";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { ModuleAdapter } from "./module";
 import { BoxAdapter } from "../BoxAdapter";
 import { BoxAdaptersContext } from "../BoxAdaptersContext";

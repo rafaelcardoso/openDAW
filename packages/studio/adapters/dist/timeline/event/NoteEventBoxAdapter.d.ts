@@ -1,8 +1,8 @@
-import { NoteEvent, ppqn } from "@opendaw/lib-dsp";
-import { float, int, Option, Selectable, unitValue, UUID } from "@opendaw/lib-std";
-import { NoteEventBox } from "@opendaw/studio-boxes";
-import { Address, Field } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { NoteEvent, ppqn } from "@naomiarotest/lib-dsp";
+import { float, int, Option, Selectable, unitValue, UUID } from "@naomiarotest/lib-std";
+import { NoteEventBox } from "@naomiarotest/studio-boxes";
+import { Address, Field } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { BoxAdapter } from "../../BoxAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";
 import { NoteEventCollectionBoxAdapter } from "../collection/NoteEventCollectionBoxAdapter";

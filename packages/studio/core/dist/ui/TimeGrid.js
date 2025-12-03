@@ -1,5 +1,5 @@
-import { PPQN } from "@opendaw/lib-dsp";
-import { quantizeFloor } from "@opendaw/lib-std";
+import { PPQN } from "@naomiarotest/lib-dsp";
+import { quantizeFloor } from "@naomiarotest/lib-std";
 export var TimeGrid;
 (function (TimeGrid) {
     TimeGrid.fragment = ([nominator, denominator], range, designer, options) => {

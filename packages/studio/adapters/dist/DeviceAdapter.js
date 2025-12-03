@@ -1,5 +1,5 @@
-import { Arrays, assert, panic, UUID } from "@opendaw/lib-std";
-import { Pointers } from "@opendaw/studio-enums";
+import { Arrays, assert, panic, UUID } from "@naomiarotest/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { TrackType } from "./timeline/TrackType";
 import { DeviceBoxUtils } from "./DeviceBox";
 export var DeviceAccepts;

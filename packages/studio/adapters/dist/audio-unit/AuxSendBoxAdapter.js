@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AuxSendBoxAdapter_context, _AuxSendBoxAdapter_box, _AuxSendBoxAdapter_terminator, _AuxSendBoxAdapter_busChangeNotifier, _AuxSendBoxAdapter_sendPan, _AuxSendBoxAdapter_sendGain, _AuxSendBoxAdapter_subscription;
-import { Notifier, Option, StringMapping, Terminable, Terminator, ValueMapping } from "@opendaw/lib-std";
+import { Notifier, Option, StringMapping, Terminable, Terminator, ValueMapping } from "@naomiarotest/lib-std";
 import { AudioBusBoxAdapter } from "./AudioBusBoxAdapter";
 import { AutomatableParameterFieldAdapter } from "../AutomatableParameterFieldAdapter";
 export class AuxSendBoxAdapter {

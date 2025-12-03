@@ -1,4 +1,4 @@
-import { Class, Maybe } from "@opendaw/lib-std";
+import { Class, Maybe } from "@naomiarotest/lib-std";
 export declare namespace Xml {
     type Meta = {
         type: "class";

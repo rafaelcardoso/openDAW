@@ -1,7 +1,7 @@
-import { safeExecute } from "@opendaw/lib-std";
-import { Box, NoPointers, Field, Float32Field, } from "@opendaw/lib-box";
+import { safeExecute } from "@naomiarotest/lib-std";
+import { Box, NoPointers, Field, Float32Field, } from "@naomiarotest/lib-box";
 import { ModuleAttributes } from "./ModuleAttributes";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export class ModuleDelayBox extends Box {
     static create(graph, uuid, constructor) {
         return graph.stageBox(new ModuleDelayBox({

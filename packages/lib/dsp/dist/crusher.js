@@ -1,4 +1,4 @@
-import { clamp, clampUnit, exponential } from "@opendaw/lib-std";
+import { clamp, clampUnit, exponential } from "@naomiarotest/lib-std";
 import { dbToGain } from "./utils";
 import { BiquadCoeff } from "./biquad-coeff";
 import { BiquadMono } from "./biquad-processor";

@@ -9,9 +9,9 @@ import {
     Subscription,
     Terminator,
     UUID
-} from "@opendaw/lib-std"
-import {ppqn} from "@opendaw/lib-dsp"
-import {ClipNotification, NoteSignal} from "@opendaw/studio-adapters"
+} from "@naomiarotest/lib-std"
+import {ppqn} from "@naomiarotest/lib-dsp"
+import {ClipNotification, NoteSignal} from "@naomiarotest/studio-adapters"
 import {Engine} from "./Engine"
 import {EngineWorklet} from "./EngineWorklet"
 import {Project} from "./project"

@@ -1,5 +1,5 @@
-import { AudioFileBox, MIDIOutputDeviceBox, NanoDeviceBox, PlayfieldDeviceBox, SoundfontDeviceBox, TapeDeviceBox, VaporisateurDeviceBox } from "@opendaw/studio-boxes";
-import { byte, UUID } from "@opendaw/lib-std";
+import { AudioFileBox, MIDIOutputDeviceBox, NanoDeviceBox, PlayfieldDeviceBox, SoundfontDeviceBox, TapeDeviceBox, VaporisateurDeviceBox } from "@naomiarotest/studio-boxes";
+import { byte, UUID } from "@naomiarotest/lib-std";
 import { InstrumentFactory } from "./InstrumentFactory";
 export declare namespace InstrumentFactories {
     const Tape: InstrumentFactory<void, TapeDeviceBox>;

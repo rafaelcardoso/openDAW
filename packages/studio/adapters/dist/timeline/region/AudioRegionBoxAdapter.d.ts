@@ -1,8 +1,8 @@
-import { int, Maybe, Observer, Option, Subscription, UUID } from "@opendaw/lib-std";
-import { ppqn, TimeBase } from "@opendaw/lib-dsp";
-import { Address, Field } from "@opendaw/lib-box";
-import { AudioPlayback, Pointers } from "@opendaw/studio-enums";
-import { AudioRegionBox } from "@opendaw/studio-boxes";
+import { int, Maybe, Observer, Option, Subscription, UUID } from "@naomiarotest/lib-std";
+import { ppqn, TimeBase } from "@naomiarotest/lib-dsp";
+import { Address, Field } from "@naomiarotest/lib-box";
+import { AudioPlayback, Pointers } from "@naomiarotest/studio-enums";
+import { AudioRegionBox } from "@naomiarotest/studio-boxes";
 import { LoopableRegionBoxAdapter, RegionBoxAdapter, RegionBoxAdapterVisitor } from "../RegionBoxAdapter";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";

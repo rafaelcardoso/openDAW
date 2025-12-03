@@ -1,4 +1,4 @@
-import { asDefined } from "@opendaw/lib-std";
+import { asDefined } from "@naomiarotest/lib-std";
 import { AudioRegionBoxAdapter } from "./region/AudioRegionBoxAdapter";
 import { NoteRegionBoxAdapter } from "./region/NoteRegionBoxAdapter";
 import { ValueRegionBoxAdapter } from "./region/ValueRegionBoxAdapter";

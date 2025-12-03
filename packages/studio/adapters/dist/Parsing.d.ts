@@ -1,4 +1,4 @@
-import { Attempt, int } from "@opendaw/lib-std";
+import { Attempt, int } from "@naomiarotest/lib-std";
 export declare namespace Parsing {
     const parseTimeSignature: (input: string) => Attempt<[int, int], string>;
 }

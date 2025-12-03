@@ -1,4 +1,4 @@
-import { byte, ByteArrayInput, int } from "@opendaw/lib-std";
+import { byte, ByteArrayInput, int } from "@naomiarotest/lib-std";
 import { MidiFileFormat } from "./MidiFileFormat";
 export declare class MidiFileDecoder {
     #private;

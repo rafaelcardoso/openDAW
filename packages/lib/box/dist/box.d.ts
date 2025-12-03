@@ -1,5 +1,5 @@
 import { Address } from "./address";
-import { Class, DataInput, DataOutput, Func, int, JSONValue, Maybe, Option, Optional, Procedure, Subscription, UUID } from "@opendaw/lib-std";
+import { Class, DataInput, DataOutput, Func, int, JSONValue, Maybe, Option, Optional, Procedure, Subscription, UUID } from "@naomiarotest/lib-std";
 import { PointerRules, Vertex, VertexVisitor } from "./vertex";
 import { Field, FieldKey, FieldKeys, Fields } from "./field";
 import { PointerField, PointerTypes } from "./pointer";

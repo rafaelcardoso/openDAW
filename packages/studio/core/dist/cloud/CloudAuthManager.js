@@ -1,5 +1,5 @@
-import { asDefined, Errors, isDefined, isNull, Maps, panic, RuntimeNotifier, TimeSpan } from "@opendaw/lib-std";
-import { Promises } from "@opendaw/lib-runtime";
+import { asDefined, Errors, isDefined, isNull, Maps, panic, RuntimeNotifier, TimeSpan } from "@naomiarotest/lib-std";
+import { Promises } from "@naomiarotest/lib-runtime";
 import { DropboxHandler } from "./DropboxHandler";
 import { GoogleDriveHandler } from "./GoogleDriveHandler";
 export class CloudAuthManager {

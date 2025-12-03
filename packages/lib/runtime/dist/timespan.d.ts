@@ -1,4 +1,4 @@
-import { Func, TimeSpan } from "@opendaw/lib-std";
+import { Func, TimeSpan } from "@naomiarotest/lib-std";
 export declare namespace TimeSpanUtils {
     const startEstimator: () => Func<number, TimeSpan>;
 }

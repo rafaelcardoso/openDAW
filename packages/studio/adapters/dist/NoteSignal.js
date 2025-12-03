@@ -1,5 +1,5 @@
-import { panic } from "@opendaw/lib-std";
-import { MidiData } from "@opendaw/lib-midi";
+import { panic } from "@naomiarotest/lib-std";
+import { MidiData } from "@naomiarotest/lib-midi";
 export var NoteSignal;
 (function (NoteSignal) {
     NoteSignal.on = (uuid, pitch, velocity) => ({ type: "note-on", uuid, pitch, velocity });

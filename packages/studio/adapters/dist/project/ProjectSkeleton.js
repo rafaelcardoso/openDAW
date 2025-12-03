@@ -1,7 +1,7 @@
-import { BoxGraph } from "@opendaw/lib-box";
-import { AudioBusBox, AudioUnitBox, BoxIO, CompressorDeviceBox, GrooveShuffleBox, RootBox, TimelineBox, UserInterfaceBox } from "@opendaw/studio-boxes";
-import { asInstanceOf, assert, ByteArrayInput, ByteArrayOutput, isDefined, Option, panic, UUID } from "@opendaw/lib-std";
-import { AudioUnitType, IconSymbol } from "@opendaw/studio-enums";
+import { BoxGraph } from "@naomiarotest/lib-box";
+import { AudioBusBox, AudioUnitBox, BoxIO, CompressorDeviceBox, GrooveShuffleBox, RootBox, TimelineBox, UserInterfaceBox } from "@naomiarotest/studio-boxes";
+import { asInstanceOf, assert, ByteArrayInput, ByteArrayOutput, isDefined, Option, panic, UUID } from "@naomiarotest/lib-std";
+import { AudioUnitType, IconSymbol } from "@naomiarotest/studio-enums";
 export var ProjectSkeleton;
 (function (ProjectSkeleton) {
     const MAGIC_HEADER_OPEN = 0x4F50454E;

@@ -1,5 +1,5 @@
-import { Errors, isDefined, isUndefined, MutableObservableOption, Option, RuntimeNotifier, Terminable } from "@opendaw/lib-std";
-import { Promises } from "@opendaw/lib-runtime";
+import { Errors, isDefined, isUndefined, MutableObservableOption, Option, RuntimeNotifier, Terminable } from "@naomiarotest/lib-std";
+import { Promises } from "@naomiarotest/lib-runtime";
 import { Capture } from "./Capture";
 import { RecordAudio } from "./RecordAudio";
 import { AudioDevices } from "../AudioDevices";

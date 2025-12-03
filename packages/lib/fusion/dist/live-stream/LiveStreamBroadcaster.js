@@ -1,5 +1,5 @@
-import { Arrays, assert, ByteArrayOutput, nextPowOf2, Option, safeExecute } from "@opendaw/lib-std";
-import { Communicator } from "@opendaw/lib-runtime";
+import { Arrays, assert, ByteArrayOutput, nextPowOf2, Option, safeExecute } from "@naomiarotest/lib-std";
+import { Communicator } from "@naomiarotest/lib-runtime";
 import { Lock } from "./Lock";
 import { PackageType } from "./PackageType";
 import { Flags } from "./Flags";

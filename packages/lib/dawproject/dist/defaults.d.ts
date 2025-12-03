@@ -1,4 +1,4 @@
-import type { int } from "@opendaw/lib-std";
+import type { int } from "@naomiarotest/lib-std";
 export interface Nameable {
     name?: string;
     color?: string;

@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _MarkerTrackAdapter_context, _MarkerTrackAdapter_object, _MarkerTrackAdapter_adapters, _MarkerTrackAdapter_events, _MarkerTrackAdapter_subscription;
-import { assert, Notifier, UUID } from "@opendaw/lib-std";
-import { EventCollection } from "@opendaw/lib-dsp";
+import { assert, Notifier, UUID } from "@naomiarotest/lib-std";
+import { EventCollection } from "@naomiarotest/lib-dsp";
 import { MarkerBoxAdapter } from "./MarkerBoxAdapter";
-import { MarkerBox } from "@opendaw/studio-boxes";
+import { MarkerBox } from "@naomiarotest/studio-boxes";
 export class MarkerTrackAdapter {
     constructor(context, object) {
         _MarkerTrackAdapter_context.set(this, void 0);

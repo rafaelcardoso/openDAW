@@ -1,4 +1,4 @@
-import { int } from "@opendaw/lib-std";
+import { int } from "@naomiarotest/lib-std";
 import { TimelineRange } from "./TimelineRange";
 export declare namespace TimeGrid {
     type Signature = [int, int];

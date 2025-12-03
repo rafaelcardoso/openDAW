@@ -1,7 +1,7 @@
-import { AudioFileBox, CaptureAudioBox, CaptureMidiBox, GrooveShuffleBox, MIDIOutputBox, ValueEventCollectionBox, ValueEventCurveBox } from "@opendaw/studio-boxes";
-import { asDefined, asInstanceOf, clamp, Float, UUID } from "@opendaw/lib-std";
-import { AudioPlayback, AudioUnitType } from "@opendaw/studio-enums";
-import { PPQN, TimeBase } from "@opendaw/lib-dsp";
+import { AudioFileBox, CaptureAudioBox, CaptureMidiBox, GrooveShuffleBox, MIDIOutputBox, ValueEventCollectionBox, ValueEventCurveBox } from "@naomiarotest/studio-boxes";
+import { asDefined, asInstanceOf, clamp, Float, UUID } from "@naomiarotest/lib-std";
+import { AudioPlayback, AudioUnitType } from "@naomiarotest/studio-enums";
+import { PPQN, TimeBase } from "@naomiarotest/lib-dsp";
 const isIntEncodedAsFloat = (v) => v > 0 && v < 1e-6 && Number.isFinite(v) && (v / 1.401298464324817e-45) % 1 === 0;
 const toSeconds = (property, bpm) => {
     return PPQN.pulsesToSeconds(property.getValue(), bpm);

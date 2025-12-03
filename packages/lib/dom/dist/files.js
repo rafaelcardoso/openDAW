@@ -1,5 +1,5 @@
-import { Arrays, asDefined, isDefined } from "@opendaw/lib-std";
-import { Promises } from "@opendaw/lib-runtime";
+import { Arrays, asDefined, isDefined } from "@naomiarotest/lib-std";
+import { Promises } from "@naomiarotest/lib-runtime";
 export var Files;
 (function (Files) {
     Files.save = async (arrayBuffer, options) => {

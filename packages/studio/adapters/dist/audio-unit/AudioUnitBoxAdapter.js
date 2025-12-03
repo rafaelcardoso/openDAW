@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AudioUnitBoxAdapter_instances, _a, _AudioUnitBoxAdapter_terminator, _AudioUnitBoxAdapter_context, _AudioUnitBoxAdapter_box, _AudioUnitBoxAdapter_parametric, _AudioUnitBoxAdapter_tracks, _AudioUnitBoxAdapter_input, _AudioUnitBoxAdapter_midiEffects, _AudioUnitBoxAdapter_audioEffects, _AudioUnitBoxAdapter_auxSends, _AudioUnitBoxAdapter_output, _AudioUnitBoxAdapter_wrapParameters, _AudioUnitBoxAdapter_sanityCheck;
-import { assert, StringMapping, Terminator, ValueMapping } from "@opendaw/lib-std";
-import { AudioUnitType, Pointers } from "@opendaw/studio-enums";
+import { assert, StringMapping, Terminator, ValueMapping } from "@naomiarotest/lib-std";
+import { AudioUnitType, Pointers } from "@naomiarotest/studio-enums";
 import { Devices } from "../DeviceAdapter";
 import { AudioUnitTracks } from "./AudioUnitTracks";
 import { AudioUnitInput } from "./AudioUnitInput";

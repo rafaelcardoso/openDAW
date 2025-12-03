@@ -1,5 +1,5 @@
-import "@opendaw/lib-std";
-import { ObjectField, NoPointers, StringField, } from "@opendaw/lib-box";
+import "@naomiarotest/lib-std";
+import { ObjectField, NoPointers, StringField, } from "@naomiarotest/lib-box";
 export class Device extends ObjectField {
     static create(construct) {
         return new Device(construct);

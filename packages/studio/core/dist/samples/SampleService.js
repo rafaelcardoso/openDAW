@@ -1,8 +1,8 @@
-import { Arrays, isUndefined, Progress, UUID } from "@opendaw/lib-std";
-import { estimateBpm } from "@opendaw/lib-dsp";
-import { Promises } from "@opendaw/lib-runtime";
-import { SamplePeaks } from "@opendaw/lib-fusion";
-import { AudioFileBox } from "@opendaw/studio-boxes";
+import { Arrays, isUndefined, Progress, UUID } from "@naomiarotest/lib-std";
+import { estimateBpm } from "@naomiarotest/lib-dsp";
+import { Promises } from "@naomiarotest/lib-runtime";
+import { SamplePeaks } from "@naomiarotest/lib-fusion";
+import { AudioFileBox } from "@naomiarotest/studio-boxes";
 import { AssetService } from "../AssetService";
 import { FilePickerAcceptTypes } from "../FilePickerAcceptTypes";
 import { Workers } from "../Workers";

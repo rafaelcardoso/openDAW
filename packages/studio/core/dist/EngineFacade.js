@@ -1,4 +1,4 @@
-import { DefaultObservableValue, Option, Terminator } from "@opendaw/lib-std";
+import { DefaultObservableValue, Option, Terminator } from "@naomiarotest/lib-std";
 export class EngineFacade {
     #terminator = new Terminator();
     #lifecycle = this.#terminator.own(new Terminator());

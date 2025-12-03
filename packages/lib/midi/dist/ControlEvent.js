@@ -1,4 +1,4 @@
-import { safeExecute } from "@opendaw/lib-std";
+import { safeExecute } from "@naomiarotest/lib-std";
 import { ControlType } from "./ControlType";
 export class ControlEvent {
     ticks;

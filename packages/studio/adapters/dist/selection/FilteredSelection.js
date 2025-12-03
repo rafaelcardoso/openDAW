@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _FilteredSelection_selection, _FilteredSelection_filter, _FilteredSelection_mapping, _FilteredSelection_set, _FilteredSelection_listeners, _FilteredSelection_subscription;
-import { Listeners } from "@opendaw/lib-std";
-import { Address } from "@opendaw/lib-box";
+import { Listeners } from "@naomiarotest/lib-std";
+import { Address } from "@naomiarotest/lib-box";
 export class FilteredSelection {
     constructor(selection, filter, mapping) {
         _FilteredSelection_selection.set(this, void 0);

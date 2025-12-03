@@ -1,6 +1,6 @@
 import { NoteEvent, NoteRegion, NoteRegionProps, NoteTrack } from "../Api";
-import { ppqn } from "@opendaw/lib-dsp";
-import { int } from "@opendaw/lib-std";
+import { ppqn } from "@naomiarotest/lib-dsp";
+import { int } from "@naomiarotest/lib-std";
 import { NoteEventImpl } from "./NoteEventImpl";
 export declare class NoteRegionImpl implements NoteRegion {
     #private;

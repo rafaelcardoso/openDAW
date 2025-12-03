@@ -1,4 +1,4 @@
-import { byte, int, Nullable, ObservableValue, unitValue } from "@opendaw/lib-std";
+import { byte, int, Nullable, ObservableValue, unitValue } from "@naomiarotest/lib-std";
 type OnMidiMessage = Nullable<(this: MIDIInput, ev: MIDIMessageEvent) => any>;
 type OnStateChange = Nullable<(this: MIDIPort, ev: MIDIConnectionEvent) => any>;
 export declare class SoftwareMIDIInput implements MIDIInput {

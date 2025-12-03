@@ -1,7 +1,7 @@
-import { asDefined, isDefined, isNotNull, UUID } from "@opendaw/lib-std";
-import { AudioUnitType, IconSymbol } from "@opendaw/studio-enums";
-import { AudioBusBox, AudioUnitBox, AuxSendBox, TrackBox } from "@opendaw/studio-boxes";
-import { AudioUnitFactory, InstrumentFactories } from "@opendaw/studio-adapters";
+import { asDefined, isDefined, isNotNull, UUID } from "@naomiarotest/lib-std";
+import { AudioUnitType, IconSymbol } from "@naomiarotest/studio-enums";
+import { AudioBusBox, AudioUnitBox, AuxSendBox, TrackBox } from "@naomiarotest/studio-boxes";
+import { AudioUnitFactory, InstrumentFactories } from "@naomiarotest/studio-adapters";
 import { MIDIEffectFactory } from "./MIDIEffectFactory";
 import { AudioEffectFactory } from "./AudioEffectFactory";
 import { NoteTrackWriter } from "./NoteTrackWriter";

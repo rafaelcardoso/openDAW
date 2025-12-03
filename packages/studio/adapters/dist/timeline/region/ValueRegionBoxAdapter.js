@@ -10,12 +10,12 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ValueRegionBoxAdapter_instances, _ValueRegionBoxAdapter_terminator, _ValueRegionBoxAdapter_context, _ValueRegionBoxAdapter_box, _ValueRegionBoxAdapter_changeNotifier, _ValueRegionBoxAdapter_isSelected, _ValueRegionBoxAdapter_isConstructing, _ValueRegionBoxAdapter_eventCollectionSubscription, _ValueRegionBoxAdapter_dispatchChange;
-import { LoopableRegion, PPQN, RegionCollection } from "@opendaw/lib-dsp";
-import { Arrays, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@opendaw/lib-std";
-import { Propagation } from "@opendaw/lib-box";
+import { LoopableRegion, PPQN, RegionCollection } from "@naomiarotest/lib-dsp";
+import { Arrays, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
+import { Propagation } from "@naomiarotest/lib-box";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { ValueEventCollectionBoxAdapter } from "../collection/ValueEventCollectionBoxAdapter";
-import { ValueEventCollectionBox, ValueRegionBox } from "@opendaw/studio-boxes";
+import { ValueEventCollectionBox, ValueRegionBox } from "@naomiarotest/studio-boxes";
 export class ValueRegionBoxAdapter {
     constructor(context, box) {
         _ValueRegionBoxAdapter_instances.add(this);

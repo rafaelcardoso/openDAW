@@ -1,5 +1,5 @@
-import { PitchDeviceBox } from "@opendaw/studio-boxes";
-import { Unhandled, UUID } from "@opendaw/lib-std";
+import { PitchDeviceBox } from "@naomiarotest/studio-boxes";
+import { Unhandled, UUID } from "@naomiarotest/lib-std";
 export class MIDIEffectFactory {
     static write(boxGraph, audioUnitBox, effect) {
         switch (effect.key) {

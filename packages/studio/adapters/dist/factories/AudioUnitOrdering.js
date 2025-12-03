@@ -1,4 +1,4 @@
-import { AudioUnitType } from "@opendaw/studio-enums";
+import { AudioUnitType } from "@naomiarotest/studio-enums";
 export const AudioUnitOrdering = {
     [AudioUnitType.Instrument]: 0,
     [AudioUnitType.Aux]: 1,

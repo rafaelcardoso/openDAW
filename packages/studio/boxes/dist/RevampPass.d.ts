@@ -1,6 +1,6 @@
-import "@opendaw/lib-std";
-import { ObjectField, FieldConstruct, BooleanField, Float32Field, Int32Field, UnreferenceableType } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import "@naomiarotest/lib-std";
+import { ObjectField, FieldConstruct, BooleanField, Float32Field, Int32Field, UnreferenceableType } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type RevampPassFields = {
     1: BooleanField<Pointers.Modulation | Pointers.Automation | Pointers.MidiControl>;
     10: Float32Field<Pointers.Modulation | Pointers.Automation | Pointers.MidiControl>;

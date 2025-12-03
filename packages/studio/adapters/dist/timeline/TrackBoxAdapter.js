@@ -10,16 +10,16 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _TrackBoxAdapter_instances, _TrackBoxAdapter_context, _TrackBoxAdapter_box, _TrackBoxAdapter_terminator, _TrackBoxAdapter_clips, _TrackBoxAdapter_regions, _TrackBoxAdapter_listIndex, _TrackBoxAdapter_catchupAndSubscribeTargetDeviceName, _TrackBoxAdapter_catchupAndSubscribeTargetControlName;
-import { asInstanceOf, DefaultObservableValue, isInstanceOf, Option, panic, Terminable, Terminator } from "@opendaw/lib-std";
-import { StringField } from "@opendaw/lib-box";
-import { UpdateClockRate } from "@opendaw/lib-dsp";
+import { asInstanceOf, DefaultObservableValue, isInstanceOf, Option, panic, Terminable, Terminator } from "@naomiarotest/lib-std";
+import { StringField } from "@naomiarotest/lib-box";
+import { UpdateClockRate } from "@naomiarotest/lib-dsp";
 import { TrackClips } from "./TrackClips";
 import { TrackRegions } from "./TrackRegions";
 import { AudioUnitBoxAdapter } from "../audio-unit/AudioUnitBoxAdapter";
 import { TrackType } from "./TrackType";
 import { ValueClipBoxAdapter } from "./clip/ValueClipBoxAdapter";
 import { ValueRegionBoxAdapter } from "./region/ValueRegionBoxAdapter";
-import { AudioUnitBox } from "@opendaw/studio-boxes";
+import { AudioUnitBox } from "@naomiarotest/studio-boxes";
 export class TrackBoxAdapter {
     constructor(context, box) {
         _TrackBoxAdapter_instances.add(this);

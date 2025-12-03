@@ -1,4 +1,4 @@
-import { Observer, Option, Subscription } from "@opendaw/lib-std";
+import { Observer, Option, Subscription } from "@naomiarotest/lib-std";
 export declare class RouteLocation {
     #private;
     static get(): RouteLocation;

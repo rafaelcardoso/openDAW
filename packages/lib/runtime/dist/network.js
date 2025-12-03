@@ -1,5 +1,5 @@
 import { Promises } from "./promises";
-import { Errors, isAbsent, isInstanceOf } from "@opendaw/lib-std";
+import { Errors, isAbsent, isInstanceOf } from "@naomiarotest/lib-std";
 export var network;
 (function (network) {
     const limit = new Promises.Limit(4);

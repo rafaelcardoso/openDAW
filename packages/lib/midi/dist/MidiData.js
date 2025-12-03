@@ -1,4 +1,4 @@
-import { isNull, safeExecute } from "@opendaw/lib-std";
+import { isNull, safeExecute } from "@naomiarotest/lib-std";
 export var MidiData;
 (function (MidiData) {
     let Command;

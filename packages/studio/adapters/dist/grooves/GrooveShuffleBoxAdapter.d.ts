@@ -1,7 +1,7 @@
-import { Address } from "@opendaw/lib-box";
-import { GrooveShuffleBox } from "@opendaw/studio-boxes";
-import { int, UUID } from "@opendaw/lib-std";
-import { ppqn } from "@opendaw/lib-dsp";
+import { Address } from "@naomiarotest/lib-box";
+import { GrooveShuffleBox } from "@naomiarotest/studio-boxes";
+import { int, UUID } from "@naomiarotest/lib-std";
+import { ppqn } from "@naomiarotest/lib-dsp";
 import { GrooveAdapter } from "./GrooveBoxAdapter";
 import { BoxAdaptersContext } from "../BoxAdaptersContext";
 export declare class GrooveShuffleBoxAdapter implements GrooveAdapter {

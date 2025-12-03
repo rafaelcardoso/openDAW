@@ -1,6 +1,6 @@
 import { ValueEvent, ValueRegion, ValueRegionProps, ValueTrack } from "../Api";
-import { ppqn } from "@opendaw/lib-dsp";
-import { int } from "@opendaw/lib-std";
+import { ppqn } from "@naomiarotest/lib-dsp";
+import { int } from "@naomiarotest/lib-std";
 import { ValueEventImpl } from "./ValueEventImpl";
 export declare class ValueRegionImpl implements ValueRegion {
     #private;

@@ -1,4 +1,4 @@
-import { Comparable, Comparator, DataInput, DataOutput, Func, int, Nullable, SortedSet, UUID } from "@opendaw/lib-std";
+import { Comparable, Comparator, DataInput, DataOutput, Func, int, Nullable, SortedSet, UUID } from "@naomiarotest/lib-std";
 import { FieldKey, FieldKeys } from "./field";
 export type AddressJSON = {
     uuid: Array<int>;

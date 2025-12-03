@@ -1,6 +1,6 @@
 import { RootBox, SelectionBox, UserInterfaceBox, UploadFileBox, TimelineBox, TrackBox, NoteEventBox, NoteEventRepeatBox, NoteEventCollectionBox, NoteRegionBox, NoteClipBox, ValueEventBox, ValueEventCollectionBox, ValueEventCurveBox, ValueRegionBox, ValueClipBox, AudioRegionBox, AudioClipBox, MarkerBox, AudioFileBox, SoundfontFileBox, AudioUnitBox, CaptureAudioBox, CaptureMidiBox, AudioBusBox, AuxSendBox, GrooveShuffleBox, UnknownAudioEffectDeviceBox, UnknownMidiEffectDeviceBox, DeviceInterfaceKnobBox, ModularDeviceBox, StereoToolDeviceBox, CompressorDeviceBox, DelayDeviceBox, CrusherDeviceBox, DattorroReverbDeviceBox, VelocityDeviceBox, FoldDeviceBox, TidalDeviceBox, RevampDeviceBox, ReverbDeviceBox, VaporisateurDeviceBox, MIDIOutputDeviceBox, MIDIOutputBox, MIDIOutputParameterBox, SoundfontDeviceBox, NanoDeviceBox, PlayfieldDeviceBox, PlayfieldSampleBox, TapeDeviceBox, ArpeggioDeviceBox, PitchDeviceBox, ZeitgeistDeviceBox, ModularBox, ModuleConnectionBox, ModularAudioInputBox, ModularAudioOutputBox, ModuleDelayBox, ModuleMultiplierBox, ModuleGainBox } from ".";
-import { Procedure, UUID } from "@opendaw/lib-std";
-import { BoxGraph, Box } from "@opendaw/lib-box";
+import { Procedure, UUID } from "@naomiarotest/lib-std";
+import { BoxGraph, Box } from "@naomiarotest/lib-box";
 export declare namespace BoxIO {
     interface TypeMap {
         RootBox: RootBox;

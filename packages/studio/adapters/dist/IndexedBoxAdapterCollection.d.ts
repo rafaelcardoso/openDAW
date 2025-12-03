@@ -1,6 +1,6 @@
-import { Func, int, Option, Subscription, Terminable, UUID } from "@opendaw/lib-std";
-import { Box, Field, Int32Field } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { Func, int, Option, Subscription, Terminable, UUID } from "@naomiarotest/lib-std";
+import { Box, Field, Int32Field } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { AdapterCollectionListener } from "./BoxAdapterCollection";
 import { BoxAdapter } from "./BoxAdapter";
 export interface IndexedBoxAdapter extends BoxAdapter {

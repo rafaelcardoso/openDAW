@@ -1,10 +1,10 @@
-import { Maybe, UUID, Procedure } from "@opendaw/lib-std";
-import { Box, BoxGraph, Field, Int32Field, Float32Field, UnreferenceableType } from "@opendaw/lib-box";
+import { Maybe, UUID, Procedure } from "@naomiarotest/lib-std";
+import { Box, BoxGraph, Field, Int32Field, Float32Field, UnreferenceableType } from "@naomiarotest/lib-box";
 import { Signature } from "./Signature";
 import { LoopArea } from "./LoopArea";
 import { MarkerTrack } from "./MarkerTrack";
 import { BoxVisitor } from ".";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type TimelineBoxFields = {
     1: Field<Pointers.Timeline>;
     10: Signature;

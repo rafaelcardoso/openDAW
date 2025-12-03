@@ -1,4 +1,4 @@
-import { UUID } from "@opendaw/lib-std";
+import { UUID } from "@naomiarotest/lib-std";
 export declare namespace ProjectPaths {
     const Folder = "projects/v1";
     const ProjectFile = "project.od";

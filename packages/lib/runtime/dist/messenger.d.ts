@@ -1,4 +1,4 @@
-import { Nullable, Observable, Procedure, Terminable } from "@opendaw/lib-std";
+import { Nullable, Observable, Procedure, Terminable } from "@naomiarotest/lib-std";
 export type Port = {
     postMessage(message: any, transfer?: Array<Transferable>): void;
     onmessage: Nullable<Procedure<MessageEvent>>;

@@ -1,5 +1,5 @@
-import { Procedure, unitValue, UUID } from "@opendaw/lib-std";
-import { Soundfont, SoundfontMetaData } from "@opendaw/studio-adapters";
+import { Procedure, unitValue, UUID } from "@naomiarotest/lib-std";
+import { Soundfont, SoundfontMetaData } from "@naomiarotest/studio-adapters";
 export declare class OpenSoundfontAPI {
     #private;
     static readonly ApiRoot = "https://api.opendaw.studio/soundfonts";

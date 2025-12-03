@@ -1,4 +1,4 @@
-import { Arrays, panic } from "@opendaw/lib-std";
+import { Arrays, panic } from "@naomiarotest/lib-std";
 export var WavFile;
 (function (WavFile) {
     const MAGIC_RIFF = 0x46464952;

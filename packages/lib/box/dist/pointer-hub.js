@@ -1,4 +1,4 @@
-import { Iterables, Listeners, Option, panic } from "@opendaw/lib-std";
+import { Iterables, Listeners, Option, panic } from "@naomiarotest/lib-std";
 import { Address } from "./address";
 export class PointerHub {
     static validate(pointer, target) {

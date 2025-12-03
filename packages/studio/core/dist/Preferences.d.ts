@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { Observer, Subscription } from "@opendaw/lib-std";
+import { Observer, Subscription } from "@naomiarotest/lib-std";
 declare const PreferencesSchema: z.ZodObject<{
     "auto-open-clips": z.ZodDefault<z.ZodBoolean>;
     "auto-create-output-compressor": z.ZodDefault<z.ZodBoolean>;

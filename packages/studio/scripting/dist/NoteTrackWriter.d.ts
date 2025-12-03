@@ -1,6 +1,6 @@
 import { NoteTrackImpl } from "./impl";
-import { AudioUnitBox } from "@opendaw/studio-boxes";
-import { BoxGraph } from "@opendaw/lib-box";
+import { AudioUnitBox } from "@naomiarotest/studio-boxes";
+import { BoxGraph } from "@naomiarotest/lib-box";
 import { IndexRef } from "./IndexRef";
 export declare class NoteTrackWriter {
     #private;

@@ -1,5 +1,5 @@
 import { NoteEvent } from "../Api";
-import { ppqn } from "@opendaw/lib-dsp";
+import { ppqn } from "@naomiarotest/lib-dsp";
 export declare class NoteEventImpl implements NoteEvent {
     position: ppqn;
     duration: ppqn;

@@ -1,6 +1,6 @@
-import { Func, int, Subscription, Terminable } from "@opendaw/lib-std";
-import { Box, PointerHub } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { Func, int, Subscription, Terminable } from "@naomiarotest/lib-std";
+import { Box, PointerHub } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { BoxAdapter } from "./BoxAdapter";
 export interface AdapterCollectionListener<ADAPTER extends BoxAdapter> {
     onAdd(adapter: ADAPTER): void;

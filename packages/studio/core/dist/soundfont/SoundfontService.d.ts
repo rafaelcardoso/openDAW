@@ -1,6 +1,6 @@
-import { Class, Option, Procedure } from "@opendaw/lib-std";
-import { Box } from "@opendaw/lib-box";
-import { Soundfont } from "@opendaw/studio-adapters";
+import { Class, Option, Procedure } from "@naomiarotest/lib-std";
+import { Box } from "@naomiarotest/lib-box";
+import { Soundfont } from "@naomiarotest/studio-adapters";
 import { AssetService } from "../AssetService";
 export declare class SoundfontService extends AssetService<Soundfont> {
     #private;

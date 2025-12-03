@@ -1,4 +1,4 @@
-import { int } from "@opendaw/lib-std";
+import { int } from "@naomiarotest/lib-std";
 export declare class CrestFactor {
     #private;
     constructor(sampleRate: number);

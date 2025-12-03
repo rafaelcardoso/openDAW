@@ -1,4 +1,4 @@
-import { RevampDeviceBox } from "@opendaw/studio-boxes";
+import { RevampDeviceBox } from "@naomiarotest/studio-boxes";
 export declare namespace EffectParameterDefaults {
     const defaultRevampDeviceBox: (box: RevampDeviceBox) => void;
 }

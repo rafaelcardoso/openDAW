@@ -10,9 +10,9 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AudioUnitTracks_adapter, _AudioUnitTracks_regionNotifier, _AudioUnitTracks_collection, _AudioUnitTracks_subscriptions, _AudioUnitTracks_subscription;
-import { Notifier, Option, panic, UUID } from "@opendaw/lib-std";
-import { Pointers } from "@opendaw/studio-enums";
-import { TrackBox } from "@opendaw/studio-boxes";
+import { Notifier, Option, panic, UUID } from "@naomiarotest/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { TrackBox } from "@naomiarotest/studio-boxes";
 import { IndexedBoxAdapterCollection } from "../IndexedBoxAdapterCollection";
 import { TrackBoxAdapter } from "../timeline/TrackBoxAdapter";
 export class AudioUnitTracks {

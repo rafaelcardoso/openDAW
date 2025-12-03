@@ -1,5 +1,5 @@
-import { Procedure, Progress, UUID } from "@opendaw/lib-std";
-import { Soundfont } from "@opendaw/studio-adapters";
+import { Procedure, Progress, UUID } from "@naomiarotest/lib-std";
+import { Soundfont } from "@naomiarotest/studio-adapters";
 import { CloudHandler } from "./CloudHandler";
 export declare class CloudBackupSoundfonts {
     #private;

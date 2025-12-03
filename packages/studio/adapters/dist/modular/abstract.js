@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AbstractModuleAdapter_context, _AbstractModuleAdapter_box, _AbstractModuleAdapter_terminator, _AbstractModuleAdapter_attributes, _AbstractModuleAdapter_parameters, _AbstractModuleAdapter_selected;
-import { Terminator } from "@opendaw/lib-std";
+import { Terminator } from "@naomiarotest/lib-std";
 import { ParameterAdapterSet } from "../ParameterAdapterSet";
 import { ModularAdapter } from "./modular";
 export class AbstractModuleAdapter {

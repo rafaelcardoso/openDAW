@@ -1,4 +1,4 @@
-import { byte, Observer, Subscription } from "@opendaw/lib-std";
+import { byte, Observer, Subscription } from "@naomiarotest/lib-std";
 export declare class MIDIMessageSubscriber {
     static subscribeMessageEvents(access: MIDIAccess, observer: Observer<MIDIMessageEvent>, channel?: byte): Subscription;
 }

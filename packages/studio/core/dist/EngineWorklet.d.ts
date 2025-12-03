@@ -1,6 +1,6 @@
-import { int, MutableObservableValue, Nullable, ObservableValue, Observer, Subscription, UUID } from "@opendaw/lib-std";
-import { ppqn } from "@opendaw/lib-dsp";
-import { ClipNotification, ExportStemsConfiguration, NoteSignal, ProcessorOptions } from "@opendaw/studio-adapters";
+import { int, MutableObservableValue, Nullable, ObservableValue, Observer, Subscription, UUID } from "@naomiarotest/lib-std";
+import { ppqn } from "@naomiarotest/lib-dsp";
+import { ClipNotification, ExportStemsConfiguration, NoteSignal, ProcessorOptions } from "@naomiarotest/studio-adapters";
 import { Engine } from "./Engine";
 import { Project } from "./project";
 export declare class EngineWorklet extends AudioWorkletNode implements Engine {

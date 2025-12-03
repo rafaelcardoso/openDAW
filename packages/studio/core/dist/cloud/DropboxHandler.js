@@ -1,5 +1,5 @@
-import { Errors, isDefined, Option, panic } from "@opendaw/lib-std";
-import { Promises } from "@opendaw/lib-runtime";
+import { Errors, isDefined, Option, panic } from "@naomiarotest/lib-std";
+import { Promises } from "@naomiarotest/lib-runtime";
 export class DropboxHandler {
     #accessToken;
     #dropboxClient = Option.None;

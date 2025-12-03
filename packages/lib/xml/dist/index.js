@@ -1,4 +1,4 @@
-import { asDefined, assert, isDefined, panic, WeakMaps } from "@opendaw/lib-std";
+import { asDefined, assert, isDefined, panic, WeakMaps } from "@naomiarotest/lib-std";
 export var Xml;
 (function (Xml) {
     const ClassMap = new Map();

@@ -1,4 +1,4 @@
-import { int } from "@opendaw/lib-std";
+import { int } from "@naomiarotest/lib-std";
 import { ppqn } from "./ppqn";
 export declare class Fragmentor {
     static iterate(p0: ppqn, p1: ppqn, stepSize: ppqn): Generator<ppqn>;

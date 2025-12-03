@@ -1,7 +1,7 @@
-import { assert, ByteArrayInput, ByteArrayOutput, panic, UUID } from "@opendaw/lib-std";
-import { PointerField } from "@opendaw/lib-box";
-import { AudioFileBox } from "@opendaw/studio-boxes";
-import { DeviceBoxUtils } from "@opendaw/studio-adapters";
+import { assert, ByteArrayInput, ByteArrayOutput, panic, UUID } from "@naomiarotest/lib-std";
+import { PointerField } from "@naomiarotest/lib-box";
+import { AudioFileBox } from "@naomiarotest/studio-boxes";
+import { DeviceBoxUtils } from "@naomiarotest/studio-adapters";
 export var DeviceIO;
 (function (DeviceIO) {
     DeviceIO.exportDevice = (box) => {

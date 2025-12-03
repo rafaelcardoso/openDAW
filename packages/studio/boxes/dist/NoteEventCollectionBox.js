@@ -1,6 +1,6 @@
-import { safeExecute } from "@opendaw/lib-std";
-import { Box, Field } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { safeExecute } from "@naomiarotest/lib-std";
+import { Box, Field } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export class NoteEventCollectionBox extends Box {
     static create(graph, uuid, constructor) {
         return graph.stageBox(new NoteEventCollectionBox({

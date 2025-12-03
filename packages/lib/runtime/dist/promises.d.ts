@@ -1,4 +1,4 @@
-import { Exec, Func, int, Provider, RuntimeNotification, Terminable, TerminableOwner, TimeSpan } from "@opendaw/lib-std";
+import { Exec, Func, int, Provider, RuntimeNotification, Terminable, TerminableOwner, TimeSpan } from "@naomiarotest/lib-std";
 export type Resolve<T> = (value: T) => void;
 export type Reject = (reason?: unknown) => void;
 export type ExecutorTuple<T> = {

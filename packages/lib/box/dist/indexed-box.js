@@ -1,4 +1,4 @@
-import { clamp, panic } from "@opendaw/lib-std";
+import { clamp, panic } from "@naomiarotest/lib-std";
 import { Int32Field } from "./primitive";
 export var IndexedBox;
 (function (IndexedBox) {

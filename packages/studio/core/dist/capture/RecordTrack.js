@@ -1,5 +1,5 @@
-import { TrackBox } from "@opendaw/studio-boxes";
-import { asInstanceOf, UUID } from "@opendaw/lib-std";
+import { TrackBox } from "@naomiarotest/studio-boxes";
+import { asInstanceOf, UUID } from "@naomiarotest/lib-std";
 export var RecordTrack;
 (function (RecordTrack) {
     RecordTrack.findOrCreate = (editing, audioUnitBox, type) => {

@@ -1,5 +1,5 @@
-import { FileReferenceSchema, ProjectSchema } from "@opendaw/lib-dawproject";
-import { ProjectSkeleton, SampleLoaderManager } from "@opendaw/studio-adapters";
+import { FileReferenceSchema, ProjectSchema } from "@naomiarotest/lib-dawproject";
+import { ProjectSkeleton, SampleLoaderManager } from "@naomiarotest/studio-adapters";
 export declare namespace DawProjectExporter {
     interface ResourcePacker {
         write(path: string, buffer: ArrayBufferLike): FileReferenceSchema;

@@ -1,4 +1,4 @@
-import { assert, ByteArrayInput, ByteArrayOutput, isUndefined, tryCatch } from "@opendaw/lib-std";
+import { assert, ByteArrayInput, ByteArrayOutput, isUndefined, tryCatch } from "@naomiarotest/lib-std";
 export var Serializer;
 (function (Serializer) {
     const MAGIC_HEADER = 0x464c4453;

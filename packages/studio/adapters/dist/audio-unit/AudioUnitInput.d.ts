@@ -1,6 +1,6 @@
-import { DefaultObservableValue, ObservableValue, Observer, Option, Terminable } from "@opendaw/lib-std";
-import { PointerHub } from "@opendaw/lib-box";
-import { IconSymbol } from "@opendaw/studio-enums";
+import { DefaultObservableValue, ObservableValue, Observer, Option, Terminable } from "@naomiarotest/lib-std";
+import { PointerHub } from "@naomiarotest/lib-box";
+import { IconSymbol } from "@naomiarotest/studio-enums";
 import { AudioUnitInputAdapter } from "./AudioUnitInputAdapter";
 import { BoxAdapters } from "../BoxAdapters";
 export declare class AudioUnitInput implements ObservableValue<Option<AudioUnitInputAdapter>>, Terminable {

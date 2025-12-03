@@ -1,4 +1,4 @@
-import { mod, panic } from "@opendaw/lib-std";
+import { mod, panic } from "@naomiarotest/lib-std";
 import { UnionAdapterTypes } from "../UnionAdapterTypes";
 export var RegionEditing;
 (function (RegionEditing) {

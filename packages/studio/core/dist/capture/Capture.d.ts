@@ -1,6 +1,6 @@
-import { MutableObservableValue, Option, Terminable, UUID } from "@opendaw/lib-std";
-import { AudioUnitBox } from "@opendaw/studio-boxes";
-import { CaptureBox } from "@opendaw/studio-adapters";
+import { MutableObservableValue, Option, Terminable, UUID } from "@naomiarotest/lib-std";
+import { AudioUnitBox } from "@naomiarotest/studio-boxes";
+import { CaptureBox } from "@naomiarotest/studio-adapters";
 import { CaptureDevices } from "./CaptureDevices";
 export declare abstract class Capture<BOX extends CaptureBox = CaptureBox> implements Terminable {
     #private;

@@ -10,9 +10,9 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _TrackRegions_trackBoxAdapter, _TrackRegions_terminator, _TrackRegions_changeNotifier, _TrackRegions_regionsListeners, _TrackRegions_collection, _TrackRegions_adapters;
-import { RegionCollection } from "@opendaw/lib-dsp";
-import { assert, Listeners, Notifier, Terminator, UUID } from "@opendaw/lib-std";
-import { Pointers } from "@opendaw/studio-enums";
+import { RegionCollection } from "@naomiarotest/lib-dsp";
+import { assert, Listeners, Notifier, Terminator, UUID } from "@naomiarotest/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { RegionAdapters, RegionComparator } from "./RegionBoxAdapter";
 export class TrackRegions {
     constructor(adapter, boxAdapters) {

@@ -1,4 +1,4 @@
-import { int, Progress } from "@opendaw/lib-std";
+import { int, Progress } from "@naomiarotest/lib-std";
 export declare namespace network {
     const limitFetch: (input: RequestInfo | URL, init?: RequestInit) => Promise<Response>;
     const DefaultRetry: (reason: unknown, count: int) => boolean;

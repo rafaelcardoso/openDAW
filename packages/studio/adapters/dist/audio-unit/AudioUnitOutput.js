@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AudioUnitOutput_pointerField, _AudioUnitOutput_boxAdapters, _AudioUnitOutput_terminator, _AudioUnitOutput_busChangeNotifier, _AudioUnitOutput_subscription;
-import { Notifier, Option, Terminable, Terminator } from "@opendaw/lib-std";
+import { Notifier, Option, Terminable, Terminator } from "@naomiarotest/lib-std";
 import { AudioBusBoxAdapter } from "./AudioBusBoxAdapter";
 export class AudioUnitOutput {
     constructor(pointerField, boxAdapters) {

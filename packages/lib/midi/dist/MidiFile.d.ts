@@ -1,4 +1,4 @@
-import { ByteArrayOutput } from "@opendaw/lib-std";
+import { ByteArrayOutput } from "@naomiarotest/lib-std";
 import { MidiTrack } from "./MidiTrack";
 import { MidiFileDecoder } from "./MidiFileDecoder";
 export declare namespace MidiFile {

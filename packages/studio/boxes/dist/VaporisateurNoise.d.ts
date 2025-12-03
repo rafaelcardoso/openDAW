@@ -1,6 +1,6 @@
-import "@opendaw/lib-std";
-import { ObjectField, FieldConstruct, Float32Field, UnreferenceableType } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import "@naomiarotest/lib-std";
+import { ObjectField, FieldConstruct, Float32Field, UnreferenceableType } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type VaporisateurNoiseFields = {
     1: Float32Field<Pointers.Modulation | Pointers.Automation | Pointers.MidiControl>;
     2: Float32Field<Pointers.Modulation | Pointers.Automation | Pointers.MidiControl>;

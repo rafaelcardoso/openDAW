@@ -1,4 +1,4 @@
-import { asDefined, assert, isDefined, Iterables, panic } from "@opendaw/lib-std";
+import { asDefined, assert, isDefined, Iterables, panic } from "@naomiarotest/lib-std";
 /**
  * Communicator provides type-safe communication between Window, Worker, MessagePort, BroadcastChannel.
  * Passed objects are structured cloned: https://developer.mozilla.org/en-US/docs/Web/API/structuredClone

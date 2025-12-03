@@ -10,12 +10,12 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ValueClipBoxAdapter_instances, _ValueClipBoxAdapter_terminator, _ValueClipBoxAdapter_context, _ValueClipBoxAdapter_box, _ValueClipBoxAdapter_selectedValue, _ValueClipBoxAdapter_changeNotifier, _ValueClipBoxAdapter_isConstructing, _ValueClipBoxAdapter_eventCollectionSubscription, _ValueClipBoxAdapter_dispatchChange;
-import { PPQN } from "@opendaw/lib-dsp";
-import { DefaultObservableValue, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@opendaw/lib-std";
-import { Propagation } from "@opendaw/lib-box";
+import { PPQN } from "@naomiarotest/lib-dsp";
+import { DefaultObservableValue, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
+import { Propagation } from "@naomiarotest/lib-box";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { ValueEventCollectionBoxAdapter } from "../collection/ValueEventCollectionBoxAdapter";
-import { ValueClipBox } from "@opendaw/studio-boxes";
+import { ValueClipBox } from "@naomiarotest/studio-boxes";
 export class ValueClipBoxAdapter {
     constructor(context, box) {
         _ValueClipBoxAdapter_instances.add(this);

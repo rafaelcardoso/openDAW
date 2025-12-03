@@ -1,6 +1,6 @@
-import "@opendaw/lib-std";
-import { ObjectField, FieldConstruct, Int32Field, Float32Field, BooleanField, UnreferenceableType } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import "@naomiarotest/lib-std";
+import { ObjectField, FieldConstruct, Int32Field, Float32Field, BooleanField, UnreferenceableType } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type VaporisateurLFOFields = {
     1: Int32Field<Pointers.Modulation | Pointers.Automation | Pointers.MidiControl>;
     2: Float32Field<Pointers.Modulation | Pointers.Automation | Pointers.MidiControl>;

@@ -1,7 +1,7 @@
-import { Arrays, assert, ByteArrayInput, isDefined, Option, panic, Terminable } from "@opendaw/lib-std";
-import { Address } from "@opendaw/lib-box";
-import { AnimationFrame } from "@opendaw/lib-dom";
-import { Communicator } from "@opendaw/lib-runtime";
+import { Arrays, assert, ByteArrayInput, isDefined, Option, panic, Terminable } from "@naomiarotest/lib-std";
+import { Address } from "@naomiarotest/lib-box";
+import { AnimationFrame } from "@naomiarotest/lib-dom";
+import { Communicator } from "@naomiarotest/lib-runtime";
 import { PackageType } from "./PackageType";
 import { Subscribers } from "./Subscribers";
 import { Lock } from "./Lock";

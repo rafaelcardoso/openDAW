@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _UserEditingManager_terminator, _UserEditingManager_modularSystem, _UserEditingManager_timeline, _UserEditingManager_audioUnit;
-import { Terminator } from "@opendaw/lib-std";
+import { Terminator } from "@naomiarotest/lib-std";
 import { UserEditing } from "./UserEditing";
 export class UserEditingManager {
     constructor(editing) {

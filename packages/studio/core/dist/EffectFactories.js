@@ -1,6 +1,6 @@
-import { UUID } from "@opendaw/lib-std";
-import { ArpeggioDeviceBox, CompressorDeviceBox, CrusherDeviceBox, DattorroReverbDeviceBox, DelayDeviceBox, FoldDeviceBox, GrooveShuffleBox, ModularAudioInputBox, ModularAudioOutputBox, ModularBox, ModularDeviceBox, ModuleConnectionBox, PitchDeviceBox, RevampDeviceBox, ReverbDeviceBox, StereoToolDeviceBox, TidalDeviceBox, VelocityDeviceBox, ZeitgeistDeviceBox } from "@opendaw/studio-boxes";
-import { IconSymbol } from "@opendaw/studio-enums";
+import { UUID } from "@naomiarotest/lib-std";
+import { ArpeggioDeviceBox, CompressorDeviceBox, CrusherDeviceBox, DattorroReverbDeviceBox, DelayDeviceBox, FoldDeviceBox, GrooveShuffleBox, ModularAudioInputBox, ModularAudioOutputBox, ModularBox, ModularDeviceBox, ModuleConnectionBox, PitchDeviceBox, RevampDeviceBox, ReverbDeviceBox, StereoToolDeviceBox, TidalDeviceBox, VelocityDeviceBox, ZeitgeistDeviceBox } from "@naomiarotest/studio-boxes";
+import { IconSymbol } from "@naomiarotest/studio-enums";
 import { EffectParameterDefaults } from "./EffectParameterDefaults";
 export var EffectFactories;
 (function (EffectFactories) {

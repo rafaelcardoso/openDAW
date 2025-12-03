@@ -1,6 +1,6 @@
-import { AudioUnitType } from "@opendaw/studio-enums";
+import { AudioUnitType } from "@naomiarotest/studio-enums";
 import { TrackType } from "../timeline/TrackType";
-import { Color } from "@opendaw/lib-std";
+import { Color } from "@naomiarotest/lib-std";
 export declare namespace ColorCodes {
     const forAudioType: (type?: AudioUnitType) => Color;
     const forTrackType: (type?: TrackType) => number;

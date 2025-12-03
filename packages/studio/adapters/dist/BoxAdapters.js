@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _BoxAdapters_instances, _BoxAdapters_context, _BoxAdapters_adapters, _BoxAdapters_deleted, _BoxAdapters_terminable, _BoxAdapters_create;
-import { asDefined, assert, isDefined, panic, UUID } from "@opendaw/lib-std";
+import { asDefined, assert, isDefined, panic, UUID } from "@naomiarotest/lib-std";
 import { AudioUnitBoxAdapter } from "./audio-unit/AudioUnitBoxAdapter";
 import { DelayDeviceBoxAdapter } from "./devices/audio-effects/DelayDeviceBoxAdapter";
 import { ReverbDeviceBoxAdapter } from "./devices/audio-effects/ReverbDeviceBoxAdapter";

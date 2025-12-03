@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _BoxAdapterCollection_entries, _BoxAdapterCollection_listeners, _BoxAdapterCollection_subscription;
-import { assert, Listeners, UUID } from "@opendaw/lib-std";
+import { assert, Listeners, UUID } from "@naomiarotest/lib-std";
 export class BoxAdapterCollection {
     constructor(pointerHub, provider, pointers) {
         _BoxAdapterCollection_entries.set(this, void 0);

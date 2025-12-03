@@ -1,4 +1,4 @@
-import { Exec, Subscription } from "@opendaw/lib-std";
+import { Exec, Subscription } from "@naomiarotest/lib-std";
 export declare namespace Runtime {
     const debounce: (exec: Exec, timeout?: number) => void;
     const scheduleInterval: (exec: Exec, time: number, ...args: Array<any>) => Subscription;

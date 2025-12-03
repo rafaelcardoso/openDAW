@@ -1,4 +1,4 @@
-import { clamp, PI_QUART } from "@opendaw/lib-std";
+import { clamp, PI_QUART } from "@naomiarotest/lib-std";
 import { Mixing } from "./mixing";
 export var StereoMatrix;
 (function (StereoMatrix) {

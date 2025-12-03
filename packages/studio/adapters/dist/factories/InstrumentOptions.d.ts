@@ -1,5 +1,5 @@
-import { IconSymbol } from "@opendaw/studio-enums";
-import { int } from "@opendaw/lib-std";
+import { IconSymbol } from "@naomiarotest/studio-enums";
+import { int } from "@naomiarotest/lib-std";
 export type InstrumentOptions<T = never> = {
     name?: string;
     icon?: IconSymbol;

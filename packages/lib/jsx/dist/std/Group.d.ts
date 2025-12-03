@@ -1,5 +1,5 @@
 import { JsxValue } from "../types";
-import { Procedure } from "@opendaw/lib-std";
+import { Procedure } from "@naomiarotest/lib-std";
 export declare const Group: ({ onInit }: {
     onInit?: Procedure<HTMLDivElement>;
 }, children: ReadonlyArray<JsxValue>) => any;

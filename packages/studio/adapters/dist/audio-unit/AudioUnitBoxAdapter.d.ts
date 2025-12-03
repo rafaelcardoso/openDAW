@@ -1,7 +1,7 @@
-import { AudioUnitBox, CaptureAudioBox, CaptureMidiBox } from "@opendaw/studio-boxes";
-import { int, Option, UUID, ValueMapping } from "@opendaw/lib-std";
-import { Address, BooleanField, Field, Int32Field } from "@opendaw/lib-box";
-import { AudioUnitType, Pointers } from "@opendaw/studio-enums";
+import { AudioUnitBox, CaptureAudioBox, CaptureMidiBox } from "@naomiarotest/studio-boxes";
+import { int, Option, UUID, ValueMapping } from "@naomiarotest/lib-std";
+import { Address, BooleanField, Field, Int32Field } from "@naomiarotest/lib-box";
+import { AudioUnitType, Pointers } from "@naomiarotest/studio-enums";
 import { AudioEffectDeviceAdapter, DeviceHost, MidiEffectDeviceAdapter } from "../DeviceAdapter";
 import { AudioUnitTracks } from "./AudioUnitTracks";
 import { AudioUnitInput } from "./AudioUnitInput";

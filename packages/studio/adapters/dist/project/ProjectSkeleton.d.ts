@@ -1,5 +1,5 @@
-import { BoxGraph } from "@opendaw/lib-box";
-import { BoxIO } from "@opendaw/studio-boxes";
+import { BoxGraph } from "@naomiarotest/lib-box";
+import { BoxIO } from "@naomiarotest/studio-boxes";
 import { ProjectMandatoryBoxes } from "./ProjectMandatoryBoxes";
 export type ProjectSkeleton = {
     boxGraph: BoxGraph<BoxIO.TypeMap>;

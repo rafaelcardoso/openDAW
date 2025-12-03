@@ -1,4 +1,4 @@
-import { tryCatch } from "@opendaw/lib-std";
+import { tryCatch } from "@naomiarotest/lib-std";
 export var Wait;
 (function (Wait) {
     Wait.frame = () => new Promise(resolve => requestAnimationFrame(() => resolve()));

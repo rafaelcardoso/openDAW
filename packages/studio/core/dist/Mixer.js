@@ -1,6 +1,6 @@
-import { Arrays, asDefined, EmptyExec, Terminable, Terminator, UUID } from "@opendaw/lib-std";
-import { Pointers } from "@opendaw/studio-enums";
-import { deferNextFrame } from "@opendaw/lib-dom";
+import { Arrays, asDefined, EmptyExec, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { deferNextFrame } from "@naomiarotest/lib-dom";
 export class Mixer {
     #terminator = new Terminator();
     #states;

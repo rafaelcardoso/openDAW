@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _NoteEventCollectionBoxAdapter_instances, _NoteEventCollectionBoxAdapter_terminator, _NoteEventCollectionBoxAdapter_context, _NoteEventCollectionBoxAdapter_box, _NoteEventCollectionBoxAdapter_changeNotifier, _NoteEventCollectionBoxAdapter_adapters, _NoteEventCollectionBoxAdapter_events, _NoteEventCollectionBoxAdapter_minPitch, _NoteEventCollectionBoxAdapter_maxPitch, _NoteEventCollectionBoxAdapter_maxDuration, _NoteEventCollectionBoxAdapter_computedExtremas, _NoteEventCollectionBoxAdapter_onEventsChanged, _NoteEventCollectionBoxAdapter_computeExtremas;
-import { NoteEventBox, NoteEventCollectionBox } from "@opendaw/studio-boxes";
-import { asDefined, Intervals, Iterables, Notifier, Terminator, UUID } from "@opendaw/lib-std";
-import { EventCollection, NoteEvent } from "@opendaw/lib-dsp";
-import { Pointers } from "@opendaw/studio-enums";
+import { NoteEventBox, NoteEventCollectionBox } from "@naomiarotest/studio-boxes";
+import { asDefined, Intervals, Iterables, Notifier, Terminator, UUID } from "@naomiarotest/lib-std";
+import { EventCollection, NoteEvent } from "@naomiarotest/lib-dsp";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { NoteEventBoxAdapter } from "../event/NoteEventBoxAdapter";
 export class NoteEventCollectionBoxAdapter {
     constructor(context, box) {

@@ -1,6 +1,6 @@
-import { asDefined, isDefined, panic, UUID } from "@opendaw/lib-std";
-import { Xml } from "@opendaw/lib-xml";
-import { FileReferenceSchema, MetaDataSchema, ProjectSchema } from "@opendaw/lib-dawproject";
+import { asDefined, isDefined, panic, UUID } from "@naomiarotest/lib-std";
+import { Xml } from "@naomiarotest/lib-xml";
+import { FileReferenceSchema, MetaDataSchema, ProjectSchema } from "@naomiarotest/lib-dawproject";
 import { DawProjectExporter } from "./DawProjectExporter";
 import { ExternalLib } from "../ExternalLib";
 export var DawProject;

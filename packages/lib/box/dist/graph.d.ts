@@ -1,4 +1,4 @@
-import { Exec, int, JSONValue, Option, Optional, Predicate, Procedure, Subscription, UUID } from "@opendaw/lib-std";
+import { Exec, int, JSONValue, Option, Optional, Predicate, Procedure, Subscription, UUID } from "@naomiarotest/lib-std";
 import { Address } from "./address";
 import { Vertex } from "./vertex";
 import { PointerField } from "./pointer";

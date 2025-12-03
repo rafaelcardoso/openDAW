@@ -1,7 +1,7 @@
-import { Option, quantizeCeil, quantizeFloor, Terminator, UUID } from "@opendaw/lib-std";
-import { PPQN } from "@opendaw/lib-dsp";
-import { NoteEventBox, NoteEventCollectionBox, NoteRegionBox } from "@opendaw/studio-boxes";
-import { ColorCodes, NoteSignal, TrackType } from "@opendaw/studio-adapters";
+import { Option, quantizeCeil, quantizeFloor, Terminator, UUID } from "@naomiarotest/lib-std";
+import { PPQN } from "@naomiarotest/lib-dsp";
+import { NoteEventBox, NoteEventCollectionBox, NoteRegionBox } from "@naomiarotest/studio-boxes";
+import { ColorCodes, NoteSignal, TrackType } from "@naomiarotest/studio-adapters";
 import { RecordTrack } from "./RecordTrack";
 export var RecordMidi;
 (function (RecordMidi) {

@@ -1,4 +1,4 @@
-import { Comparator, Func, int, Nullable, Option, Predicate, unitValue } from "@opendaw/lib-std";
+import { Comparator, Func, int, Nullable, Option, Predicate, unitValue } from "@naomiarotest/lib-std";
 import { ppqn } from "./ppqn";
 export interface Event {
     readonly type: string;

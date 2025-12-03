@@ -1,4 +1,4 @@
-import { isDefined, Option } from "@opendaw/lib-std";
+import { isDefined, Option } from "@naomiarotest/lib-std";
 import { WeakRefSet } from "./weak";
 export var Inject;
 (function (Inject) {

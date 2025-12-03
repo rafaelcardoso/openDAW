@@ -1,6 +1,6 @@
-import { Pointers } from "@opendaw/studio-enums";
-import { BooleanField, Int32Field, PointerField, StringField } from "@opendaw/lib-box";
-import { isDefined, isInstanceOf, panic } from "@opendaw/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { BooleanField, Int32Field, PointerField, StringField } from "@naomiarotest/lib-box";
+import { isDefined, isInstanceOf, panic } from "@naomiarotest/lib-std";
 export var DeviceBoxUtils;
 (function (DeviceBoxUtils) {
     DeviceBoxUtils.isDeviceBox = (box) => "host" in box && isInstanceOf(box.host, PointerField) &&

@@ -1,10 +1,10 @@
-import { ArrayMultimap, asDefined, asInstanceOf, assert, Color, ifDefined, isDefined, isInstanceOf, isUndefined, NumberComparator, Option, panic, UUID, ValueMapping } from "@opendaw/lib-std";
-import { BoxGraph } from "@opendaw/lib-box";
-import { gainToDb, PPQN } from "@opendaw/lib-dsp";
-import { ChannelRole, ClipsSchema, DeviceRole, EqualizerSchema, LanesSchema, NotesSchema, PointsSchema, SendType, TrackSchema, WarpsSchema } from "@opendaw/lib-dawproject";
-import { AudioSendRouting, AudioUnitType, IconSymbol } from "@opendaw/studio-enums";
-import { AudioBusBox, AudioFileBox, AudioRegionBox, AudioUnitBox, AuxSendBox, BoxIO, CaptureAudioBox, CaptureMidiBox, GrooveShuffleBox, NoteEventBox, NoteEventCollectionBox, NoteRegionBox, RootBox, TimelineBox, TrackBox, UnknownAudioEffectDeviceBox, UnknownMidiEffectDeviceBox, UserInterfaceBox, ValueEventCollectionBox } from "@opendaw/studio-boxes";
-import { AudioUnitOrdering, ColorCodes, DeviceBoxUtils, InstrumentFactories, TrackType } from "@opendaw/studio-adapters";
+import { ArrayMultimap, asDefined, asInstanceOf, assert, Color, ifDefined, isDefined, isInstanceOf, isUndefined, NumberComparator, Option, panic, UUID, ValueMapping } from "@naomiarotest/lib-std";
+import { BoxGraph } from "@naomiarotest/lib-box";
+import { gainToDb, PPQN } from "@naomiarotest/lib-dsp";
+import { ChannelRole, ClipsSchema, DeviceRole, EqualizerSchema, LanesSchema, NotesSchema, PointsSchema, SendType, TrackSchema, WarpsSchema } from "@naomiarotest/lib-dawproject";
+import { AudioSendRouting, AudioUnitType, IconSymbol } from "@naomiarotest/studio-enums";
+import { AudioBusBox, AudioFileBox, AudioRegionBox, AudioUnitBox, AuxSendBox, BoxIO, CaptureAudioBox, CaptureMidiBox, GrooveShuffleBox, NoteEventBox, NoteEventCollectionBox, NoteRegionBox, RootBox, TimelineBox, TrackBox, UnknownAudioEffectDeviceBox, UnknownMidiEffectDeviceBox, UserInterfaceBox, ValueEventCollectionBox } from "@naomiarotest/studio-boxes";
+import { AudioUnitOrdering, ColorCodes, DeviceBoxUtils, InstrumentFactories, TrackType } from "@naomiarotest/studio-adapters";
 import { DeviceIO } from "./DeviceIO";
 import { BuiltinDevices } from "./BuiltinDevices";
 export var DawProjectImport;

@@ -1,5 +1,5 @@
-import { BoxGraph } from "@opendaw/lib-box";
-import { Attempt, int } from "@opendaw/lib-std";
+import { BoxGraph } from "@naomiarotest/lib-box";
+import { Attempt, int } from "@naomiarotest/lib-std";
 export declare namespace Validator {
     const isTimeSignatureValid: (numerator: int, denominator: int) => Attempt<[int, int], string>;
     const MIN_BPM = 30;

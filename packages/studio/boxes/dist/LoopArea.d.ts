@@ -1,5 +1,5 @@
-import "@opendaw/lib-std";
-import { ObjectField, FieldConstruct, BooleanField, Int32Field, UnreferenceableType } from "@opendaw/lib-box";
+import "@naomiarotest/lib-std";
+import { ObjectField, FieldConstruct, BooleanField, Int32Field, UnreferenceableType } from "@naomiarotest/lib-box";
 export type LoopAreaFields = {
     1: BooleanField;
     2: Int32Field;

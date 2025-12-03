@@ -1,6 +1,6 @@
-import { UUID } from "@opendaw/lib-std";
-import { ProjectSchema } from "@opendaw/lib-dawproject";
-import { ProjectSkeleton } from "@opendaw/studio-adapters";
+import { UUID } from "@naomiarotest/lib-std";
+import { ProjectSchema } from "@naomiarotest/lib-dawproject";
+import { ProjectSkeleton } from "@naomiarotest/studio-adapters";
 import { DawProject } from "./DawProject";
 export declare namespace DawProjectImport {
     type Result = {

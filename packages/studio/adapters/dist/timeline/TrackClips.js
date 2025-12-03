@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _TrackClips_trackBoxAdapter, _TrackClips_terminator, _TrackClips_changeNotifier, _TrackClips_collection;
-import { Pointers } from "@opendaw/studio-enums";
-import { Notifier, Terminator } from "@opendaw/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { Notifier, Terminator } from "@naomiarotest/lib-std";
 import { IndexedBoxAdapterCollection } from "../IndexedBoxAdapterCollection";
 import { ClipAdapters } from "./ClipBoxAdapter";
 export class TrackClips {

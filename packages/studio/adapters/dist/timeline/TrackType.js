@@ -1,4 +1,4 @@
-import { IconSymbol } from "@opendaw/studio-enums";
+import { IconSymbol } from "@naomiarotest/studio-enums";
 export var TrackType;
 (function (TrackType) {
     TrackType[TrackType["Undefined"] = 0] = "Undefined";

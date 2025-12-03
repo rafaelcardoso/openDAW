@@ -1,7 +1,7 @@
-import { Pointers } from "@opendaw/studio-enums";
-import { PlayfieldSampleBox } from "@opendaw/studio-boxes";
-import { int, Option, UUID } from "@opendaw/lib-std";
-import { Address, BooleanField, Field, Int32Field, StringField } from "@opendaw/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { PlayfieldSampleBox } from "@naomiarotest/studio-boxes";
+import { int, Option, UUID } from "@naomiarotest/lib-std";
+import { Address, BooleanField, Field, Int32Field, StringField } from "@naomiarotest/lib-box";
 import { AudioEffectDeviceAdapter, DeviceAccepts, DeviceHost, InstrumentDeviceBoxAdapter, MidiEffectDeviceAdapter } from "../../../DeviceAdapter";
 import { IndexedBoxAdapter, IndexedBoxAdapterCollection } from "../../../IndexedBoxAdapterCollection";
 import { BoxAdaptersContext } from "../../../BoxAdaptersContext";

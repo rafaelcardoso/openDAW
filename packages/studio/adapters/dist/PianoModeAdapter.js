@@ -10,9 +10,9 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _PianoModeAdapter_object, _PianoModeAdapter_keyboard, _PianoModeAdapter_timeRangeInQuarters, _PianoModeAdapter_noteScale, _PianoModeAdapter_noteLabels, _PianoModeAdapter_transpose;
-import { StringMapping, ValueMapping } from "@opendaw/lib-std";
+import { StringMapping, ValueMapping } from "@naomiarotest/lib-std";
 import { FieldAdapter } from "./FieldAdapter";
-import { Propagation } from "@opendaw/lib-box";
+import { Propagation } from "@naomiarotest/lib-box";
 export class PianoModeAdapter {
     constructor(object) {
         _PianoModeAdapter_object.set(this, void 0);

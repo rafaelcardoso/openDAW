@@ -1,4 +1,4 @@
-import { Arrays } from "@opendaw/lib-std";
+import { Arrays } from "@naomiarotest/lib-std";
 export var Chord;
 (function (Chord) {
     Chord.Major = [0, 2, 4, 5, 7, 9, 11];

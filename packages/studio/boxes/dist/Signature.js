@@ -1,5 +1,5 @@
-import "@opendaw/lib-std";
-import { ObjectField, NoPointers, Int32Field, } from "@opendaw/lib-box";
+import "@naomiarotest/lib-std";
+import { ObjectField, NoPointers, Int32Field, } from "@naomiarotest/lib-box";
 export class Signature extends ObjectField {
     static create(construct) {
         return new Signature(construct);

@@ -1,6 +1,6 @@
-import { Observer, Option, Subscription, Terminable } from "@opendaw/lib-std";
-import { PointerField } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { Observer, Option, Subscription, Terminable } from "@naomiarotest/lib-std";
+import { PointerField } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { BoxAdapters } from "../BoxAdapters";
 import { AudioBusBoxAdapter } from "./AudioBusBoxAdapter";
 export declare class AudioUnitOutput implements Terminable {

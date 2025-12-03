@@ -1,4 +1,4 @@
-import { isDefined, Terminable } from "@opendaw/lib-std";
+import { isDefined, Terminable } from "@naomiarotest/lib-std";
 import { Commit } from "./Commit";
 export class SyncLogWriter {
     static attach(project, observer, lastCommit) {

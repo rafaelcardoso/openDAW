@@ -1,14 +1,14 @@
-import { int, Observer, Option, Subscription, unitValue, UUID } from "@opendaw/lib-std";
-import { Address, BooleanField, Int32Field, PointerField } from "@opendaw/lib-box";
-import { ppqn } from "@opendaw/lib-dsp";
+import { int, Observer, Option, Subscription, unitValue, UUID } from "@naomiarotest/lib-std";
+import { Address, BooleanField, Int32Field, PointerField } from "@naomiarotest/lib-box";
+import { ppqn } from "@naomiarotest/lib-dsp";
 import { BoxAdapter } from "../BoxAdapter";
 import { BoxAdaptersContext } from "../BoxAdaptersContext";
 import { TrackClips } from "./TrackClips";
 import { TrackRegions } from "./TrackRegions";
 import { TrackType } from "./TrackType";
 import { AnyClipBoxAdapter, AnyRegionBoxAdapter } from "../UnionAdapterTypes";
-import { AudioUnitBox, TrackBox } from "@opendaw/studio-boxes";
-import { Pointers } from "@opendaw/studio-enums";
+import { AudioUnitBox, TrackBox } from "@naomiarotest/studio-boxes";
+import { Pointers } from "@naomiarotest/studio-enums";
 export declare class TrackBoxAdapter implements BoxAdapter {
     #private;
     constructor(context: BoxAdaptersContext, box: TrackBox);

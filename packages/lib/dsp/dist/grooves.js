@@ -1,4 +1,4 @@
-import { assert, BinarySearch, NumberComparator, quantizeFloor } from "@opendaw/lib-std";
+import { assert, BinarySearch, NumberComparator, quantizeFloor } from "@naomiarotest/lib-std";
 export var Groove;
 (function (Groove) {
     Groove.Identity = {

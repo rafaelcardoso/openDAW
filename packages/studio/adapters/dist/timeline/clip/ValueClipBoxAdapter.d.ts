@@ -1,11 +1,11 @@
-import { EventCollection, ppqn } from "@opendaw/lib-dsp";
-import { int, Maybe, ObservableValue, Observer, Option, Subscription, unitValue, UUID } from "@opendaw/lib-std";
-import { Address, Int32Field } from "@opendaw/lib-box";
+import { EventCollection, ppqn } from "@naomiarotest/lib-dsp";
+import { int, Maybe, ObservableValue, Observer, Option, Subscription, unitValue, UUID } from "@naomiarotest/lib-std";
+import { Address, Int32Field } from "@naomiarotest/lib-box";
 import { ClipBoxAdapter, ClipBoxAdapterVisitor } from "../ClipBoxAdapter";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { ValueEventCollectionBoxAdapter } from "../collection/ValueEventCollectionBoxAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";
-import { ValueClipBox } from "@opendaw/studio-boxes";
+import { ValueClipBox } from "@naomiarotest/studio-boxes";
 import { ValueEventBoxAdapter } from "../event/ValueEventBoxAdapter";
 export declare class ValueClipBoxAdapter implements ClipBoxAdapter<ValueEventCollectionBoxAdapter> {
     #private;

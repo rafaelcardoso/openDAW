@@ -1,5 +1,5 @@
-import { Notifier, Option, Terminable, UUID } from "@opendaw/lib-std";
-import { Promises } from "@opendaw/lib-runtime";
+import { Notifier, Option, Terminable, UUID } from "@naomiarotest/lib-std";
+import { Promises } from "@naomiarotest/lib-runtime";
 import { SoundfontStorage } from "./SoundfontStorage";
 import { ExternalLib } from "../ExternalLib";
 export class DefaultSoundfontLoader {

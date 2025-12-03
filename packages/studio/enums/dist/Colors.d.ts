@@ -1,4 +1,4 @@
-import { Color } from "@opendaw/lib-std";
+import { Color } from "@naomiarotest/lib-std";
 export declare const Colors: {
     white: Color;
     blue: Color;

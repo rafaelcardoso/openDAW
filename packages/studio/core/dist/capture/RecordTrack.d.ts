@@ -1,6 +1,6 @@
-import { AudioUnitBox, TrackBox } from "@opendaw/studio-boxes";
-import { TrackType } from "@opendaw/studio-adapters";
-import { BoxEditing } from "@opendaw/lib-box";
+import { AudioUnitBox, TrackBox } from "@naomiarotest/studio-boxes";
+import { TrackType } from "@naomiarotest/studio-adapters";
+import { BoxEditing } from "@naomiarotest/lib-box";
 export declare namespace RecordTrack {
     const findOrCreate: (editing: BoxEditing, audioUnitBox: AudioUnitBox, type: TrackType) => TrackBox;
 }

@@ -1,6 +1,6 @@
-import { Address, Box, Int32Field } from "@opendaw/lib-box";
-import { float, Observer, Option, Subscription, UUID } from "@opendaw/lib-std";
-import { AuxSendBox } from "@opendaw/studio-boxes";
+import { Address, Box, Int32Field } from "@naomiarotest/lib-box";
+import { float, Observer, Option, Subscription, UUID } from "@naomiarotest/lib-std";
+import { AuxSendBox } from "@naomiarotest/studio-boxes";
 import { BoxAdapter } from "../BoxAdapter";
 import { AudioBusBoxAdapter } from "./AudioBusBoxAdapter";
 import { BoxAdaptersContext } from "../BoxAdaptersContext";

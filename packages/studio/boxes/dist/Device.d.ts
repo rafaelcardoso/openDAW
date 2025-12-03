@@ -1,5 +1,5 @@
-import "@opendaw/lib-std";
-import { ObjectField, FieldConstruct, StringField, UnreferenceableType } from "@opendaw/lib-box";
+import "@naomiarotest/lib-std";
+import { ObjectField, FieldConstruct, StringField, UnreferenceableType } from "@naomiarotest/lib-box";
 export type DeviceFields = {
     1: StringField;
     2: StringField;

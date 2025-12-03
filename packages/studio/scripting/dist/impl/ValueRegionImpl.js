@@ -1,5 +1,5 @@
 import { ValueEventImpl } from "./ValueEventImpl";
-import { ColorCodes, TrackType } from "@opendaw/studio-adapters";
+import { ColorCodes, TrackType } from "@naomiarotest/studio-adapters";
 export class ValueRegionImpl {
     track;
     #events;

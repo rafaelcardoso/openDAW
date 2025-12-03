@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _GrooveShuffleBoxAdapter_instances, _a, _GrooveShuffleBoxAdapter_terminator, _GrooveShuffleBoxAdapter_context, _GrooveShuffleBoxAdapter_box, _GrooveShuffleBoxAdapter_parametric, _GrooveShuffleBoxAdapter_groove, _GrooveShuffleBoxAdapter_amount, _GrooveShuffleBoxAdapter_duration, _GrooveShuffleBoxAdapter_wrapParameters;
-import { moebiusEase, squashUnit, StringMapping, Terminator, ValueMapping } from "@opendaw/lib-std";
-import { GroovePattern, PPQN } from "@opendaw/lib-dsp";
+import { moebiusEase, squashUnit, StringMapping, Terminator, ValueMapping } from "@naomiarotest/lib-std";
+import { GroovePattern, PPQN } from "@naomiarotest/lib-dsp";
 import { ParameterAdapterSet } from "../ParameterAdapterSet";
 export class GrooveShuffleBoxAdapter {
     constructor(context, box) {

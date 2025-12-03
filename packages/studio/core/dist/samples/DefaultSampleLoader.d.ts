@@ -1,6 +1,6 @@
-import { Observer, Option, Subscription, UUID } from "@opendaw/lib-std";
-import { Peaks } from "@opendaw/lib-fusion";
-import { AudioData, SampleLoader, SampleLoaderState, SampleMetaData } from "@opendaw/studio-adapters";
+import { Observer, Option, Subscription, UUID } from "@naomiarotest/lib-std";
+import { Peaks } from "@naomiarotest/lib-fusion";
+import { AudioData, SampleLoader, SampleLoaderState, SampleMetaData } from "@naomiarotest/studio-adapters";
 import { DefaultSampleLoaderManager } from "./DefaultSampleLoaderManager";
 export declare class DefaultSampleLoader implements SampleLoader {
     #private;

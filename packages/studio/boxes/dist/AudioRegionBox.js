@@ -1,6 +1,6 @@
-import { safeExecute } from "@opendaw/lib-std";
-import { Box, NoPointers, PointerField, StringField, Int32Field, Float32Field, BooleanField, } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { safeExecute } from "@naomiarotest/lib-std";
+import { Box, NoPointers, PointerField, StringField, Int32Field, Float32Field, BooleanField, } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export class AudioRegionBox extends Box {
     static create(graph, uuid, constructor) {
         return graph.stageBox(new AudioRegionBox({

@@ -1,4 +1,4 @@
-import { Notifier, panic, Range, Terminator } from "@opendaw/lib-std";
+import { Notifier, panic, Range, Terminator } from "@naomiarotest/lib-std";
 export class TimelineRange {
     #terminator;
     #range;

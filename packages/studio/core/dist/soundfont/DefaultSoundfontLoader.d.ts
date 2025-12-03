@@ -1,5 +1,5 @@
-import { Observer, Option, Subscription, UUID } from "@opendaw/lib-std";
-import { SoundfontLoader, SoundfontLoaderState, SoundfontMetaData } from "@opendaw/studio-adapters";
+import { Observer, Option, Subscription, UUID } from "@naomiarotest/lib-std";
+import { SoundfontLoader, SoundfontLoaderState, SoundfontMetaData } from "@naomiarotest/studio-adapters";
 import { DefaultSoundfontLoaderManager } from "./DefaultSoundfontLoaderManager";
 import type { SoundFont2 } from "soundfont2";
 export declare class DefaultSoundfontLoader implements SoundfontLoader {

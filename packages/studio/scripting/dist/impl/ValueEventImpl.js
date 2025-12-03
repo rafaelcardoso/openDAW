@@ -1,4 +1,4 @@
-import { Interpolation } from "@opendaw/lib-dsp";
+import { Interpolation } from "@naomiarotest/lib-dsp";
 export class ValueEventImpl {
     position;
     value;

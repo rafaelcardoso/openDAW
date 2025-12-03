@@ -1,5 +1,5 @@
-import { Arrays, isDefined } from "@opendaw/lib-std";
-import { Address } from "@opendaw/lib-box";
+import { Arrays, isDefined } from "@naomiarotest/lib-std";
+import { Address } from "@naomiarotest/lib-box";
 export class Subscribers {
     #subscribers;
     constructor() { this.#subscribers = Address.newSet(entry => entry.address); }

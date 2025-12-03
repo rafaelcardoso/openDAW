@@ -1,4 +1,4 @@
-import { ByteArrayInput, ByteArrayOutput } from "@opendaw/lib-std";
+import { ByteArrayInput, ByteArrayOutput } from "@naomiarotest/lib-std";
 import { Chunk } from "./Chunk";
 import { MidiFileDecoder } from "./MidiFileDecoder";
 export var MidiFile;

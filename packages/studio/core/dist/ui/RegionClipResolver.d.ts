@@ -1,6 +1,6 @@
-import { Exec, int } from "@opendaw/lib-std";
-import { Event, ppqn } from "@opendaw/lib-dsp";
-import { AnyRegionBoxAdapter, TrackBoxAdapter } from "@opendaw/studio-adapters";
+import { Exec, int } from "@naomiarotest/lib-std";
+import { Event, ppqn } from "@naomiarotest/lib-dsp";
+import { AnyRegionBoxAdapter, TrackBoxAdapter } from "@naomiarotest/studio-adapters";
 import { RegionModifyStrategies } from "./RegionModifyStrategies";
 export type ClipTask = {
     type: "delete";

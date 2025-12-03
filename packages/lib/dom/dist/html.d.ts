@@ -1,4 +1,4 @@
-import { int, RGBA, Subscription } from "@opendaw/lib-std";
+import { int, RGBA, Subscription } from "@naomiarotest/lib-std";
 export declare namespace Html {
     const parse: (source: string) => HTMLOrSVGElement & Element;
     const empty: (element: Element) => void;

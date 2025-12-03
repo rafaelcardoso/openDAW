@@ -1,5 +1,5 @@
-import { Arrays, EmptyExec, panic, Terminator } from "@opendaw/lib-std";
-import { Communicator } from "@opendaw/lib-runtime";
+import { Arrays, EmptyExec, panic, Terminator } from "@naomiarotest/lib-std";
+import { Communicator } from "@naomiarotest/lib-runtime";
 export class SyncSource {
     static DEBUG_CHECKSUM = false;
     #terminator;

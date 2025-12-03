@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ModularAudioOutputAdapter_voltageInput;
-import { Arrays } from "@opendaw/lib-std";
+import { Arrays } from "@naomiarotest/lib-std";
 import { AbstractModuleAdapter } from "../abstract";
 import { Direction, ModuleConnectorAdapter } from "../connector";
 export class ModularAudioOutputAdapter extends AbstractModuleAdapter {

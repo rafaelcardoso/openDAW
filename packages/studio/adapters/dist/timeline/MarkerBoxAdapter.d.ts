@@ -1,7 +1,7 @@
-import { Comparator, int, Option, UUID } from "@opendaw/lib-std";
-import { Address } from "@opendaw/lib-box";
-import { Event } from "@opendaw/lib-dsp";
-import { MarkerBox } from "@opendaw/studio-boxes";
+import { Comparator, int, Option, UUID } from "@naomiarotest/lib-std";
+import { Address } from "@naomiarotest/lib-box";
+import { Event } from "@naomiarotest/lib-dsp";
+import { MarkerBox } from "@naomiarotest/studio-boxes";
 import { BoxAdapter } from "../BoxAdapter";
 import { BoxAdaptersContext } from "../BoxAdaptersContext";
 import { MarkerTrackAdapter } from "./MarkerTrackAdapter";

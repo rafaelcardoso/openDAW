@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _NoteRegionBoxAdapter_instances, _NoteRegionBoxAdapter_terminator, _NoteRegionBoxAdapter_context, _NoteRegionBoxAdapter_box, _NoteRegionBoxAdapter_changeNotifier, _NoteRegionBoxAdapter_isConstructing, _NoteRegionBoxAdapter_isSelected, _NoteRegionBoxAdapter_eventCollectionSubscription, _NoteRegionBoxAdapter_dispatchChange;
-import { LoopableRegion, PPQN, RegionCollection } from "@opendaw/lib-dsp";
-import { Arrays, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@opendaw/lib-std";
-import { Propagation } from "@opendaw/lib-box";
-import { NoteEventCollectionBox, NoteRegionBox } from "@opendaw/studio-boxes";
+import { LoopableRegion, PPQN, RegionCollection } from "@naomiarotest/lib-dsp";
+import { Arrays, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
+import { Propagation } from "@naomiarotest/lib-box";
+import { NoteEventCollectionBox, NoteRegionBox } from "@naomiarotest/studio-boxes";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { NoteEventCollectionBoxAdapter } from "../collection/NoteEventCollectionBoxAdapter";
 export class NoteRegionBoxAdapter {

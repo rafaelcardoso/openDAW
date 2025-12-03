@@ -1,4 +1,4 @@
-import { RootBox } from "@opendaw/studio-boxes";
+import { RootBox } from "@naomiarotest/studio-boxes";
 export declare namespace ProjectQueries {
     const existingInstrumentNames: (rootBox: RootBox) => string[];
 }

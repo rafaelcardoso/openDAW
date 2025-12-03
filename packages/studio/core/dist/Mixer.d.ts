@@ -1,6 +1,6 @@
-import { Terminable } from "@opendaw/lib-std";
-import { Pointers } from "@opendaw/studio-enums";
-import { AudioUnitBoxAdapter, IndexedBoxAdapterCollection } from "@opendaw/studio-adapters";
+import { Terminable } from "@naomiarotest/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { AudioUnitBoxAdapter, IndexedBoxAdapterCollection } from "@naomiarotest/studio-adapters";
 export interface ChannelStripView {
     silent(value: boolean): void;
 }

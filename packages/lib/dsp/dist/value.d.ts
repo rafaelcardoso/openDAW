@@ -1,4 +1,4 @@
-import { Comparator, int, Nullable, unitValue } from "@opendaw/lib-std";
+import { Comparator, int, Nullable, unitValue } from "@naomiarotest/lib-std";
 import { Event, EventCollection } from "./events";
 import { ppqn } from "./ppqn";
 export type Interpolation = {

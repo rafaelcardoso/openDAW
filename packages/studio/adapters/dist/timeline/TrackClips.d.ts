@@ -1,5 +1,5 @@
-import { Pointers } from "@opendaw/studio-enums";
-import { Observer, Subscription, Terminable } from "@opendaw/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { Observer, Subscription, Terminable } from "@naomiarotest/lib-std";
 import { TrackBoxAdapter } from "./TrackBoxAdapter";
 import { IndexedBoxAdapterCollection } from "../IndexedBoxAdapterCollection";
 import { AnyClipBoxAdapter } from "../UnionAdapterTypes";

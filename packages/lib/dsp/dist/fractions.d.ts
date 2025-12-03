@@ -1,4 +1,4 @@
-import { int } from "@opendaw/lib-std";
+import { int } from "@naomiarotest/lib-std";
 import { ppqn } from "./ppqn";
 export type Fraction = Readonly<[int, int]>;
 export declare namespace Fraction {

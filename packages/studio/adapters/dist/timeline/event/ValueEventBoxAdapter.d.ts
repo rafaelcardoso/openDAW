@@ -1,8 +1,8 @@
-import { Comparator, int, Option, Selectable, unitValue, UUID } from "@opendaw/lib-std";
-import { Interpolation, ppqn, ValueEvent } from "@opendaw/lib-dsp";
-import { Address, Field } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
-import { ValueEventBox } from "@opendaw/studio-boxes";
+import { Comparator, int, Option, Selectable, unitValue, UUID } from "@naomiarotest/lib-std";
+import { Interpolation, ppqn, ValueEvent } from "@naomiarotest/lib-dsp";
+import { Address, Field } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { ValueEventBox } from "@naomiarotest/studio-boxes";
 import { ValueEventCollectionBoxAdapter } from "../collection/ValueEventCollectionBoxAdapter";
 import { BoxAdapter } from "../../BoxAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";

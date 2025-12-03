@@ -1,8 +1,8 @@
-import { Arrays, DefaultObservableValue, Notifier, Option, SyncStream, Terminator, UUID } from "@opendaw/lib-std";
-import { SyncSource } from "@opendaw/lib-box";
-import { AnimationFrame } from "@opendaw/lib-dom";
-import { Communicator, Messenger } from "@opendaw/lib-runtime";
-import { EngineStateSchema, ExportStemsConfiguration } from "@opendaw/studio-adapters";
+import { Arrays, DefaultObservableValue, Notifier, Option, SyncStream, Terminator, UUID } from "@naomiarotest/lib-std";
+import { SyncSource } from "@naomiarotest/lib-box";
+import { AnimationFrame } from "@naomiarotest/lib-dom";
+import { Communicator, Messenger } from "@naomiarotest/lib-runtime";
+import { EngineStateSchema, ExportStemsConfiguration } from "@naomiarotest/studio-adapters";
 import { MIDIReceiver } from "./midi/MIDIReceiver";
 export class EngineWorklet extends AudioWorkletNode {
     static ID = 0 | 0;

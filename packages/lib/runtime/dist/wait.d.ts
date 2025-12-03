@@ -1,4 +1,4 @@
-import { int, Observable, TimeSpan } from "@opendaw/lib-std";
+import { int, Observable, TimeSpan } from "@naomiarotest/lib-std";
 export declare namespace Wait {
     const frame: () => Promise<void>;
     const frames: (numFrames: int) => Promise<void>;

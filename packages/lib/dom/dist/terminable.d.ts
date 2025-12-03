@@ -1,4 +1,4 @@
-import { Func, Terminable } from "@opendaw/lib-std";
+import { Func, Terminable } from "@naomiarotest/lib-std";
 export declare namespace TerminatorUtils {
     /**
      * Terminates if the key is no longer referenced to.

@@ -1,4 +1,4 @@
-import { float, int } from "@opendaw/lib-std";
+import { float, int } from "@naomiarotest/lib-std";
 export declare namespace Constraints {
     type Int32 = {
         min: int;

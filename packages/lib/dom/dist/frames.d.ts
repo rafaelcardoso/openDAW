@@ -1,4 +1,4 @@
-import { Exec, Terminable } from "@opendaw/lib-std";
+import { Exec, Terminable } from "@naomiarotest/lib-std";
 export declare namespace AnimationFrame {
     const add: (exec: Exec) => Terminable;
     const once: (exec: Exec) => void;

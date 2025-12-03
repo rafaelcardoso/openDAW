@@ -1,4 +1,4 @@
-import { int } from "@opendaw/lib-std";
+import { int } from "@naomiarotest/lib-std";
 import { Peaks } from "./Peaks";
 export declare namespace PeaksPainter {
     interface Layout {

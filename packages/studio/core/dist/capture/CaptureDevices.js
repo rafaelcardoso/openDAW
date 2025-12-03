@@ -1,5 +1,5 @@
-import { asInstanceOf, isDefined, UUID } from "@opendaw/lib-std";
-import { AudioUnitBox } from "@opendaw/studio-boxes";
+import { asInstanceOf, isDefined, UUID } from "@naomiarotest/lib-std";
+import { AudioUnitBox } from "@naomiarotest/studio-boxes";
 import { CaptureMidi } from "./CaptureMidi";
 import { CaptureAudio } from "./CaptureAudio";
 export class CaptureDevices {

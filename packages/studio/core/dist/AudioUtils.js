@@ -1,4 +1,4 @@
-import { dbToGain } from "@opendaw/lib-dsp";
+import { dbToGain } from "@naomiarotest/lib-dsp";
 export var AudioUtils;
 (function (AudioUtils) {
     AudioUtils.findLastNonSilentSample = (buffer, thresholdDb = -72.0) => {

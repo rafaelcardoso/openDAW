@@ -1,4 +1,4 @@
-import { DefaultObservableValue, MappedMutableObservableValue, Option, Terminator } from "@opendaw/lib-std";
+import { DefaultObservableValue, MappedMutableObservableValue, Option, Terminator } from "@naomiarotest/lib-std";
 export class Capture {
     #terminator = new Terminator();
     #manager;

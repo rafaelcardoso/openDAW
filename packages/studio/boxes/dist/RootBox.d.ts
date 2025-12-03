@@ -1,8 +1,8 @@
-import { Maybe, UUID, Procedure } from "@opendaw/lib-std";
-import { Box, BoxGraph, PointerField, Field, StringField, UnreferenceableType } from "@opendaw/lib-box";
+import { Maybe, UUID, Procedure } from "@naomiarotest/lib-std";
+import { Box, BoxGraph, PointerField, Field, StringField, UnreferenceableType } from "@naomiarotest/lib-box";
 import { PianoMode } from "./PianoMode";
 import { BoxVisitor } from ".";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type RootBoxFields = {
     1: PointerField<Pointers.Timeline>;
     2: Field<Pointers.User>;

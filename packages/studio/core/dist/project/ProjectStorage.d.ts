@@ -1,5 +1,5 @@
-import { Class, Option, Progress, UUID } from "@opendaw/lib-std";
-import { AudioFileBox, SoundfontFileBox } from "@opendaw/studio-boxes";
+import { Class, Option, Progress, UUID } from "@naomiarotest/lib-std";
+import { AudioFileBox, SoundfontFileBox } from "@naomiarotest/studio-boxes";
 import { ProjectMeta } from "./ProjectMeta";
 export declare namespace ProjectStorage {
     type ListEntry = {

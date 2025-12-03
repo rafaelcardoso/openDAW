@@ -1,6 +1,6 @@
-import { PPQN } from "@opendaw/lib-dsp";
-import { ColorCodes, TrackType } from "@opendaw/studio-adapters";
-import { AudioPlayback } from "@opendaw/studio-enums";
+import { PPQN } from "@naomiarotest/lib-dsp";
+import { ColorCodes, TrackType } from "@naomiarotest/studio-adapters";
+import { AudioPlayback } from "@naomiarotest/studio-enums";
 export class AudioRegionImpl {
     track;
     sample;

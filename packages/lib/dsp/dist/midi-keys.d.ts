@@ -1,4 +1,4 @@
-import { byte, int } from "@opendaw/lib-std";
+import { byte, int } from "@naomiarotest/lib-std";
 export declare namespace MidiKeys {
     const BlackKeyIndices: number[];
     const BlackKeyBits: number;

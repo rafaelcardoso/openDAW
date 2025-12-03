@@ -1,4 +1,4 @@
-import { Terminable } from "@opendaw/lib-std";
+import { Terminable } from "@naomiarotest/lib-std";
 import { Project } from "../project";
 export declare class Recording {
     #private;

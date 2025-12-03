@@ -1,4 +1,4 @@
-import { Exec, Provider, Terminable, TerminableOwner } from "@opendaw/lib-std";
+import { Exec, Provider, Terminable, TerminableOwner } from "@naomiarotest/lib-std";
 import { JsxValue } from "../types";
 export type PageContext<SERVICE = never> = {
     service: SERVICE;

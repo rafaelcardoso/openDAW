@@ -1,4 +1,4 @@
-import { assert, ByteArrayOutput, Hash } from "@opendaw/lib-std";
+import { assert, ByteArrayOutput, Hash } from "@naomiarotest/lib-std";
 export var CommitType;
 (function (CommitType) {
     CommitType[CommitType["Init"] = 0] = "Init";

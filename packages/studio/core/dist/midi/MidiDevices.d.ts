@@ -1,4 +1,4 @@
-import { byte, MutableObservableValue, ObservableOption, Observer, Option, Subscription } from "@opendaw/lib-std";
+import { byte, MutableObservableValue, ObservableOption, Observer, Option, Subscription } from "@naomiarotest/lib-std";
 import { SoftwareMIDIInput } from "./SoftwareMIDIInput";
 export declare class MidiDevices {
     #private;

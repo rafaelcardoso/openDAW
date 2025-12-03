@@ -1,4 +1,4 @@
-import { Communicator, Messenger } from "@opendaw/lib-runtime";
+import { Communicator, Messenger } from "@naomiarotest/lib-runtime";
 import { OpfsProtocol } from "./OpfsProtocol";
 import "../types";
 export declare namespace OpfsWorker {

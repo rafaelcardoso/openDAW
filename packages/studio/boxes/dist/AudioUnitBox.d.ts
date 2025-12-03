@@ -1,7 +1,7 @@
-import { Maybe, UUID, Procedure } from "@opendaw/lib-std";
-import { Box, BoxGraph, StringField, PointerField, Field, Int32Field, Float32Field, BooleanField } from "@opendaw/lib-box";
+import { Maybe, UUID, Procedure } from "@naomiarotest/lib-std";
+import { Box, BoxGraph, StringField, PointerField, Field, Int32Field, Float32Field, BooleanField } from "@naomiarotest/lib-box";
 import { BoxVisitor } from ".";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type AudioUnitBoxFields = {
     1: StringField;
     2: PointerField<Pointers.AudioUnits>;

@@ -1,5 +1,5 @@
-import { DelayDeviceBox } from "@opendaw/studio-boxes";
-import { Unhandled, UUID } from "@opendaw/lib-std";
+import { DelayDeviceBox } from "@naomiarotest/studio-boxes";
+import { Unhandled, UUID } from "@naomiarotest/lib-std";
 export class AudioEffectFactory {
     static write(boxGraph, audioUnitBox, effect) {
         switch (effect.key) {

@@ -1,5 +1,5 @@
-import { AssertType, Class, Terminable } from "@opendaw/lib-std";
-import { Box } from "@opendaw/lib-box";
+import { AssertType, Class, Terminable } from "@naomiarotest/lib-std";
+import { Box } from "@naomiarotest/lib-box";
 import { BoxAdaptersContext } from "./BoxAdaptersContext";
 import { BoxAdapter } from "./BoxAdapter";
 export declare class BoxAdapters implements Terminable {

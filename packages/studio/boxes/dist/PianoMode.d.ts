@@ -1,5 +1,5 @@
-import "@opendaw/lib-std";
-import { ObjectField, FieldConstruct, Int32Field, Float32Field, BooleanField, UnreferenceableType } from "@opendaw/lib-box";
+import "@naomiarotest/lib-std";
+import { ObjectField, FieldConstruct, Int32Field, Float32Field, BooleanField, UnreferenceableType } from "@naomiarotest/lib-box";
 export type PianoModeFields = {
     1: Int32Field;
     2: Float32Field;

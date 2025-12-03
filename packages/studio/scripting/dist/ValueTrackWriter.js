@@ -1,6 +1,6 @@
-import { asDefined, isDefined, UUID } from "@opendaw/lib-std";
-import { TrackBox, ValueEventBox, ValueEventCollectionBox, ValueRegionBox } from "@opendaw/studio-boxes";
-import { InterpolationFieldAdapter, TrackType } from "@opendaw/studio-adapters";
+import { asDefined, isDefined, UUID } from "@naomiarotest/lib-std";
+import { TrackBox, ValueEventBox, ValueEventCollectionBox, ValueRegionBox } from "@naomiarotest/studio-boxes";
+import { InterpolationFieldAdapter, TrackType } from "@naomiarotest/studio-adapters";
 export class ValueTrackWriter {
     #map = new Map();
     write(boxGraph, devices, audioUnitBox, valueTracks, indexRef) {

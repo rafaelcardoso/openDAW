@@ -1,7 +1,7 @@
-import { Option, quantizeCeil, quantizeFloor, Terminable, Terminator, UUID } from "@opendaw/lib-std";
-import { dbToGain, PPQN } from "@opendaw/lib-dsp";
-import { AudioFileBox, AudioRegionBox, ValueEventCollectionBox } from "@opendaw/studio-boxes";
-import { ColorCodes, TrackType } from "@opendaw/studio-adapters";
+import { Option, quantizeCeil, quantizeFloor, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
+import { dbToGain, PPQN } from "@naomiarotest/lib-dsp";
+import { AudioFileBox, AudioRegionBox, ValueEventCollectionBox } from "@naomiarotest/studio-boxes";
+import { ColorCodes, TrackType } from "@naomiarotest/studio-adapters";
 import { RecordTrack } from "./RecordTrack";
 export var RecordAudio;
 (function (RecordAudio) {

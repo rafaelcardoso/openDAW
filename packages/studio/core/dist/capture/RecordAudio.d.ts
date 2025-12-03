@@ -1,5 +1,5 @@
-import { Terminable } from "@opendaw/lib-std";
-import { SampleLoaderManager } from "@opendaw/studio-adapters";
+import { Terminable } from "@naomiarotest/lib-std";
+import { SampleLoaderManager } from "@naomiarotest/studio-adapters";
 import { Project } from "../project";
 import { RecordingWorklet } from "../RecordingWorklet";
 import { Capture } from "./Capture";

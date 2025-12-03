@@ -10,11 +10,11 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AudioRegionBoxAdapter_instances, _AudioRegionBoxAdapter_terminator, _AudioRegionBoxAdapter_context, _AudioRegionBoxAdapter_box, _AudioRegionBoxAdapter_durationConverter, _AudioRegionBoxAdapter_loopOffsetConverter, _AudioRegionBoxAdapter_loopDurationConverter, _AudioRegionBoxAdapter_changeNotifier, _AudioRegionBoxAdapter_fileAdapter, _AudioRegionBoxAdapter_fileSubscription, _AudioRegionBoxAdapter_tempoSubscription, _AudioRegionBoxAdapter_eventCollectionSubscription, _AudioRegionBoxAdapter_isSelected, _AudioRegionBoxAdapter_constructing, _AudioRegionBoxAdapter_dispatchChange;
-import { asEnumValue, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@opendaw/lib-std";
-import { TimeBase, TimeBaseConverter } from "@opendaw/lib-dsp";
-import { Propagation } from "@opendaw/lib-box";
-import { AudioPlayback } from "@opendaw/studio-enums";
-import { AudioRegionBox } from "@opendaw/studio-boxes";
+import { asEnumValue, Notifier, Option, safeExecute, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
+import { TimeBase, TimeBaseConverter } from "@naomiarotest/lib-dsp";
+import { Propagation } from "@naomiarotest/lib-box";
+import { AudioPlayback } from "@naomiarotest/studio-enums";
+import { AudioRegionBox } from "@naomiarotest/studio-boxes";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { AudioFileBoxAdapter } from "../../audio/AudioFileBoxAdapter";
 import { ValueEventCollectionBoxAdapter } from "../collection/ValueEventCollectionBoxAdapter";

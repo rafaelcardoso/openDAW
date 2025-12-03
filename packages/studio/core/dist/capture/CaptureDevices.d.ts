@@ -1,4 +1,4 @@
-import { Option, Terminable, UUID } from "@opendaw/lib-std";
+import { Option, Terminable, UUID } from "@naomiarotest/lib-std";
 import { Project } from "../project";
 import { Capture } from "./Capture";
 export declare class CaptureDevices implements Terminable {

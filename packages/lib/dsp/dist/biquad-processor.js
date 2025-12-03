@@ -1,5 +1,5 @@
 import { BiquadCoeff } from "./biquad-coeff";
-import { Arrays, clampUnit } from "@opendaw/lib-std";
+import { Arrays, clampUnit } from "@naomiarotest/lib-std";
 export class BiquadMono {
     #x1 = 0.0;
     #x2 = 0.0;

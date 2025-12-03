@@ -1,4 +1,4 @@
-import { asDefined } from "@opendaw/lib-std";
+import { asDefined } from "@naomiarotest/lib-std";
 import { ModuleDelayAdapter } from "./modules/delay";
 import { ModularAudioOutputAdapter } from "./modules/audio-output";
 import { ModuleGainAdapter } from "./modules/gain";

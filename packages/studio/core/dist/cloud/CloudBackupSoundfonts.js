@@ -1,5 +1,5 @@
-import { Arrays, Errors, panic, Progress, RuntimeNotifier, UUID } from "@opendaw/lib-std";
-import { network, Promises } from "@opendaw/lib-runtime";
+import { Arrays, Errors, panic, Progress, RuntimeNotifier, UUID } from "@naomiarotest/lib-std";
+import { network, Promises } from "@naomiarotest/lib-runtime";
 import { OpenSoundfontAPI, SoundfontStorage } from "../soundfont";
 export class CloudBackupSoundfonts {
     static RemotePath = "soundfonts";

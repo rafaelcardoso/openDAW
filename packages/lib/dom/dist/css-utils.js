@@ -1,4 +1,4 @@
-import { panic } from "@opendaw/lib-std";
+import { panic } from "@naomiarotest/lib-std";
 export var CssUtils;
 (function (CssUtils) {
     CssUtils.calc = (term, size, em) => {

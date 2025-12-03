@@ -1,4 +1,4 @@
-import { Func, Option, Terminable } from "@opendaw/lib-std";
+import { Func, Option, Terminable } from "@naomiarotest/lib-std";
 import { PointerCaptureTarget } from "./events";
 export declare namespace Dragging {
     interface Process {

@@ -10,9 +10,9 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _PlayfieldSampleBoxAdapter_instances, _PlayfieldSampleBoxAdapter_terminator, _PlayfieldSampleBoxAdapter_context, _PlayfieldSampleBoxAdapter_box, _PlayfieldSampleBoxAdapter_midiEffects, _PlayfieldSampleBoxAdapter_audioEffects, _PlayfieldSampleBoxAdapter_parametric, _PlayfieldSampleBoxAdapter_file, _PlayfieldSampleBoxAdapter_wrapParameters;
-import { Pointers } from "@opendaw/studio-enums";
-import { PlayfieldSampleBox } from "@opendaw/studio-boxes";
-import { Option, StringMapping, Terminator, UUID, ValueMapping } from "@opendaw/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { PlayfieldSampleBox } from "@naomiarotest/studio-boxes";
+import { Option, StringMapping, Terminator, UUID, ValueMapping } from "@naomiarotest/lib-std";
 import { Devices } from "../../../DeviceAdapter";
 import { IndexedBoxAdapterCollection } from "../../../IndexedBoxAdapterCollection";
 import { ParameterAdapterSet } from "../../../ParameterAdapterSet";

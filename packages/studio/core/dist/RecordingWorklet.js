@@ -1,7 +1,7 @@
-import { ByteArrayInput, Notifier, Option, panic, Progress, Terminable, Terminator, UUID } from "@opendaw/lib-std";
-import { BPMTools } from "@opendaw/lib-dsp";
-import { SamplePeaks } from "@opendaw/lib-fusion";
-import { mergeChunkPlanes, RingBuffer } from "@opendaw/studio-adapters";
+import { ByteArrayInput, Notifier, Option, panic, Progress, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
+import { BPMTools } from "@naomiarotest/lib-dsp";
+import { SamplePeaks } from "@naomiarotest/lib-fusion";
+import { mergeChunkPlanes, RingBuffer } from "@naomiarotest/studio-adapters";
 import { SampleStorage } from "./samples";
 import { RenderQuantum } from "./RenderQuantum";
 import { Workers } from "./Workers";

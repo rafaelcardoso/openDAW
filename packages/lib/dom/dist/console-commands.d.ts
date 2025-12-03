@@ -1,4 +1,4 @@
-import { AnyFunc, ObservableValue, Procedure, Provider } from "@opendaw/lib-std";
+import { AnyFunc, ObservableValue, Procedure, Provider } from "@naomiarotest/lib-std";
 export type DotPath = string;
 export declare namespace ConsoleCommands {
     const exportMethod: (path: DotPath, callback: AnyFunc) => void;

@@ -1,5 +1,5 @@
-import { StringMapping, ValueMapping } from "@opendaw/lib-std";
-import { ClassicWaveform } from "@opendaw/lib-dsp";
+import { StringMapping, ValueMapping } from "@naomiarotest/lib-std";
+import { ClassicWaveform } from "@naomiarotest/lib-dsp";
 export declare const VaporisateurSettings: {
     MIN_CUTOFF: number;
     MAX_CUTOFF: number;

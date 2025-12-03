@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AutomatableParameterFieldAdapter_context, _AutomatableParameterFieldAdapter_field, _AutomatableParameterFieldAdapter_valueMapping, _AutomatableParameterFieldAdapter_stringMapping, _AutomatableParameterFieldAdapter_name, _AutomatableParameterFieldAdapter_anchor, _AutomatableParameterFieldAdapter_terminator, _AutomatableParameterFieldAdapter_valueChangeNotifier, _AutomatableParameterFieldAdapter_controlSource, _AutomatableParameterFieldAdapter_trackBoxAdapter, _AutomatableParameterFieldAdapter_automationHandle, _AutomatableParameterFieldAdapter_controlledValue, _AutomatableParameterFieldAdapter_midiControlled;
-import { assert, clamp, Listeners, Notifier, Option, panic, Terminator } from "@opendaw/lib-std";
-import { Pointers } from "@opendaw/studio-enums";
+import { assert, clamp, Listeners, Notifier, Option, panic, Terminator } from "@naomiarotest/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { TrackBoxAdapter } from "./timeline/TrackBoxAdapter";
 const ExternalControlTypes = [
     Pointers.Automation,

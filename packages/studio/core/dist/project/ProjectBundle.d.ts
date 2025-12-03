@@ -1,4 +1,4 @@
-import { Progress, UUID } from "@opendaw/lib-std";
+import { Progress, UUID } from "@naomiarotest/lib-std";
 import { ProjectEnv } from "./ProjectEnv";
 import { ProjectProfile } from "./ProjectProfile";
 export declare namespace ProjectBundle {

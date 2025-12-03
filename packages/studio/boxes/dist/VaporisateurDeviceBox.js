@@ -1,9 +1,9 @@
-import { safeExecute } from "@opendaw/lib-std";
-import { Box, NoPointers, PointerField, StringField, BooleanField, Float32Field, Int32Field, ArrayField, } from "@opendaw/lib-box";
+import { safeExecute } from "@naomiarotest/lib-std";
+import { Box, NoPointers, PointerField, StringField, BooleanField, Float32Field, Int32Field, ArrayField, } from "@naomiarotest/lib-box";
 import { VaporisateurOsc } from "./VaporisateurOsc";
 import { VaporisateurLFO } from "./VaporisateurLFO";
 import { VaporisateurNoise } from "./VaporisateurNoise";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 export class VaporisateurDeviceBox extends Box {
     static create(graph, uuid, constructor) {
         return graph.stageBox(new VaporisateurDeviceBox({

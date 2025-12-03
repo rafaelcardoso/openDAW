@@ -1,6 +1,6 @@
-import { Observer, Option, Subscription, Terminable } from "@opendaw/lib-std";
-import { AudioUnitBox, CaptureMidiBox } from "@opendaw/studio-boxes";
-import { NoteSignal } from "@opendaw/studio-adapters";
+import { Observer, Option, Subscription, Terminable } from "@naomiarotest/lib-std";
+import { AudioUnitBox, CaptureMidiBox } from "@naomiarotest/studio-boxes";
+import { NoteSignal } from "@naomiarotest/studio-adapters";
 import { Capture } from "./Capture";
 import { CaptureDevices } from "./CaptureDevices";
 export declare class CaptureMidi extends Capture<CaptureMidiBox> {

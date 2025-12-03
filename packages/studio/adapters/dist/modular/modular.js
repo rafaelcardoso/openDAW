@@ -10,9 +10,9 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ModularAdapter_terminator, _ModularAdapter_listeners, _ModularAdapter_context, _ModularAdapter_box, _ModularAdapter_modules, _ModularAdapter_connections;
-import { asDefined, ifDefined, Listeners, Terminator, UUID } from "@opendaw/lib-std";
+import { asDefined, ifDefined, Listeners, Terminator, UUID } from "@naomiarotest/lib-std";
 import { ModuleConnectionAdapter } from "./connection";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { Modules } from "./module";
 import { ModularDeviceBoxAdapter } from "../devices/audio-effects/ModularDeviceBoxAdapter";
 export class ModularAdapter {

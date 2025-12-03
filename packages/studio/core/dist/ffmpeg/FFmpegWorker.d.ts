@@ -1,4 +1,4 @@
-import { Notifier, Progress, unitValue } from "@opendaw/lib-std";
+import { Notifier, Progress, unitValue } from "@naomiarotest/lib-std";
 import type { FFmpeg } from "@ffmpeg/ffmpeg";
 import { Mp3Converter } from "./mp3";
 import { FlacConverter } from "./flac";

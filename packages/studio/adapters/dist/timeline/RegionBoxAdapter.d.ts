@@ -1,9 +1,9 @@
-import { LoopableRegion, ppqn, Region } from "@opendaw/lib-dsp";
-import { Comparator, int, Maybe, Observer, Option, Selectable, Subscription } from "@opendaw/lib-std";
+import { LoopableRegion, ppqn, Region } from "@naomiarotest/lib-dsp";
+import { Comparator, int, Maybe, Observer, Option, Selectable, Subscription } from "@naomiarotest/lib-std";
 import { AudioRegionBoxAdapter } from "./region/AudioRegionBoxAdapter";
-import { Box, Field } from "@opendaw/lib-box";
+import { Box, Field } from "@naomiarotest/lib-box";
 import { NoteRegionBoxAdapter } from "./region/NoteRegionBoxAdapter";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { ValueRegionBoxAdapter } from "./region/ValueRegionBoxAdapter";
 import { AnyRegionBox } from "../unions";
 import { BoxAdapter } from "../BoxAdapter";

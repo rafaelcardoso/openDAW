@@ -1,4 +1,4 @@
-import { TimeSpan } from "@opendaw/lib-std";
+import { TimeSpan } from "@naomiarotest/lib-std";
 export var TimeSpanUtils;
 (function (TimeSpanUtils) {
     TimeSpanUtils.startEstimator = () => {

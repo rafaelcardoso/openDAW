@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ValueEventBoxAdapter_terminator, _ValueEventBoxAdapter_context, _ValueEventBoxAdapter_box, _ValueEventBoxAdapter_interpolation, _ValueEventBoxAdapter_interpolationSubscription, _ValueEventBoxAdapter_isSelected;
-import { Arrays, Cache, Terminable, Terminator, UUID } from "@opendaw/lib-std";
-import { Propagation } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
-import { ValueEventBox } from "@opendaw/studio-boxes";
+import { Arrays, Cache, Terminable, Terminator, UUID } from "@naomiarotest/lib-std";
+import { Propagation } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { ValueEventBox } from "@naomiarotest/studio-boxes";
 import { ValueEventCollectionBoxAdapter } from "../collection/ValueEventCollectionBoxAdapter";
 import { InterpolationFieldAdapter } from "./InterpolationFieldAdapter";
 export class ValueEventBoxAdapter {

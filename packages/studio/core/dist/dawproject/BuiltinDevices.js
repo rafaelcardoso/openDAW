@@ -1,6 +1,6 @@
-import { ifDefined, UUID } from "@opendaw/lib-std";
-import { EqBandType, ParameterDecoder } from "@opendaw/lib-dawproject";
-import { RevampDeviceBox } from "@opendaw/studio-boxes";
+import { ifDefined, UUID } from "@naomiarotest/lib-std";
+import { EqBandType, ParameterDecoder } from "@naomiarotest/lib-dawproject";
+import { RevampDeviceBox } from "@naomiarotest/studio-boxes";
 import { EffectParameterDefaults } from "../EffectParameterDefaults";
 export var BuiltinDevices;
 (function (BuiltinDevices) {

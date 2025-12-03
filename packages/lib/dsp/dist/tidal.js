@@ -1,4 +1,4 @@
-import { linear } from "@opendaw/lib-std";
+import { linear } from "@naomiarotest/lib-std";
 export class TidalComputer {
     static #SLOPE_MULT = 10.0;
     #depth = 1.0;

@@ -1,5 +1,5 @@
-import { ppqn } from "@opendaw/lib-dsp";
-import { AudioUnitBox } from "@opendaw/studio-boxes";
+import { ppqn } from "@naomiarotest/lib-dsp";
+import { AudioUnitBox } from "@naomiarotest/studio-boxes";
 import { ProjectSkeleton } from "./ProjectSkeleton";
 import { AnyRegionBox } from "../unions";
 export declare namespace ProjectUtils {

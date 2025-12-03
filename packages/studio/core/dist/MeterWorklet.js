@@ -1,5 +1,5 @@
-import { Notifier, Schema, SyncStream, Terminator } from "@opendaw/lib-std";
-import { AnimationFrame } from "@opendaw/lib-dom";
+import { Notifier, Schema, SyncStream, Terminator } from "@naomiarotest/lib-std";
+import { AnimationFrame } from "@naomiarotest/lib-dom";
 export class MeterWorklet extends AudioWorkletNode {
     #terminator = new Terminator();
     #notifier = this.#terminator.own(new Notifier());

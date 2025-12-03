@@ -1,4 +1,4 @@
-import { EmptyExec, isDefined, safeRead, Terminable, Terminator } from "@opendaw/lib-std";
+import { EmptyExec, isDefined, safeRead, Terminable, Terminator } from "@naomiarotest/lib-std";
 import { Browser } from "./browser";
 import { AnimationFrame } from "./frames";
 import { Events } from "./events";

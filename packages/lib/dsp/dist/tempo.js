@@ -1,5 +1,5 @@
 import { PPQN } from "./ppqn";
-import { Notifier, Terminator } from "@opendaw/lib-std";
+import { Notifier, Terminator } from "@naomiarotest/lib-std";
 /**
  * Simple constant tempo map implementation.
  * All conversions are linear since the tempo never changes.

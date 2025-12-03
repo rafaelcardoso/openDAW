@@ -1,6 +1,6 @@
-import { asDefined, assert, mod, panic } from "@opendaw/lib-std";
-import { EventCollection, TimeBase } from "@opendaw/lib-dsp";
-import { AudioRegionBoxAdapter, RegionEditing, TrackType, UnionAdapterTypes } from "@opendaw/studio-adapters";
+import { asDefined, assert, mod, panic } from "@naomiarotest/lib-std";
+import { EventCollection, TimeBase } from "@naomiarotest/lib-dsp";
+import { AudioRegionBoxAdapter, RegionEditing, TrackType, UnionAdapterTypes } from "@naomiarotest/studio-adapters";
 import { RegionModifyStrategies } from "./RegionModifyStrategies";
 // AudioRegions in absolute time-domain are allowed to overlap. Their duration changes when the tempo changes,
 // but we do not truncate them to keep the original durations.

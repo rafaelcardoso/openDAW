@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _NoteEventBoxAdapter_context, _NoteEventBoxAdapter_box, _NoteEventBoxAdapter_subscription, _NoteEventBoxAdapter_isSelected;
-import { NoteEvent } from "@opendaw/lib-dsp";
-import { Arrays, UUID } from "@opendaw/lib-std";
-import { NoteEventBox } from "@opendaw/studio-boxes";
-import { Propagation } from "@opendaw/lib-box";
+import { NoteEvent } from "@naomiarotest/lib-dsp";
+import { Arrays, UUID } from "@naomiarotest/lib-std";
+import { NoteEventBox } from "@naomiarotest/studio-boxes";
+import { Propagation } from "@naomiarotest/lib-box";
 import { NoteEventCollectionBoxAdapter } from "../collection/NoteEventCollectionBoxAdapter";
 export class NoteEventBoxAdapter {
     constructor(context, box) {

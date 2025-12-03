@@ -1,4 +1,4 @@
-import { ByteArrayInput, float, int, Nullable } from "@opendaw/lib-std";
+import { ByteArrayInput, float, int, Nullable } from "@naomiarotest/lib-std";
 export interface Peaks {
     readonly stages: ReadonlyArray<Peaks.Stage>;
     readonly data: ReadonlyArray<Int32Array>;

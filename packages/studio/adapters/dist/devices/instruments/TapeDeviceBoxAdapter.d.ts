@@ -1,6 +1,6 @@
-import { TapeDeviceBox } from "@opendaw/studio-boxes";
-import { UUID } from "@opendaw/lib-std";
-import { Address, BooleanField, StringField } from "@opendaw/lib-box";
+import { TapeDeviceBox } from "@naomiarotest/studio-boxes";
+import { UUID } from "@naomiarotest/lib-std";
+import { Address, BooleanField, StringField } from "@naomiarotest/lib-box";
 import { DeviceHost, InstrumentDeviceBoxAdapter } from "../../DeviceAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";
 import { AudioUnitBoxAdapter } from "../../audio-unit/AudioUnitBoxAdapter";

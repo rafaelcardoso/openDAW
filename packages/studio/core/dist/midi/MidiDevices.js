@@ -7,9 +7,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Errors, Lazy, MutableObservableOption, MutableObservableValue, Notifier, Option, Terminator } from "@opendaw/lib-std";
-import { MidiData } from "@opendaw/lib-midi";
-import { Promises } from "@opendaw/lib-runtime";
+import { Errors, Lazy, MutableObservableOption, MutableObservableValue, Notifier, Option, Terminator } from "@naomiarotest/lib-std";
+import { MidiData } from "@naomiarotest/lib-midi";
+import { Promises } from "@naomiarotest/lib-runtime";
 import { MIDIMessageSubscriber } from "./MIDIMessageSubscriber";
 import { SoftwareMIDIInput } from "./SoftwareMIDIInput";
 export class MidiDevices {

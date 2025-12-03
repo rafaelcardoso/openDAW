@@ -1,4 +1,4 @@
-import { Option, Provider } from "@opendaw/lib-std";
+import { Option, Provider } from "@naomiarotest/lib-std";
 import { ProjectEnv, ProjectProfile } from "../";
 export declare class Recovery {
     #private;

@@ -1,4 +1,4 @@
-import { asDefined } from "@opendaw/lib-std";
+import { asDefined } from "@naomiarotest/lib-std";
 import { ValueClipBoxAdapter } from "./clip/ValueClipBoxAdapter";
 import { AudioClipBoxAdapter } from "./clip/AudioClipBoxAdapter";
 import { NoteClipBoxAdapter } from "./clip/NoteClipBoxAdapter";

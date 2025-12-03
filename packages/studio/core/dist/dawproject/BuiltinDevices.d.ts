@@ -1,8 +1,8 @@
-import { int } from "@opendaw/lib-std";
-import { BoxGraph, Field } from "@opendaw/lib-box";
-import { EqualizerSchema } from "@opendaw/lib-dawproject";
-import { Pointers } from "@opendaw/studio-enums";
-import { RevampDeviceBox } from "@opendaw/studio-boxes";
+import { int } from "@naomiarotest/lib-std";
+import { BoxGraph, Field } from "@naomiarotest/lib-box";
+import { EqualizerSchema } from "@naomiarotest/lib-dawproject";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { RevampDeviceBox } from "@naomiarotest/studio-boxes";
 export declare namespace BuiltinDevices {
     const equalizer: (boxGraph: BoxGraph, equalizer: EqualizerSchema, field: Field<Pointers.MidiEffectHost> | Field<Pointers.AudioEffectHost>, index: int) => RevampDeviceBox;
 }

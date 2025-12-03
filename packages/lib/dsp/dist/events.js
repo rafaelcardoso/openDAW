@@ -1,4 +1,4 @@
-import { Arrays, BinarySearch, Generators, Integer, isDefined, mod, NumberComparator, Option, Predicates } from "@opendaw/lib-std";
+import { Arrays, BinarySearch, Generators, Integer, isDefined, mod, NumberComparator, Option, Predicates } from "@naomiarotest/lib-std";
 export var Event;
 (function (Event) {
     Event.Comparator = (a, b) => a.position - b.position;

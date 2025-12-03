@@ -1,6 +1,6 @@
-import { isDefined, isInstanceOf } from "@opendaw/lib-std";
-import { Events } from "@opendaw/lib-dom";
-import { MidiData } from "@opendaw/lib-midi";
+import { isDefined, isInstanceOf } from "@naomiarotest/lib-std";
+import { Events } from "@naomiarotest/lib-dom";
+import { MidiData } from "@naomiarotest/lib-midi";
 export class MIDIMessageSubscriber {
     static subscribeMessageEvents(access, observer, channel) {
         const listenToMIDIMessages = (input) => isDefined(channel)

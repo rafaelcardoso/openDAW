@@ -7,10 +7,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { asDefined, Lazy, RuntimeNotifier, UUID } from "@opendaw/lib-std";
-import { Soundfont } from "@opendaw/studio-adapters";
+import { asDefined, Lazy, RuntimeNotifier, UUID } from "@naomiarotest/lib-std";
+import { Soundfont } from "@naomiarotest/studio-adapters";
 import { OpenDAWHeaders } from "../OpenDAWHeaders";
-import { Promises } from "@opendaw/lib-runtime";
+import { Promises } from "@naomiarotest/lib-runtime";
 import { z } from "zod";
 export class OpenSoundfontAPI {
     static ApiRoot = "https://api.opendaw.studio/soundfonts";

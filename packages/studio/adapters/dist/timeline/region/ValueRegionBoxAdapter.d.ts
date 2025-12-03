@@ -1,12 +1,12 @@
-import { EventCollection, ppqn } from "@opendaw/lib-dsp";
-import { int, Maybe, Observer, Option, Subscription, unitValue, UUID } from "@opendaw/lib-std";
-import { Address, Field } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { EventCollection, ppqn } from "@naomiarotest/lib-dsp";
+import { int, Maybe, Observer, Option, Subscription, unitValue, UUID } from "@naomiarotest/lib-std";
+import { Address, Field } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { LoopableRegionBoxAdapter, RegionBoxAdapter, RegionBoxAdapterVisitor } from "../RegionBoxAdapter";
 import { ValueEventCollectionBoxAdapter } from "../collection/ValueEventCollectionBoxAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";
-import { ValueRegionBox } from "@opendaw/studio-boxes";
+import { ValueRegionBox } from "@naomiarotest/studio-boxes";
 import { ValueEventBoxAdapter } from "../event/ValueEventBoxAdapter";
 import { MutableRegion } from "./MutableRegion";
 type CopyToParams = {

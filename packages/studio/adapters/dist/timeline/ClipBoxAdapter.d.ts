@@ -1,7 +1,7 @@
-import { int, Maybe, ObservableValue, Observer, Option, Selectable, Subscription } from "@opendaw/lib-std";
-import { Box } from "@opendaw/lib-box";
+import { int, Maybe, ObservableValue, Observer, Option, Selectable, Subscription } from "@naomiarotest/lib-std";
+import { Box } from "@naomiarotest/lib-box";
 import { ValueClipBoxAdapter } from "./clip/ValueClipBoxAdapter";
-import { ppqn } from "@opendaw/lib-dsp";
+import { ppqn } from "@naomiarotest/lib-dsp";
 import { AudioClipBoxAdapter } from "./clip/AudioClipBoxAdapter";
 import { AnyClipBox } from "../unions";
 import { NoteClipBoxAdapter } from "./clip/NoteClipBoxAdapter";

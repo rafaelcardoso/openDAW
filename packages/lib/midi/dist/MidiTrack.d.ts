@@ -1,4 +1,4 @@
-import { ArrayMultimap } from "@opendaw/lib-std";
+import { ArrayMultimap } from "@naomiarotest/lib-std";
 import { Channel } from "./Channel";
 import { ControlEvent } from "./ControlEvent";
 import { MetaEvent } from "./MetaType";

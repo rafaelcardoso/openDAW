@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _UserEditing_editing, _UserEditing_notifier, _UserEditing_subscription, _UserEditing_pointer;
-import { Notifier, Option } from "@opendaw/lib-std";
+import { Notifier, Option } from "@naomiarotest/lib-std";
 export class UserEditing {
     constructor(editing) {
         _UserEditing_editing.set(this, void 0);

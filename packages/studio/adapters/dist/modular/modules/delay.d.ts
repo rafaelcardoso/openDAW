@@ -1,5 +1,5 @@
-import { ModuleDelayBox } from "@opendaw/studio-boxes";
-import { Pointers } from "@opendaw/studio-enums";
+import { ModuleDelayBox } from "@naomiarotest/studio-boxes";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { AbstractModuleAdapter } from "../abstract";
 import { ModuleAdapter } from "../module";
 import { AutomatableParameterFieldAdapter } from "../../AutomatableParameterFieldAdapter";

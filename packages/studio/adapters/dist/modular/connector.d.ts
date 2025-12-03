@@ -1,5 +1,5 @@
-import { Pointers } from "@opendaw/studio-enums";
-import { Address, Field } from "@opendaw/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { Address, Field } from "@naomiarotest/lib-box";
 import { BoxAdapters } from "../BoxAdapters";
 import { ModuleConnectionAdapter } from "./connection";
 export declare enum Direction {

@@ -1,7 +1,7 @@
-import { Box, Vertex } from "@opendaw/lib-box";
-import { ModuleAttributes } from "@opendaw/studio-boxes";
-import { Selectable } from "@opendaw/lib-std";
-import { Pointers } from "@opendaw/studio-enums";
+import { Box, Vertex } from "@naomiarotest/lib-box";
+import { ModuleAttributes } from "@naomiarotest/studio-boxes";
+import { Selectable } from "@naomiarotest/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { BoxAdapter } from "../BoxAdapter";
 import { ParameterAdapterSet } from "../ParameterAdapterSet";
 import { ModularAdapter } from "./modular";

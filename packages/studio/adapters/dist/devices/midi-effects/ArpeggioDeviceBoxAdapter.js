@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ArpeggioDeviceBoxAdapter_instances, _a, _ArpeggioDeviceBoxAdapter_context, _ArpeggioDeviceBoxAdapter_box, _ArpeggioDeviceBoxAdapter_parametric, _ArpeggioDeviceBoxAdapter_wrapParameters;
-import { Fraction } from "@opendaw/lib-dsp";
-import { StringMapping, ValueMapping } from "@opendaw/lib-std";
+import { Fraction } from "@naomiarotest/lib-dsp";
+import { StringMapping, ValueMapping } from "@naomiarotest/lib-std";
 import { Devices } from "../../DeviceAdapter";
 import { ParameterAdapterSet } from "../../ParameterAdapterSet";
 export class ArpeggioDeviceBoxAdapter {

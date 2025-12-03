@@ -1,4 +1,4 @@
-import { ProjectSkeleton } from "@opendaw/studio-adapters";
+import { ProjectSkeleton } from "@naomiarotest/studio-adapters";
 import { ProjectImpl } from "./impl";
 export var ProjectUnpacker;
 (function (ProjectUnpacker) {

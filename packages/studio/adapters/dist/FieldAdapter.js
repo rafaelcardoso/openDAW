@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _FieldAdapter_field, _FieldAdapter_valueMapping, _FieldAdapter_stringMapping, _FieldAdapter_name, _FieldAdapter_anchor, _FieldAdapter_terminator, _FieldAdapter_valueChangeNotifier, _FieldAdapter_trackBoxAdapter;
-import { clamp, Notifier, Option, Terminator } from "@opendaw/lib-std";
+import { clamp, Notifier, Option, Terminator } from "@naomiarotest/lib-std";
 export class FieldAdapter {
     constructor(field, valueMapping, stringMapping, name, anchor) {
         _FieldAdapter_field.set(this, void 0);

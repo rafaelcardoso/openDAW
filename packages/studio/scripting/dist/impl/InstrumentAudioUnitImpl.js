@@ -1,7 +1,7 @@
 import { AudioUnitImpl } from "./AudioUnitImpl";
 import { SendImpl } from "./SendImpl";
 import { InstrumentImpl } from "./InstrumentImpl";
-import { Arrays } from "@opendaw/lib-std";
+import { Arrays } from "@naomiarotest/lib-std";
 export class InstrumentAudioUnitImpl extends AudioUnitImpl {
     kind = "instrument";
     #sends = [];

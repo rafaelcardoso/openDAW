@@ -1,7 +1,7 @@
-import { ArpeggioDeviceBox } from "@opendaw/studio-boxes";
-import { Pointers } from "@opendaw/studio-enums";
-import { Address, BooleanField, Int32Field, PointerField, StringField } from "@opendaw/lib-box";
-import { StringMapping, UUID } from "@opendaw/lib-std";
+import { ArpeggioDeviceBox } from "@naomiarotest/studio-boxes";
+import { Pointers } from "@naomiarotest/studio-enums";
+import { Address, BooleanField, Int32Field, PointerField, StringField } from "@naomiarotest/lib-box";
+import { StringMapping, UUID } from "@naomiarotest/lib-std";
 import { DeviceHost, MidiEffectDeviceAdapter } from "../../DeviceAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";
 import { AudioUnitBoxAdapter } from "../../audio-unit/AudioUnitBoxAdapter";

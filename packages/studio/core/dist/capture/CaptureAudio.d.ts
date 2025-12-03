@@ -1,5 +1,5 @@
-import { MutableObservableOption, Option, Terminable } from "@opendaw/lib-std";
-import { AudioUnitBox, CaptureAudioBox } from "@opendaw/studio-boxes";
+import { MutableObservableOption, Option, Terminable } from "@naomiarotest/lib-std";
+import { AudioUnitBox, CaptureAudioBox } from "@naomiarotest/studio-boxes";
 import { Capture } from "./Capture";
 import { CaptureDevices } from "./CaptureDevices";
 export declare class CaptureAudio extends Capture<CaptureAudioBox> {

@@ -1,6 +1,6 @@
-import "@opendaw/lib-std";
-import { ObjectField, FieldConstruct, PointerField, StringField, Int32Field, BooleanField, UnreferenceableType } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import "@naomiarotest/lib-std";
+import { ObjectField, FieldConstruct, PointerField, StringField, Int32Field, BooleanField, UnreferenceableType } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export type ModuleAttributesFields = {
     1: PointerField<Pointers.ModuleCollection>;
     2: StringField;

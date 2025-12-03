@@ -1,4 +1,4 @@
-import { Terminable } from "@opendaw/lib-std";
+import { Terminable } from "@naomiarotest/lib-std";
 import { Messenger } from "./messenger";
 /**
  * Communicator provides type-safe communication between Window, Worker, MessagePort, BroadcastChannel.

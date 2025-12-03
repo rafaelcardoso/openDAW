@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _RootBoxAdapter_context, _RootBoxAdapter_box, _RootBoxAdapter_audioUnits, _RootBoxAdapter_audioBusses, _RootBoxAdapter_pianoMode;
-import { MIDIOutputBox } from "@opendaw/studio-boxes";
-import { asInstanceOf } from "@opendaw/lib-std";
+import { MIDIOutputBox } from "@naomiarotest/studio-boxes";
+import { asInstanceOf } from "@naomiarotest/lib-std";
 import { AudioBusBoxAdapter } from "./audio-unit/AudioBusBoxAdapter";
-import { Pointers } from "@opendaw/studio-enums";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { IndexedBoxAdapterCollection } from "./IndexedBoxAdapterCollection";
 import { AudioUnitBoxAdapter } from "./audio-unit/AudioUnitBoxAdapter";
 import { BoxAdapterCollection } from "./BoxAdapterCollection";

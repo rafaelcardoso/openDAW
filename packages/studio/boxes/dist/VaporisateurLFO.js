@@ -1,6 +1,6 @@
-import "@opendaw/lib-std";
-import { ObjectField, Int32Field, Float32Field, BooleanField, } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import "@naomiarotest/lib-std";
+import { ObjectField, Int32Field, Float32Field, BooleanField, } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 export class VaporisateurLFO extends ObjectField {
     static create(construct) {
         return new VaporisateurLFO(construct);

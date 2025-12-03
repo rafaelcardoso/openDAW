@@ -1,6 +1,6 @@
 import { ValueTrackImpl } from "./impl";
-import { AudioUnitBox } from "@opendaw/studio-boxes";
-import { Box, BoxGraph } from "@opendaw/lib-box";
+import { AudioUnitBox } from "@naomiarotest/studio-boxes";
+import { Box, BoxGraph } from "@naomiarotest/lib-box";
 import { AnyDevice } from "./Api";
 import { IndexRef } from "./IndexRef";
 export declare class ValueTrackWriter {

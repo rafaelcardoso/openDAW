@@ -1,4 +1,4 @@
-import { Arrays, assert } from "@opendaw/lib-std";
+import { Arrays, assert } from "@naomiarotest/lib-std";
 import { RenderQuantum } from "./constants";
 export class AudioBuffer {
     static Empty = new AudioBuffer(2);

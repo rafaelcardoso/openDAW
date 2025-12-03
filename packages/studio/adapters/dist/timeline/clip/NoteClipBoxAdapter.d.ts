@@ -1,7 +1,7 @@
-import { int, Maybe, ObservableValue, Observer, Option, Subscription, UUID } from "@opendaw/lib-std";
-import { EventCollection, ppqn } from "@opendaw/lib-dsp";
-import { Address, Int32Field } from "@opendaw/lib-box";
-import { NoteClipBox } from "@opendaw/studio-boxes";
+import { int, Maybe, ObservableValue, Observer, Option, Subscription, UUID } from "@naomiarotest/lib-std";
+import { EventCollection, ppqn } from "@naomiarotest/lib-dsp";
+import { Address, Int32Field } from "@naomiarotest/lib-box";
+import { NoteClipBox } from "@naomiarotest/studio-boxes";
 import { NoteEventCollectionBoxAdapter } from "../collection/NoteEventCollectionBoxAdapter";
 import { ClipBoxAdapter, ClipBoxAdapterVisitor } from "../ClipBoxAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";

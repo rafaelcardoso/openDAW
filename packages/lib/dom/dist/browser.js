@@ -1,5 +1,5 @@
 // noinspection PlatformDetectionJS
-import { isDefined, UUID } from "@opendaw/lib-std";
+import { isDefined, UUID } from "@naomiarotest/lib-std";
 export var Browser;
 (function (Browser) {
     const hasLocation = typeof self !== "undefined" && "location" in self && typeof self.location !== undefined;

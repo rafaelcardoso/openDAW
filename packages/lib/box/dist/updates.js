@@ -1,6 +1,6 @@
 import { ValueSerialization } from "./primitive";
 import { Address } from "./address";
-import { Arrays, ByteArrayInput, Option, UUID } from "@opendaw/lib-std";
+import { Arrays, ByteArrayInput, Option, UUID } from "@naomiarotest/lib-std";
 export var Updates;
 (function (Updates) {
     Updates.decode = (input) => {

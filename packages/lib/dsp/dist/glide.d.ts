@@ -1,5 +1,5 @@
 import { ppqn } from "./ppqn";
-import { int } from "@opendaw/lib-std";
+import { int } from "@naomiarotest/lib-std";
 export declare class Glide {
     #private;
     constructor();

@@ -1,5 +1,5 @@
-import { asDefined, isDefined, Option, panic, UUID } from "@opendaw/lib-std";
-import { AudioFileBox, SoundfontFileBox } from "@opendaw/studio-boxes";
+import { asDefined, isDefined, Option, panic, UUID } from "@naomiarotest/lib-std";
+import { AudioFileBox, SoundfontFileBox } from "@naomiarotest/studio-boxes";
 import { Project } from "./Project";
 import { ProjectPaths } from "./ProjectPaths";
 import { ProjectProfile } from "./ProjectProfile";

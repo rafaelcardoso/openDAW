@@ -1,5 +1,5 @@
-import { assert, clamp, DefaultObservableValue, isNull, safeExecute } from "@opendaw/lib-std";
-import { MidiData } from "@opendaw/lib-midi";
+import { assert, clamp, DefaultObservableValue, isNull, safeExecute } from "@naomiarotest/lib-std";
+import { MidiData } from "@naomiarotest/lib-midi";
 export class SoftwareMIDIInput {
     manufacturer = "openDAW";
     connection = "open";

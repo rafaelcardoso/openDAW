@@ -1,5 +1,5 @@
-import { ModularAudioInputBox } from "@opendaw/studio-boxes";
-import { Pointers } from "@opendaw/studio-enums";
+import { ModularAudioInputBox } from "@naomiarotest/studio-boxes";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { AbstractModuleAdapter } from "../abstract";
 import { ModuleAdapter } from "../module";
 import { Direction, ModuleConnectorAdapter } from "../connector";

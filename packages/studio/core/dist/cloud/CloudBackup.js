@@ -1,6 +1,6 @@
-import { DefaultObservableValue, Errors, isInstanceOf, Progress, RuntimeNotifier, RuntimeSignal, TimeSpan } from "@opendaw/lib-std";
-import { Browser } from "@opendaw/lib-dom";
-import { Promises } from "@opendaw/lib-runtime";
+import { DefaultObservableValue, Errors, isInstanceOf, Progress, RuntimeNotifier, RuntimeSignal, TimeSpan } from "@naomiarotest/lib-std";
+import { Browser } from "@naomiarotest/lib-dom";
+import { Promises } from "@naomiarotest/lib-runtime";
 import { CloudBackupSamples } from "./CloudBackupSamples";
 import { CloudBackupProjects } from "./CloudBackupProjects";
 import { CloudBackupSoundfonts } from "./CloudBackupSoundfonts";

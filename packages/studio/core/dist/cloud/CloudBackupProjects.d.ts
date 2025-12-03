@@ -1,4 +1,4 @@
-import { Procedure, Progress } from "@opendaw/lib-std";
+import { Procedure, Progress } from "@naomiarotest/lib-std";
 import { CloudHandler } from "./CloudHandler";
 export declare class CloudBackupProjects {
     #private;

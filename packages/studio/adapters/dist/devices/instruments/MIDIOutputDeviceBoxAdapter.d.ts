@@ -1,6 +1,6 @@
-import { ObservableOption, UUID } from "@opendaw/lib-std";
-import { MIDIOutputBox, MIDIOutputDeviceBox } from "@opendaw/studio-boxes";
-import { Address, BooleanField, StringField } from "@opendaw/lib-box";
+import { ObservableOption, UUID } from "@naomiarotest/lib-std";
+import { MIDIOutputBox, MIDIOutputDeviceBox } from "@naomiarotest/studio-boxes";
+import { Address, BooleanField, StringField } from "@naomiarotest/lib-box";
 import { DeviceHost, InstrumentDeviceBoxAdapter } from "../../DeviceAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";
 import { ParameterAdapterSet } from "../../ParameterAdapterSet";

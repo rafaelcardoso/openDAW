@@ -1,4 +1,4 @@
-import { Arrays, assert, Option } from "@opendaw/lib-std";
+import { Arrays, assert, Option } from "@naomiarotest/lib-std";
 class Modification {
     #updates;
     constructor(updates) { this.#updates = updates; }

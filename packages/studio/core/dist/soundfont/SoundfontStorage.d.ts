@@ -1,5 +1,5 @@
-import { UUID } from "@opendaw/lib-std";
-import { Soundfont, SoundfontMetaData } from "@opendaw/studio-adapters";
+import { UUID } from "@naomiarotest/lib-std";
+import { Soundfont, SoundfontMetaData } from "@naomiarotest/studio-adapters";
 import { Storage } from "../Storage";
 export declare namespace SoundfontStorage {
     type NewSoundfont = {

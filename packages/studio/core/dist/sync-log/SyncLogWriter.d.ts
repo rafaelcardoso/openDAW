@@ -1,4 +1,4 @@
-import { Observer, Terminable } from "@opendaw/lib-std";
+import { Observer, Terminable } from "@naomiarotest/lib-std";
 import { Project } from "../project/Project";
 import { Commit } from "./Commit";
 export declare class SyncLogWriter implements Terminable {

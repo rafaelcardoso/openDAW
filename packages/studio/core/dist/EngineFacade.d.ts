@@ -1,6 +1,6 @@
-import { DefaultObservableValue, int, MutableObservableValue, Nullable, ObservableValue, Observer, Subscription, UUID } from "@opendaw/lib-std";
-import { ppqn } from "@opendaw/lib-dsp";
-import { ClipNotification, NoteSignal } from "@opendaw/studio-adapters";
+import { DefaultObservableValue, int, MutableObservableValue, Nullable, ObservableValue, Observer, Subscription, UUID } from "@naomiarotest/lib-std";
+import { ppqn } from "@naomiarotest/lib-dsp";
+import { ClipNotification, NoteSignal } from "@naomiarotest/studio-adapters";
 import { Engine } from "./Engine";
 import { EngineWorklet } from "./EngineWorklet";
 import { Project } from "./project";

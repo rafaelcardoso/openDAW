@@ -1,7 +1,7 @@
-import { NoteEventCollectionBox } from "@opendaw/studio-boxes";
-import { Coordinates, float, int, Observer, SelectableLocator, Subscription, UUID } from "@opendaw/lib-std";
-import { Address } from "@opendaw/lib-box";
-import { EventCollection, ppqn } from "@opendaw/lib-dsp";
+import { NoteEventCollectionBox } from "@naomiarotest/studio-boxes";
+import { Coordinates, float, int, Observer, SelectableLocator, Subscription, UUID } from "@naomiarotest/lib-std";
+import { Address } from "@naomiarotest/lib-box";
+import { EventCollection, ppqn } from "@naomiarotest/lib-dsp";
 import { BoxAdapter } from "../../BoxAdapter";
 import { NoteEventBoxAdapter } from "../event/NoteEventBoxAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";

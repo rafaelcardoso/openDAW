@@ -1,7 +1,7 @@
-import { ControlSourceListener, Observer, Option, Parameter, StringMapping, StringResult, Subscription, Terminable, unitValue, ValueMapping } from "@opendaw/lib-std";
-import { ppqn } from "@opendaw/lib-dsp";
-import { Address, PrimitiveField, PrimitiveType, PrimitiveValues } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { ControlSourceListener, Observer, Option, Parameter, StringMapping, StringResult, Subscription, Terminable, unitValue, ValueMapping } from "@naomiarotest/lib-std";
+import { ppqn } from "@naomiarotest/lib-dsp";
+import { Address, PrimitiveField, PrimitiveType, PrimitiveValues } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { TrackBoxAdapter } from "./timeline/TrackBoxAdapter";
 import { BoxAdaptersContext } from "./BoxAdaptersContext";
 export declare class AutomatableParameterFieldAdapter<T extends PrimitiveValues = any> implements Parameter<T>, Terminable {

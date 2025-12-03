@@ -1,7 +1,7 @@
-import { DelayDeviceBox } from "@opendaw/studio-boxes";
-import { StringMapping, UUID } from "@opendaw/lib-std";
-import { Address, BooleanField, Int32Field, PointerField, StringField } from "@opendaw/lib-box";
-import { Pointers } from "@opendaw/studio-enums";
+import { DelayDeviceBox } from "@naomiarotest/studio-boxes";
+import { StringMapping, UUID } from "@naomiarotest/lib-std";
+import { Address, BooleanField, Int32Field, PointerField, StringField } from "@naomiarotest/lib-box";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { AudioEffectDeviceAdapter, DeviceHost } from "../../DeviceAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";
 import { AudioUnitBoxAdapter } from "../../audio-unit/AudioUnitBoxAdapter";

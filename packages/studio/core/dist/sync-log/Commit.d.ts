@@ -1,5 +1,5 @@
-import { ByteArrayInput } from "@opendaw/lib-std";
-import { Update } from "@opendaw/lib-box";
+import { ByteArrayInput } from "@naomiarotest/lib-std";
+import { Update } from "@naomiarotest/lib-box";
 import { Project } from "../project/Project";
 export declare const enum CommitType {
     Init = 0,

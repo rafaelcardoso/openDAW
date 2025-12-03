@@ -1,4 +1,4 @@
-import { DataInput, DataOutput, JSONValue, Maybe, Observer, Option, Optional, Provider, Subscription } from "@opendaw/lib-std";
+import { DataInput, DataOutput, JSONValue, Maybe, Observer, Option, Optional, Provider, Subscription } from "@naomiarotest/lib-std";
 import { Vertex, VertexVisitor } from "./vertex";
 import { Address } from "./address";
 import { PointerHub } from "./pointer-hub";

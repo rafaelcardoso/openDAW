@@ -1,4 +1,4 @@
-import { Communicator, Messenger } from "@opendaw/lib-runtime";
+import { Communicator, Messenger } from "@naomiarotest/lib-runtime";
 import { ScriptRunner } from "./ScriptRunner";
 const messenger = Messenger.for(self);
 const hostProtocol = Communicator.sender(messenger.channel("scripting-host"), dispatcher => new class {

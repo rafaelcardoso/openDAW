@@ -1,7 +1,7 @@
 import { PrimitiveField, PrimitiveValues, ValueSerialization } from "./primitive";
 import { Address } from "./address";
 import { PointerField } from "./pointer";
-import { DataInput, DataOutput, Option, UUID } from "@opendaw/lib-std";
+import { DataInput, DataOutput, Option, UUID } from "@naomiarotest/lib-std";
 import { BoxGraph } from "./graph";
 export type Update = NewUpdate | PrimitiveUpdate | PointerUpdate | DeleteUpdate;
 export declare namespace Updates {

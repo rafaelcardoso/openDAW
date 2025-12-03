@@ -1,7 +1,7 @@
-import { AudioUnitType } from "@opendaw/studio-enums";
-import { int, Option } from "@opendaw/lib-std";
-import { BoxGraph } from "@opendaw/lib-box";
-import { AudioUnitBox, RootBox } from "@opendaw/studio-boxes";
+import { AudioUnitType } from "@naomiarotest/studio-enums";
+import { int, Option } from "@naomiarotest/lib-std";
+import { BoxGraph } from "@naomiarotest/lib-box";
+import { AudioUnitBox, RootBox } from "@naomiarotest/studio-boxes";
 import { CaptureBox } from "../CaptureBox";
 import { ProjectSkeleton } from "../project/ProjectSkeleton";
 import { TrackType } from "../timeline/TrackType";

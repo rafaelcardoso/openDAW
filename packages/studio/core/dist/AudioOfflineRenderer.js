@@ -1,7 +1,7 @@
-import { Errors, isDefined, panic, Terminator, TimeSpan } from "@opendaw/lib-std";
-import { AnimationFrame } from "@opendaw/lib-dom";
-import { Wait } from "@opendaw/lib-runtime";
-import { ExportStemsConfiguration } from "@opendaw/studio-adapters";
+import { Errors, isDefined, panic, Terminator, TimeSpan } from "@naomiarotest/lib-std";
+import { AnimationFrame } from "@naomiarotest/lib-dom";
+import { Wait } from "@naomiarotest/lib-runtime";
+import { ExportStemsConfiguration } from "@naomiarotest/studio-adapters";
 import { AudioWorklets } from "./AudioWorklets";
 export var AudioOfflineRenderer;
 (function (AudioOfflineRenderer) {

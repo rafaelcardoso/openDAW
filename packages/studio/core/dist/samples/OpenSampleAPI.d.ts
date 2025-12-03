@@ -1,6 +1,6 @@
-import { Procedure, unitValue, UUID } from "@opendaw/lib-std";
-import { AudioData, Sample, SampleMetaData } from "@opendaw/studio-adapters";
-import { SampleAPI } from "@opendaw/studio-core";
+import { Procedure, unitValue, UUID } from "@naomiarotest/lib-std";
+import { AudioData, Sample, SampleMetaData } from "@naomiarotest/studio-adapters";
+import { SampleAPI } from "@naomiarotest/studio-core";
 export declare class OpenSampleAPI implements SampleAPI {
     static readonly ApiRoot = "https://api.opendaw.studio/samples";
     static readonly FileRoot = "https://assets.opendaw.studio/samples";

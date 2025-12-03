@@ -1,6 +1,6 @@
-import { Exec, float, int, Provider, Terminable } from "@opendaw/lib-std";
-import { Address } from "@opendaw/lib-box";
-import { Messenger } from "@opendaw/lib-runtime";
+import { Exec, float, int, Provider, Terminable } from "@naomiarotest/lib-std";
+import { Address } from "@naomiarotest/lib-box";
+import { Messenger } from "@naomiarotest/lib-runtime";
 export declare class LiveStreamBroadcaster {
     #private;
     static create(messenger: Messenger, name: string): LiveStreamBroadcaster;

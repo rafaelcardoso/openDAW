@@ -10,8 +10,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ModularDeviceBoxAdapter_context, _ModularDeviceBoxAdapter_box;
-import { panic } from "@opendaw/lib-std";
-import { Pointers } from "@opendaw/studio-enums";
+import { panic } from "@naomiarotest/lib-std";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { Devices } from "../../DeviceAdapter";
 import { ModularAdapter } from "../../modular/modular";
 import { DeviceInterfaceKnobAdapter } from "../../modular/user-interface";

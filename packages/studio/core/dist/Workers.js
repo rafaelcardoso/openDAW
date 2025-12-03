@@ -7,8 +7,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { assert, Lazy, Option } from "@opendaw/lib-std";
-import { Communicator, Messenger } from "@opendaw/lib-runtime";
+import { assert, Lazy, Option } from "@naomiarotest/lib-std";
+import { Communicator, Messenger } from "@naomiarotest/lib-runtime";
 export class Workers {
     static async install(url) {
         console.debug("install Workers");

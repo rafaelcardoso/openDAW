@@ -1,7 +1,7 @@
-import { ppqn } from "@opendaw/lib-dsp";
-import { int, Maybe, ObservableValue, Observer, Option, Subscription, UUID } from "@opendaw/lib-std";
-import { AudioClipBox } from "@opendaw/studio-boxes";
-import { Address, Int32Field } from "@opendaw/lib-box";
+import { ppqn } from "@naomiarotest/lib-dsp";
+import { int, Maybe, ObservableValue, Observer, Option, Subscription, UUID } from "@naomiarotest/lib-std";
+import { AudioClipBox } from "@naomiarotest/studio-boxes";
+import { Address, Int32Field } from "@naomiarotest/lib-box";
 import { ClipBoxAdapter, ClipBoxAdapterVisitor } from "../ClipBoxAdapter";
 import { TrackBoxAdapter } from "../TrackBoxAdapter";
 import { BoxAdaptersContext } from "../../BoxAdaptersContext";

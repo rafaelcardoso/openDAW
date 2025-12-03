@@ -1,5 +1,5 @@
-import { Arrays, ByteArrayInput, isDefined, Option, UUID } from "@opendaw/lib-std";
-import { Communicator } from "@opendaw/lib-runtime";
+import { Arrays, ByteArrayInput, isDefined, Option, UUID } from "@naomiarotest/lib-std";
+import { Communicator } from "@naomiarotest/lib-runtime";
 import { Address } from "./address";
 export const createSyncTarget = (graph, messenger) => {
     return Communicator.executor(messenger, new class {

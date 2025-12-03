@@ -1,6 +1,6 @@
-import { Arrays, asInstanceOf, assert, ByteArrayInput, isInstanceOf, Predicates, SetMultimap, UUID } from "@opendaw/lib-std";
-import { AudioFileBox, AudioUnitBox, AuxSendBox, SelectionBox, SoundfontFileBox, TrackBox } from "@opendaw/studio-boxes";
-import { IndexedBox, PointerField } from "@opendaw/lib-box";
+import { Arrays, asInstanceOf, assert, ByteArrayInput, isInstanceOf, Predicates, SetMultimap, UUID } from "@naomiarotest/lib-std";
+import { AudioFileBox, AudioUnitBox, AuxSendBox, SelectionBox, SoundfontFileBox, TrackBox } from "@naomiarotest/studio-boxes";
+import { IndexedBox, PointerField } from "@naomiarotest/lib-box";
 import { UnionBoxTypes } from "../unions";
 import { AudioUnitOrdering } from "../factories/AudioUnitOrdering";
 export var ProjectUtils;

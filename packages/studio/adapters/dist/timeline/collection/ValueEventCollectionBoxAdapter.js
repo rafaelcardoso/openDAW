@@ -10,10 +10,10 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _ValueEventCollectionBoxAdapter_instances, _ValueEventCollectionBoxAdapter_terminator, _ValueEventCollectionBoxAdapter_context, _ValueEventCollectionBoxAdapter_box, _ValueEventCollectionBoxAdapter_changeNotifier, _ValueEventCollectionBoxAdapter_adapters, _ValueEventCollectionBoxAdapter_events, _ValueEventCollectionBoxAdapter_onEventsChanged;
-import { ValueEventBox, ValueEventCollectionBox } from "@opendaw/studio-boxes";
-import { asDefined, Curve, linear, Notifier, Option, panic, Terminator, UUID } from "@opendaw/lib-std";
-import { EventCollection, Interpolation, ValueEvent } from "@opendaw/lib-dsp";
-import { Pointers } from "@opendaw/studio-enums";
+import { ValueEventBox, ValueEventCollectionBox } from "@naomiarotest/studio-boxes";
+import { asDefined, Curve, linear, Notifier, Option, panic, Terminator, UUID } from "@naomiarotest/lib-std";
+import { EventCollection, Interpolation, ValueEvent } from "@naomiarotest/lib-dsp";
+import { Pointers } from "@naomiarotest/studio-enums";
 import { ValueEventBoxAdapter } from "../event/ValueEventBoxAdapter";
 import { InterpolationFieldAdapter } from "../event/InterpolationFieldAdapter";
 export class ValueEventCollectionBoxAdapter {

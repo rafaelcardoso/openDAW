@@ -1,4 +1,4 @@
-import { UUID } from "@opendaw/lib-std";
+import { UUID } from "@naomiarotest/lib-std";
 export declare abstract class Storage<ITEM extends {
     uuid: UUID.String;
 } & META, META, NEW, PARTS> {

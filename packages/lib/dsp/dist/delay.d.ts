@@ -1,4 +1,4 @@
-import { int, unitValue } from "@opendaw/lib-std";
+import { int, unitValue } from "@naomiarotest/lib-std";
 export declare class Delay {
     #private;
     constructor(maxFrames: int, interpolationLength: int);

@@ -1,6 +1,6 @@
-import { Progress, UUID } from "@opendaw/lib-std";
+import { Progress, UUID } from "@naomiarotest/lib-std";
 import { SampleProvider } from "./SampleProvider";
-import { AudioData, SampleLoader, SampleLoaderManager, SampleMetaData } from "@opendaw/studio-adapters";
+import { AudioData, SampleLoader, SampleLoaderManager, SampleMetaData } from "@naomiarotest/studio-adapters";
 export declare class DefaultSampleLoaderManager implements SampleLoaderManager, SampleProvider {
     #private;
     constructor(provider: SampleProvider);

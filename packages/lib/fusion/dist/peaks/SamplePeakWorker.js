@@ -1,5 +1,5 @@
-import { Arrays, Float16, panic } from "@opendaw/lib-std";
-import { Communicator, stopwatch } from "@opendaw/lib-runtime";
+import { Arrays, Float16, panic } from "@naomiarotest/lib-std";
+import { Communicator, stopwatch } from "@naomiarotest/lib-runtime";
 import { Peaks, SamplePeaks } from "./Peaks";
 export var SamplePeakWorker;
 (function (SamplePeakWorker) {

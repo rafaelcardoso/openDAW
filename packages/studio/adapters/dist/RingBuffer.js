@@ -1,4 +1,4 @@
-import { Arrays, assert, panic } from "@opendaw/lib-std";
+import { Arrays, assert, panic } from "@naomiarotest/lib-std";
 export var RingBuffer;
 (function (RingBuffer) {
     RingBuffer.reader = ({ sab, numChunks, numberOfChannels, bufferSize }, append) => {

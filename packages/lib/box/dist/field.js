@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Arrays, Lazy, Objects, Option, panic, safeExecute } from "@opendaw/lib-std";
+import { Arrays, Lazy, Objects, Option, panic, safeExecute } from "@naomiarotest/lib-std";
 import { Address } from "./address";
 import { PointerHub } from "./pointer-hub";
 export class Field {

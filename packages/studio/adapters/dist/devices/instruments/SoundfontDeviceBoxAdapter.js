@@ -10,7 +10,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _SoundfontDeviceBoxAdapter_instances, _SoundfontDeviceBoxAdapter_terminator, _SoundfontDeviceBoxAdapter_context, _SoundfontDeviceBoxAdapter_box, _SoundfontDeviceBoxAdapter_parametric, _SoundfontDeviceBoxAdapter_loader, _SoundfontDeviceBoxAdapter_soundfont, _SoundfontDeviceBoxAdapter_preset, _SoundfontDeviceBoxAdapter_loaderSubscription, _SoundfontDeviceBoxAdapter_wrapParameters, _SoundfontDeviceBoxAdapter_loaderObserver;
-import { MutableObservableOption, Terminable, Terminator } from "@opendaw/lib-std";
+import { MutableObservableOption, Terminable, Terminator } from "@naomiarotest/lib-std";
 import { Devices } from "../../DeviceAdapter";
 import { ParameterAdapterSet } from "../../ParameterAdapterSet";
 import { TrackType } from "../../timeline/TrackType";

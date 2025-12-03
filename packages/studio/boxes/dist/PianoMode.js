@@ -1,5 +1,5 @@
-import "@opendaw/lib-std";
-import { ObjectField, NoPointers, Int32Field, Float32Field, BooleanField, } from "@opendaw/lib-box";
+import "@naomiarotest/lib-std";
+import { ObjectField, NoPointers, Int32Field, Float32Field, BooleanField, } from "@naomiarotest/lib-box";
 export class PianoMode extends ObjectField {
     static create(construct) {
         return new PianoMode(construct);

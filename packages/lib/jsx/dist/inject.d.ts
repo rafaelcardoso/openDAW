@@ -1,4 +1,4 @@
-import { Stringifiable, Terminable } from "@opendaw/lib-std";
+import { Stringifiable, Terminable } from "@naomiarotest/lib-std";
 export declare namespace Inject {
     export const ref: <T>() => Ref<T>;
     export const value: <T extends Stringifiable>(initialValue: T) => Value<T>;

@@ -10,9 +10,9 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AudioBusBoxAdapter_context, _AudioBusBoxAdapter_box;
-import { Propagation } from "@opendaw/lib-box";
+import { Propagation } from "@naomiarotest/lib-box";
 import { Devices } from "../DeviceAdapter";
-import { IconSymbol } from "@opendaw/studio-enums";
+import { IconSymbol } from "@naomiarotest/studio-enums";
 export class AudioBusBoxAdapter {
     constructor(context, box) {
         this.type = "bus";
